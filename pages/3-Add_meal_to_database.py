@@ -22,7 +22,6 @@ def add_meal_to_dictionary():
             update_meal = 0
             create_meal = 1
         no_of_servings = float(st.session_state["no_of_servings"])
-        print(st.session_state["no_of_servings"])
         for k, v in ingredients.items():
             ingredients[k] = v.rstrip()
 
@@ -67,14 +66,14 @@ def add_meal_to_dictionary():
         functions.update_excel_file(calorie_dict_dataframe,calorie_dict_file)
         functions.update_excel_file(recipes_excel_dataframe,recipes_excel)
         st.info("Added meal to database")
-        st.session_state["meal"] = ""
-        st.session_state["no_of_servings"] = ""
-        st.session_state["new_ingredient"] = ""
-        st.session_state["new_quantity"] = ""
 
 def clear_ingredients():
     ingredients = list()
-    functions.write_todos(ingredients, 'new_recipe.txt') 
+    functions.write_todos(ingredients, 'new_recipe.txt')
+    st.session_state["meal"] = ""
+    st.session_state["no_of_servings"] = ""
+    st.session_state["new_ingredient"] = ""
+    st.session_state["new_quantity"] = "" 
 
 def add_ingr():
     ingredients = functions.get_todos('new_recipe.txt')

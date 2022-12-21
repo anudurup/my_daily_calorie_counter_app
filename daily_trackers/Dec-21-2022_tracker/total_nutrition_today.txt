@@ -11,9 +11,13 @@ Calories: 138.0, Measure: 1.0 serving, Protein: 0.0, Fats: 1.0, Carbs: 28.0
 Total Calories: 138.0, Total Proteins: 0.0, Total Fats: 1.0, Total Carbs: 28.0
 
 Lunch
+indian style vegan tofu pizza :
+Calories: 381.6, Measure: 0.9 serving, Protein: 22.5, Fats: 12.6, Carbs: 48.6
+Total Calories: 381.6, Total Proteins: 22.5, Total Fats: 12.6, Total Carbs: 48.6
+
 Snack
 Salad
 Dinner
 Total consumed today
-Total Calories: 593.0, Total Proteins: 18.0, Total Fats: 10.0, Total Carbs: 90.0
+Total Calories: 974.6, Total Proteins: 40.5, Total Fats: 22.6, Total Carbs: 138.6
 
