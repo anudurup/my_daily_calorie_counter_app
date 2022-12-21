@@ -126,11 +126,12 @@
         "onion": "0.75 ",
         "red chilli sauce": "0.33 tbsp",
         "green chilli sauce": "0.33 tbsp",
-        "total_cals": 351.19666666666666,
-        "total_protein": 11.25,
+        "mushroom": "1.0 cup",
+        "total_cals": 365.8633333333333,
+        "total_protein": 12.25,
         "total_fats": 5.333333333333333,
-        "total_carbs": 62.13333333333333,
-        "no_of_servings": 3
+        "total_carbs": 64.8,
+        "no_of_servings": 3.0
     },
     "apple banana smoothie": {
         "flaxseed powder": "0.6",
@@ -663,15 +664,14 @@
     },
     "apple spinach smoothie": {
         "apple": "1.0 ",
-        "spinach": "1.0",
-        "date": "8.0 ",
-        "greek yoghurt": "0.75",
-        "unsweetened almond milk": "1.25",
-        "total_cals": "221.75",
-        "total_protein": "9.625",
-        "total_fats": "1.25",
-        "total_carbs": "41.375",
-        "no_of_servings": 2
+        "spinach": "1.0 cup",
+        "unsweetened almond milk": "1.25 cup",
+        "pitted date": "6.0 ",
+        "total_cals": 138.75,
+        "total_protein": 0.625,
+        "total_fats": 1.25,
+        "total_carbs": 28.625,
+        "no_of_servings": 2.0
     },
     "bajra roti": {
         "aashirvaad multigrain atta": "0.75",
@@ -1214,6 +1214,17 @@
         "total_protein": 16.4,
         "total_fats": 12.4,
         "total_carbs": 21.200000000000003,
+        "no_of_servings": 2.0
+    },
+    "simple apple spinach smoothie": {
+        "spinach": "1.0 cup",
+        "apple": "1.0 ",
+        "unsweetened almond milk": "1.125 cup",
+        "pitted date": "6.0 ",
+        "total_cals": 136.875,
+        "total_protein": 0.5625,
+        "total_fats": 1.125,
+        "total_carbs": 28.5625,
         "no_of_servings": 2.0
     }
 }

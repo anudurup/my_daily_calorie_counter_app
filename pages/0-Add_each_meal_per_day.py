@@ -6,6 +6,7 @@ from datetime import datetime
 
 st.title("Add meals per day to track")
 dates = os.listdir("daily_trackers")
+dates = dates[::-1]
 date_selectbox = st.selectbox("Select Date you want to add meal:", options=dates)
 day_folder = 'daily_trackers' + os.sep + f'{date_selectbox}'
 
@@ -235,41 +236,4 @@ with col12:
     st.text_input(label="Enter dinner quantity:", placeholder="Enter dinner quantity...", key='dinner_quantity')
 st.button("Add dinner item", key="add_dinner_item", on_click=add_dinner_item)
 if not functions.check_if_item_exists(st.session_state['dinner_item']):
-    st.info("Add single item/meal to the database.")
-
-fpath = "daily_trackers" + os.sep + date_selectbox
-mealtime_list = ['breakfast','smoothie','lunch','snack','salad','dinner']
-total_calories = 0
-total_proteins = 0
-total_fats = 0
-total_carbs = 0
-f = open(fpath + os.sep + "total_nutrition_today.txt", "w")
-for i,mealtype in enumerate(mealtime_list):
-    f.write(mealtype.capitalize() + "\n")
-    if os.path.exists(fpath + os.sep + mealtype + '.txt'):
-        fname = open(fpath + os.sep + mealtype + '.txt')
-        lines = fname.readlines()
-        recipe_list = list()
-        calories = list()
-        proteins = list()
-        fats = list()
-        carbs = list()
-
-        for line in lines:
-            f.write(line)
-            if not ('Calories' in line) and not ('' == line):
-                recipe_list.append(line.split(":")[0].rstrip())
-            if 'Calories' in line:
-                values = line.split(',')
-                calories.append(float(values[0].split(':')[1]))
-                proteins.append(float(values[2].split(':')[1]))
-                fats.append(float(values[3].split(':')[1]))
-                carbs.append(float(values[4].split(':')[1]))
-        f.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
-        total_calories += sum(calories)
-        total_proteins += sum(proteins)
-        total_fats += sum(fats)
-        total_carbs += sum(carbs)
-f.write("Total consumed today" + "\n")
-f.write(f"Total Calories: {total_calories}, Total Proteins: {total_proteins}, Total Fats: {total_fats}, Total Carbs: {total_carbs}" + "\n\n")      
-f.close()         
+    st.info("Add single item/meal to the database.")       

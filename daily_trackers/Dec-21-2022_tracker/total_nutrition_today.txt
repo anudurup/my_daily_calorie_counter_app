@@ -1,0 +1,19 @@
+Breakfast
+millet dosa :
+Calories: 387.0, Measure: 3.0 serving, Protein: 12.0, Fats: 6.0, Carbs: 60.0
+coriander chutney :
+Calories: 68.0, Measure: 1.0 serving, Protein: 6.0, Fats: 3.0, Carbs: 2.0
+Total Calories: 455.0, Total Proteins: 18.0, Total Fats: 9.0, Total Carbs: 62.0
+
+Smoothie
+apple spinach smoothie :
+Calories: 138.0, Measure: 1.0 serving, Protein: 0.0, Fats: 1.0, Carbs: 28.0
+Total Calories: 138.0, Total Proteins: 0.0, Total Fats: 1.0, Total Carbs: 28.0
+
+Lunch
+Snack
+Salad
+Dinner
+Total consumed today
+Total Calories: 593.0, Total Proteins: 18.0, Total Fats: 10.0, Total Carbs: 90.0
+

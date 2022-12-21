@@ -62,7 +62,10 @@ def get_nutrition_facts(recipe,no_of_servings):
         total_fats = 0
         total_carbs = 0
         for ingredient,quantity in recip.items():
-            quantity = float(quantity)
+            if len(quantity.split()) < 1:
+                quantity = float(quantity)
+            else:
+                quantity = float(quantity.split()[0])
             calories,measure,protein,fats,carbohydrates = get_calories_per_food_item(ingredient)
             measure = str(measure)
             measure_list = measure.split(" ")
@@ -98,3 +101,40 @@ def write_to_recipes_json_file(recipes):
         json_object = json.dumps(recipes, indent=4)
         with open("recipes.json", "w") as outfile:
             outfile.write(json_object)
+
+def create_total_nutrition_details(date_selectbox):
+    fpath = "daily_trackers" + os.sep + date_selectbox
+    mealtime_list = ['breakfast','smoothie','lunch','snack','salad','dinner']
+    total_calories = 0
+    total_proteins = 0
+    total_fats = 0
+    total_carbs = 0
+    with open(fpath + os.sep + "total_nutrition_today.txt", "w") as f:
+        for i,mealtype in enumerate(mealtime_list):
+            f.write(mealtype.capitalize() + "\n")
+            if os.path.exists(fpath + os.sep + mealtype + '.txt'):
+                fname = open(fpath + os.sep + mealtype + '.txt')
+                lines = fname.readlines()
+                recipe_list = list()
+                calories = list()
+                proteins = list()
+                fats = list()
+                carbs = list()
+
+                for line in lines:
+                    f.write(line)
+                    if not ('Calories' in line) and not ('' == line):
+                        recipe_list.append(line.split(":")[0].rstrip())
+                    if 'Calories' in line:
+                        values = line.split(',')
+                        calories.append(float(values[0].split(':')[1]))
+                        proteins.append(float(values[2].split(':')[1]))
+                        fats.append(float(values[3].split(':')[1]))
+                        carbs.append(float(values[4].split(':')[1]))
+                f.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
+                total_calories += sum(calories)
+                total_proteins += sum(proteins)
+                total_fats += sum(fats)
+                total_carbs += sum(carbs)
+        f.write("Total consumed today" + "\n")
+        f.write(f"Total Calories: {total_calories}, Total Proteins: {total_proteins}, Total Fats: {total_fats}, Total Carbs: {total_carbs}" + "\n\n")      

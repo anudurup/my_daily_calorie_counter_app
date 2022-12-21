@@ -3,6 +3,7 @@ import functions
 import pandas as pd
 import os
 from datetime import datetime
+import functions
 
 now = datetime.now()
 date = now.strftime("%b-%d-%Y")
@@ -18,7 +19,10 @@ st.write("This app is to help diet and exercise tracking.")
 
 st.subheader("View meals per day")
 dates = os.listdir("daily_trackers")
+dates = dates[::-1]
 date_selectbox = st.selectbox("Select Date you want to add meal:", options=dates)
+functions.create_total_nutrition_details(date_selectbox) 
+
 fpath = "daily_trackers" + os.sep + date_selectbox
 
 def get_calorie_deficit():
@@ -32,6 +36,20 @@ def get_calorie_deficit():
         f.write(f"Total cals to consume per day:  {total_cals_to_consume_per_day}\n")
         f.write(f"Calorie Deficit: {calorie_deficit}")
 
+def delete_item_from_meal(title,item):
+    print(title)
+    print(item)
+    filepath = fpath + os.sep + title + '.txt'
+    lines = open(filepath).readlines()
+    for i,line in enumerate(lines):
+        if item in line:
+            print(i)
+            lines.pop(i+1)
+            lines.pop(i)
+            break
+    with open(filepath, 'w') as f:
+        f.writelines(lines)
+
 current_weight = st.text_input("Enter current weight", key="weight")
 calories_burnt_with_exercise  = st.text_input("calories_burnt_with_exercise", key="exercise")
 st.button("Get calorie deficit for the day", key="calorie_deficit_button",on_click=get_calorie_deficit)
@@ -41,14 +59,28 @@ prev_line = ""
 if os.path.exists(fpath + os.sep + 'total_nutrition_today.txt'):
     fname = open(fpath + os.sep + 'total_nutrition_today.txt')
     lines = fname.readlines()
-    for line in lines:
-        if not ':' in line:
+    fname.close()
+    title = ""
+    for i,line in enumerate(lines):
+        if not ':' in line:            
             st.subheader(line)
+            title = line.lower().rstrip()
         else:
-            st.write(line) 
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'total_nutrition_today.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal(title,line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
         if "Total consumed today" in prev_line:
-            total_calories = float(line.split(',')[0].split(':')[1])
-        prev_line = line  
+            total_calories = float(line.split(',')[0].split(':')[1])        
+        prev_line = line   
 
 if os.path.exists(fpath + os.sep + 'calorie_deficit.txt'):
     for line in open(fpath + os.sep + 'calorie_deficit.txt').readlines():

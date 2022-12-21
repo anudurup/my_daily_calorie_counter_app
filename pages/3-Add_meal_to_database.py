@@ -22,6 +22,7 @@ def add_meal_to_dictionary():
             update_meal = 0
             create_meal = 1
         no_of_servings = float(st.session_state["no_of_servings"])
+        print(st.session_state["no_of_servings"])
         for k, v in ingredients.items():
             ingredients[k] = v.rstrip()
 
@@ -66,6 +67,10 @@ def add_meal_to_dictionary():
         functions.update_excel_file(calorie_dict_dataframe,calorie_dict_file)
         functions.update_excel_file(recipes_excel_dataframe,recipes_excel)
         st.info("Added meal to database")
+        st.session_state["meal"] = ""
+        st.session_state["no_of_servings"] = ""
+        st.session_state["new_ingredient"] = ""
+        st.session_state["new_quantity"] = ""
 
 def clear_ingredients():
     ingredients = list()
@@ -79,8 +84,26 @@ def add_ingr():
     functions.write_todos(ingredients, 'new_recipe.txt') 
     del st.session_state["selected_ingredient"]
 
-st.text_input(label="meal_name", placeholder="meal_name...",
-            key='meal')
+def update_ingredients():
+    recipe_name = st.session_state['meal']
+    if not (recipe_name == '') and functions.check_if_item_exists(recipe_name):
+        df = pd.read_excel('recipes.xlsx', engine="openpyxl")
+        for row, value in df.iterrows():
+            if value["food_item"] == recipe_name:
+                ingredient_string = value["ingredients"]
+                break
+        ingredients = ingredient_string.split(",")
+        with open('new_recipe.txt','w') as f:
+            for ingr in ingredients:
+                f.write(f"{ingr.split(':')[0]}: quantity-{ingr.split(':')[1]}\n")
+    else:
+        ingredients = list()
+        with open('new_recipe.txt','w') as f:
+            f.writelines(ingredients)
+
+recipe_name = st.text_input(label="meal_name", placeholder="meal_name...",
+            key='meal',on_change=update_ingredients)
+
 st.text_input(label="no_of_servings", placeholder="no_of_servings...",
             key='no_of_servings')
 col1, col2 = st.columns([2,2])
