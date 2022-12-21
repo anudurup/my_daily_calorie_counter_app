@@ -114,7 +114,7 @@ with col2:
     st.text_input(label="add quantity", placeholder="Add quantity for the given ingredient...",
             key='new_quantity')
 ingredient = st.session_state["new_ingredient"]
-if not functions.check_if_item_exists(ingredient):
+if not (ingredient == "") and not functions.check_if_item_exists(ingredient):
     st.info(f"Add single item: {ingredient} to the database")
 
 if st.session_state["new_ingredient"] != "":   
