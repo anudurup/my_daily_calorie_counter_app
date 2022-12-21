@@ -6,6 +6,10 @@ Calories: 46, Measure: 1 serving, Protein: 4, Fats: 2, Carbs: 0
 Total Calories: 219.0, Total Proteins: 7.0, Total Fats: 8.0, Total Carbs: 15.0
 
 Smoothie
+goji berry pear smoothie :
+Calories: 285.0, Measure: 1.0 serving, Protein: 2.0, Fats: 6.0, Carbs: 53.0
+Total Calories: 285.0, Total Proteins: 2.0, Total Fats: 6.0, Total Carbs: 53.0
+
 Lunch
 aloo capsicum :
 Calories: 119, Measure: 1 serving, Protein: 7, Fats: 2, Carbs: 18
@@ -16,7 +20,9 @@ Total Calories: 216.0, Total Proteins: 10.0, Total Fats: 2.0, Total Carbs: 36.0
 Snack
 mixed nuts :
 Calories: 45, Measure: 1 tbsp, Protein: 1, Fats: 3, Carbs: 1
-Total Calories: 45.0, Total Proteins: 1.0, Total Fats: 3.0, Total Carbs: 1.0
+pitted date :
+Calories: 46.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 12.0
+Total Calories: 91.0, Total Proteins: 1.0, Total Fats: 3.0, Total Carbs: 13.0
 
 Salad
 mini bell pepper salad :
@@ -24,6 +30,10 @@ Calories: 114.0, Measure: 1.0 serving, Protein: 4.0, Fats: 0.0, Carbs: 10.0
 Total Calories: 114.0, Total Proteins: 4.0, Total Fats: 0.0, Total Carbs: 10.0
 
 Dinner
+millet pongal :
+Calories: 351.0, Measure: 1.0 serving, Protein: 8.0, Fats: 15.0, Carbs: 40.0
+Total Calories: 351.0, Total Proteins: 8.0, Total Fats: 15.0, Total Carbs: 40.0
+
 Total consumed today
-Total Calories: 594.0, Total Proteins: 22.0, Total Fats: 13.0, Total Carbs: 62.0
+Total Calories: 1276.0, Total Proteins: 32.0, Total Fats: 34.0, Total Carbs: 167.0
 

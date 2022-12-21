@@ -1205,5 +1205,15 @@
         "total_fats": 3.5,
         "total_carbs": 18.916666666666668,
         "no_of_servings": 6.0
+    },
+    "egg pakoda appe style": {
+        "half yolk egg": "4.0 serving",
+        "besan": "0.8 cup",
+        "olive oil": "3.0 tsp",
+        "total_cals": 294.4,
+        "total_protein": 16.4,
+        "total_fats": 12.4,
+        "total_carbs": 21.200000000000003,
+        "no_of_servings": 2.0
     }
 }

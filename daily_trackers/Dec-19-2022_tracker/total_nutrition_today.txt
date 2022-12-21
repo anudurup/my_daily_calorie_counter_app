@@ -10,7 +10,9 @@ Total Calories: 483.0, Total Proteins: 23.5, Total Fats: 5.0, Total Carbs: 65.0
 Smoothie
 apple pear smoothie :
 Calories: 245.0, Measure: 1.0 serving, Protein: 6.0, Fats: 1.0, Carbs: 49.0
-Total Calories: 245.0, Total Proteins: 6.0, Total Fats: 1.0, Total Carbs: 49.0
+apple pear smoothie :
+Calories: 245.0, Measure: 1.0 serving, Protein: 6.0, Fats: 1.0, Carbs: 49.0
+Total Calories: 490.0, Total Proteins: 12.0, Total Fats: 2.0, Total Carbs: 98.0
 
 Lunch
 gutti vankaya :
@@ -28,7 +30,9 @@ murmura chivda :
 Calories: 113.0, Measure: 1.0 cup, Protein: 1.0, Fats: 7.0, Carbs: 9.0
 Kirkland salted mixed nuts :
 Calories: 67.5, Measure: 1.5 tbsp, Protein: 1.5, Fats: 4.5, Carbs: 1.5
-Total Calories: 180.5, Total Proteins: 2.5, Total Fats: 11.5, Total Carbs: 10.5
+pitted date :
+Calories: 46.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 12.0
+Total Calories: 226.5, Total Proteins: 2.5, Total Fats: 11.5, Total Carbs: 22.5
 
 Salad
 mini bell pepper salad :
@@ -38,8 +42,10 @@ Total Calories: 114.0, Total Proteins: 4.0, Total Fats: 0.0, Total Carbs: 10.0
 Dinner
 lemon millet :
 Calories: 297.0, Measure: 1.0 serving, Protein: 8.0, Fats: 10.0, Carbs: 39.0
-Total Calories: 297.0, Total Proteins: 8.0, Total Fats: 10.0, Total Carbs: 39.0
+millet pongal :
+Calories: 351.0, Measure: 1.0 serving, Protein: 8.0, Fats: 15.0, Carbs: 40.0
+Total Calories: 648.0, Total Proteins: 16.0, Total Fats: 25.0, Total Carbs: 79.0
 
 Total consumed today
-Total Calories: 1745.2, Total Proteins: 63.3, Total Fats: 39.8, Total Carbs: 234.0
+Total Calories: 2387.2, Total Proteins: 77.3, Total Fats: 55.8, Total Carbs: 335.0
 
