@@ -16,8 +16,22 @@ Calories: 381.6, Measure: 0.9 serving, Protein: 22.5, Fats: 12.6, Carbs: 48.6
 Total Calories: 381.6, Total Proteins: 22.5, Total Fats: 12.6, Total Carbs: 48.6
 
 Snack
+skinny popcorn :
+Calories: 108.0, Measure: 2.7 cup, Protein: 0.0, Fats: 5.4, Carbs: 10.8
+caramel popcorn with cashews :
+Calories: 120.0, Measure: 0.33 cup, Protein: 1.0, Fats: 6.0, Carbs: 16.0
+Total Calories: 228.0, Total Proteins: 1.0, Total Fats: 11.4, Total Carbs: 26.8
+
 Salad
+kala chana onion tomato salad :
+Calories: 75.0, Measure: 1.0 serving, Protein: 5.0, Fats: 0.0, Carbs: 10.0
+Total Calories: 75.0, Total Proteins: 5.0, Total Fats: 0.0, Total Carbs: 10.0
+
 Dinner
+moong dal khichdi :
+Calories: 396.0, Measure: 1.0 serving, Protein: 15.0, Fats: 11.0, Carbs: 49.0
+Total Calories: 396.0, Total Proteins: 15.0, Total Fats: 11.0, Total Carbs: 49.0
+
 Total consumed today
-Total Calories: 974.6, Total Proteins: 40.5, Total Fats: 22.6, Total Carbs: 138.6
+Total Calories: 1673.6, Total Proteins: 61.5, Total Fats: 45.0, Total Carbs: 224.4
 

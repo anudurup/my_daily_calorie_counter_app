@@ -1252,5 +1252,15 @@
         "total_fats": 14.5,
         "total_carbs": 54.75,
         "no_of_servings": 2.0
+    },
+    "kala chana onion tomato salad": {
+        "kala chana": "0.33 cup",
+        "onion": "0.125 ",
+        "tomato": "0.5 ",
+        "total_cals": 75.845,
+        "total_protein": 5.657500000000001,
+        "total_fats": 0.99,
+        "total_carbs": 10.707500000000001,
+        "no_of_servings": 2.0
     }
 }

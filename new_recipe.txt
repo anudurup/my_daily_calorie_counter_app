@@ -1,0 +1,3 @@
+kala chana: quantity-0.33
+onion: quantity-0.125
+tomato: quantity-0.5

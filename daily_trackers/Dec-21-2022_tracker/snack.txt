@@ -1,0 +1,4 @@
+skinny popcorn :
+Calories: 108.0, Measure: 2.7 cup, Protein: 0.0, Fats: 5.4, Carbs: 10.8
+caramel popcorn with cashews :
+Calories: 120.0, Measure: 0.33 cup, Protein: 1.0, Fats: 6.0, Carbs: 16.0
