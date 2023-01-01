@@ -1,17 +1,6 @@
-Breakfast
 millet dosa :
 Calories: 387.0, Measure: 3.0 serving, Protein: 12.0, Fats: 6.0, Carbs: 60.0
 coriander chutney :
 Calories: 47.599999999999994, Measure: 0.7 serving, Protein: 4.199999999999999, Fats: 2.0999999999999996, Carbs: 1.4
 idli podi :
 Calories: 34.0, Measure: 1.0 tbsp, Protein: 6.0, Fats: 3.0, Carbs: 25.0
-Total Calories: 468.6, Total Proteins: 22.2, Total Fats: 11.1, Total Carbs: 86.4
-
-Smoothie
-Lunch
-Snack
-Salad
-Dinner
-Total consumed today
-Total Calories: 468.6, Total Proteins: 22.2, Total Fats: 11.1, Total Carbs: 86.4
-

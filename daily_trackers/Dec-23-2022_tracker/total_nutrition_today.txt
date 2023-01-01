@@ -1,0 +1,11 @@
+Breakfast
+Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
+
+Smoothie
+Lunch
+Snack
+Salad
+Dinner
+Total consumed today
+Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
+

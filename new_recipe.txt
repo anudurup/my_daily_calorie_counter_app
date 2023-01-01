@@ -1,3 +1,6 @@
-kala chana: quantity-0.33
-onion: quantity-0.125
-tomato: quantity-0.5
+raw chana dal: quantity- 1.0
+olive oil: quantity- 3.0
+peanuts: quantity- 2.0
+onion: quantity- 1.0
+tomato: quantity- 2.5
+coriander leaves: quantity- 3.0
