@@ -3,7 +3,7 @@ import functions
 import pandas as pd
 
 def add_item_to_dictionary():        
-        item = st.session_state['food_item']
+        item = st.session_state['food_item'].lower()
         fname = 'item_calorie_dict.xlsx'
         df = pd.read_excel(fname,engine = 'openpyxl')   
         st.write("Enter all the values")

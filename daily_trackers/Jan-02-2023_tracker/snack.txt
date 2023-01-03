@@ -4,3 +4,7 @@ see's candies assorted :
 Calories: 90.0, Measure: 1.0 pieces, Protein: 1.0, Fats: 5.5, Carbs: 11.5
 jalapeno makhana :
 Calories: 84.0, Measure: 1.0 cup, Protein: 0.0, Fats: 4.0, Carbs: 20.0
+marie biscuit :
+Calories: 48.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 8.0
+filter coffee mocha :
+Calories: 94.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 57.0

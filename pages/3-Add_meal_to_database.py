@@ -6,7 +6,7 @@ import json
 def add_meal_to_dictionary():        
         f = open('new_recipe.txt')
         lines = f.readlines()
-        recipe = st.session_state['meal']
+        recipe = st.session_state['meal'].lower()
         ingredients = dict()
         for line in lines:
             if line.strip() != '':
@@ -84,7 +84,7 @@ def add_ingr():
     del st.session_state["selected_ingredient"]
 
 def update_ingredients():
-    recipe_name = st.session_state['meal']
+    recipe_name = st.session_state['meal'].lower()
     if not (recipe_name == '') and functions.check_if_item_exists(recipe_name):
         df = pd.read_excel('recipes.xlsx', engine="openpyxl")
         for row, value in df.iterrows():
@@ -112,11 +112,11 @@ with col1:
 with col2:
     st.text_input(label="add quantity", placeholder="Add quantity for the given ingredient...",
             key='new_quantity')
-ingredient = st.session_state["new_ingredient"]
+ingredient = st.session_state["new_ingredient"].lower()
 if not (ingredient == "") and not functions.check_if_item_exists(ingredient):
     st.info(f"Add single item: {ingredient} to the database")
 
-if st.session_state["new_ingredient"] != "":   
+if st.session_state["new_ingredient"].lower() != "":   
     measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
     match_items = list()
     for key in food_items:

@@ -5,6 +5,10 @@ import os
 from datetime import datetime
 import functions
 
+def create_tracker():
+    date = st.session_state["date_added"]
+    os.mkdir("daily_trackers" + os.sep + date + "_tracker")
+
 now = datetime.now()
 date = now.strftime("%b-%d-%Y")
 day = functions.get_dayname()
@@ -18,6 +22,9 @@ st.title("View meals per day")
 dates = os.listdir("daily_trackers")
 dates = dates[::-1]
 date_selectbox = st.selectbox("Select Date you want to add meal:", options=dates)
+st.write("Do you want to add a older date to the trackers?")
+st.text_input("Enter date in the format Jan-01-2023", key="date_added")
+st.button("Add tracker for this date", key="add_date_button",on_click=create_tracker)
 functions.create_total_nutrition_details(date_selectbox) 
 
 fpath = "daily_trackers" + os.sep + date_selectbox

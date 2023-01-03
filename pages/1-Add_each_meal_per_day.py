@@ -34,8 +34,8 @@ st.subheader("Enter breakfast items:")
 col1, col2 = st.columns(2)
 with col1:
     st.text_input(label="Enter breakfast item:", placeholder="Enter breakfast item...", key='breakfast_item')
-    if st.session_state['breakfast_item'] != "":   
-        breakfast_item = st.session_state["breakfast_item"]
+    if st.session_state['breakfast_item'] != "":  
+        breakfast_item = st.session_state["breakfast_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
         for key in food_items:
@@ -45,7 +45,7 @@ with col1:
 with col2:
     st.text_input(label="Enter breakfast quantity:", placeholder="Enter breakfast quantity...", key='breakfast_quantity')
 st.button("Add breakfast item", key="add_breakfast_item", on_click=add_breakfast_item)
-if not functions.check_if_item_exists(st.session_state['breakfast_item']):
+if not functions.check_if_item_exists(st.session_state['breakfast_item'].lower()):
     st.info("Add single item/meal to the database.")
 
 #Create Smoothie
@@ -73,7 +73,7 @@ col3, col4 = st.columns(2)
 with col3:
     st.text_input(label="Enter smoothie item:", placeholder="Enter smoothie item...", key='smoothie_item')
     if st.session_state['smoothie_item'] != "":   
-        smoothie_item = st.session_state["smoothie_item"]
+        smoothie_item = st.session_state["smoothie_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
         for key in food_items:
@@ -83,7 +83,7 @@ with col3:
 with col4:
     st.text_input(label="Enter smoothie quantity:", placeholder="Enter smoothie quantity...", key='smoothie_quantity')
 st.button("Add smoothie item", key="add_smoothie_item", on_click=add_smoothie_item)
-if not functions.check_if_item_exists(st.session_state['smoothie_item']):
+if not functions.check_if_item_exists(st.session_state['smoothie_item'].lower()):
     st.info("Add single item/meal to the database.")
 
 #Create Lunch
@@ -111,7 +111,7 @@ col5, col6 = st.columns(2)
 with col5:
     st.text_input(label="Enter lunch item:", placeholder="Enter lunch item...", key='lunch_item')
     if st.session_state['lunch_item'] != "":   
-        lunch_item = st.session_state["lunch_item"]
+        lunch_item = st.session_state["lunch_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
         for key in food_items:
@@ -121,7 +121,7 @@ with col5:
 with col6:
     st.text_input(label="Enter lunch quantity:", placeholder="Enter lunch quantity...", key='lunch_quantity')
 st.button("Add lunch item", key="add_lunch_item", on_click=add_lunch_item)
-if not functions.check_if_item_exists(st.session_state['lunch_item']):
+if not functions.check_if_item_exists(st.session_state['lunch_item'].lower()):
     st.info("Add single item/meal to the database.")
 
 #Create Snack
@@ -149,7 +149,7 @@ col7, col8 = st.columns(2)
 with col7:
     st.text_input(label="Enter snack item:", placeholder="Enter snack item...", key='snack_item')
     if st.session_state['snack_item'] != "":   
-        snack_item = st.session_state["snack_item"]
+        snack_item = st.session_state["snack_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
         for key in food_items:
@@ -159,7 +159,7 @@ with col7:
 with col8:
     st.text_input(label="Enter snack quantity:", placeholder="Enter snack quantity...", key='snack_quantity')
 st.button("Add snack item", key="add_snack_item", on_click=add_snack_item)
-if not functions.check_if_item_exists(st.session_state['snack_item']):
+if not functions.check_if_item_exists(st.session_state['snack_item'].lower()):
     st.info("Add single item/meal to the database.")
 
 #Create Salad
@@ -187,7 +187,7 @@ col9, col10 = st.columns(2)
 with col9:
     st.text_input(label="Enter salad item:", placeholder="Enter salad item...", key='salad_item')
     if st.session_state['salad_item'] != "":   
-        salad_item = st.session_state["salad_item"]
+        salad_item = st.session_state["salad_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
         for key in food_items:
@@ -197,7 +197,7 @@ with col9:
 with col10:
     st.text_input(label="Enter salad quantity:", placeholder="Enter salad quantity...", key='salad_quantity')
 st.button("Add salad item", key="add_salad_item", on_click=add_salad_item)
-if not functions.check_if_item_exists(st.session_state['salad_item']):
+if not functions.check_if_item_exists(st.session_state['salad_item'].lower()):
     st.info("Add single item/meal to the database.")
 
 #Create Dinner
@@ -225,7 +225,7 @@ col11, col12 = st.columns(2)
 with col11:
     st.text_input(label="Enter dinner item:", placeholder="Enter dinner item...", key='dinner_item')
     if st.session_state['dinner_item'] != "":   
-        dinner_item = st.session_state["dinner_item"]
+        dinner_item = st.session_state["dinner_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
         for key in food_items:
@@ -235,5 +235,5 @@ with col11:
 with col12:
     st.text_input(label="Enter dinner quantity:", placeholder="Enter dinner quantity...", key='dinner_quantity')
 st.button("Add dinner item", key="add_dinner_item", on_click=add_dinner_item)
-if not functions.check_if_item_exists(st.session_state['dinner_item']):
+if not functions.check_if_item_exists(st.session_state['dinner_item'].lower()):
     st.info("Add single item/meal to the database.")       

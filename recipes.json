@@ -1336,5 +1336,48 @@
         "total_fats": 33.25,
         "total_carbs": 203.75,
         "no_of_servings": 4.0
+    },
+    "tomato millet with powder": {
+        "barnyard millet": "0.75 cup",
+        "mtr tomato rice powder": "2.0 pack",
+        "olive oil": "4.0 tsp",
+        "raw chana dal": "1.0 tbsp",
+        "peanuts": "2.5 tbsp",
+        "total_cals": 323.3333333333333,
+        "total_protein": 7.5,
+        "total_fats": 11.666666666666666,
+        "total_carbs": 42.333333333333336,
+        "no_of_servings": 3.0
+    },
+    "coffee with oat creamer": {
+        "planet oat creamer": "2.0 tbsp",
+        "total_cals": 50.0,
+        "total_protein": 0.0,
+        "total_fats": 2.0,
+        "total_carbs": 8.0,
+        "no_of_servings": 1.0
+    },
+    "red apple pear orange smoothie no yogurt": {
+        "apple": "1.0 ",
+        "green pear": "1.0 ",
+        "orange": "1.0 ",
+        "pitted date": "8.0 ",
+        "unsweetened almond milk": "1.25 cup",
+        "total_cals": 253.75,
+        "total_protein": 1.125,
+        "total_fats": 1.25,
+        "total_carbs": 58.625,
+        "no_of_servings": 2.0
+    },
+    "capsicum besan sabji": {
+        "green capsicum": "1.0 ",
+        "besan": "0.33 cup",
+        "olive oil": "2.0 tsp",
+        "onion": "0.75 ",
+        "total_cals": 263.48,
+        "total_protein": 19.18,
+        "total_fats": 9.98,
+        "total_carbs": 25.240000000000002,
+        "no_of_servings": 1.0
     }
 }
