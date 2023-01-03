@@ -1262,5 +1262,68 @@
         "total_fats": 0.99,
         "total_carbs": 10.707500000000001,
         "no_of_servings": 2.0
+    },
+    "high protein soya chunks dosa": {
+        "soya chunks": "1.0 cup",
+        "tomato": "1.0 ",
+        "rice flour": "0.75 cup",
+        "aashirvaad multigrain atta": "1.0 cup",
+        "olive oil": "6.0 tsp",
+        "total_cals": 104.70833333333333,
+        "total_protein": 4.3125,
+        "total_fats": 2.2916666666666665,
+        "total_carbs": 15.270833333333334,
+        "no_of_servings": 12.0
+    },
+    "ragada pattice": {
+        "potato": "2.0 large",
+        "poha": "0.25 serving",
+        "olive oil": "2.0 tsp",
+        "vatana": "1.5 cup",
+        "onion": "1.0 ",
+        "bombay chutney": "12.0 tsp",
+        "jaggery": "24.0 tsp",
+        "tamarind paste": "4.0 tbsp",
+        "total_cals": 300.2916666666667,
+        "total_protein": 13.958333333333334,
+        "total_fats": 1.875,
+        "total_carbs": 64.66666666666667,
+        "no_of_servings": 6.0
+    },
+    "spring onion tambali": {
+        "spring onion": "3.0 stalk",
+        "shredded coconut": "0.125 cup",
+        "dahi": "1.0 cup",
+        "olive oil": "1.0 tsp",
+        "total_cals": 62.625,
+        "total_protein": 2.5625,
+        "total_fats": 3.5,
+        "total_carbs": 5.625,
+        "no_of_servings": 4.0
+    },
+    "goji berry apple smoothie": {
+        "apple": "1.0 ",
+        "unsweetened almond milk": "1.25 cup",
+        "pitted date": "6.0 ",
+        "walnuts": "2.0 tbsp",
+        "goji berries": "2.0 tbsp",
+        "flaxseed powder": "1.0 tbsp",
+        "total_cals": 222.75,
+        "total_protein": 2.125,
+        "total_fats": 6.75,
+        "total_carbs": 34.125,
+        "no_of_servings": 2.0
+    },
+    "vegan blueberry no bake cheesecake": {
+        "pitted date": "21.0 ",
+        "peanut butter": "8.0 tbsp",
+        "cashew pieces": "36.0 ",
+        "honey": "15.0 tbsp",
+        "blueberry": "0.75 box",
+        "total_cals": 438.4583333333333,
+        "total_protein": 5.583333333333333,
+        "total_fats": 10.791666666666666,
+        "total_carbs": 74.75,
+        "no_of_servings": 6.0
     }
 }
