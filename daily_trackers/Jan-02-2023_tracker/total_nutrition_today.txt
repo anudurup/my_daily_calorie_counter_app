@@ -22,7 +22,11 @@ Total Calories: 311.1, Total Proteins: 16.4, Total Fats: 5.5, Total Carbs: 55.4
 Snack
 sunfeast 5 grain digestive :
 Calories: 97.0, Measure: 2.0 biscuits, Protein: 7.0, Fats: 4.0, Carbs: 13.0
-Total Calories: 97.0, Total Proteins: 7.0, Total Fats: 4.0, Total Carbs: 13.0
+see's candies assorted :
+Calories: 90.0, Measure: 1.0 pieces, Protein: 1.0, Fats: 5.5, Carbs: 11.5
+jalapeno makhana :
+Calories: 84.0, Measure: 1.0 cup, Protein: 0.0, Fats: 4.0, Carbs: 20.0
+Total Calories: 271.0, Total Proteins: 8.0, Total Fats: 13.5, Total Carbs: 44.5
 
 Salad
 mini bell pepper salad :
@@ -31,5 +35,5 @@ Total Calories: 114.0, Total Proteins: 4.0, Total Fats: 0.0, Total Carbs: 10.0
 
 Dinner
 Total consumed today
-Total Calories: 1118.1, Total Proteins: 43.4, Total Fats: 24.5, Total Carbs: 162.4
+Total Calories: 1292.1, Total Proteins: 44.4, Total Fats: 34.0, Total Carbs: 193.9
 

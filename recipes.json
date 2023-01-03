@@ -1316,14 +1316,25 @@
     },
     "vegan blueberry no bake cheesecake": {
         "pitted date": "21.0 ",
-        "peanut butter": "8.0 tbsp",
-        "cashew pieces": "36.0 ",
-        "honey": "15.0 tbsp",
-        "blueberry": "0.75 box",
-        "total_cals": 438.4583333333333,
-        "total_protein": 5.583333333333333,
-        "total_fats": 10.791666666666666,
-        "total_carbs": 74.75,
+        "peanut butter": "4.0 tbsp",
+        "cashew pieces": "90.0 ",
+        "blueberry": "0.33 box",
+        "honey": "4.0 tbsp",
+        "total_cals": 330.76166666666666,
+        "total_protein": 2.776666666666667,
+        "total_fats": 5.388333333333333,
+        "total_carbs": 37.52333333333333,
         "no_of_servings": 6.0
+    },
+    "madatha kaja": {
+        "all purpose flour": "1.0 cup",
+        "ghee": "9.0 tsp",
+        "olive oil": "24.0 tsp",
+        "sugar": "48.0 tsp",
+        "total_cals": 617.0,
+        "total_protein": 3.0,
+        "total_fats": 33.25,
+        "total_carbs": 203.75,
+        "no_of_servings": 4.0
     }
 }
