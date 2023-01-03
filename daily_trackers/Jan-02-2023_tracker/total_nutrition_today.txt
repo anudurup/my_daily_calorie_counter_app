@@ -1,7 +1,7 @@
 Breakfast
-High Protein Soya Chunks Dosa :
+high protein soya chunks dosa :
 Calories: 312.0, Measure: 3.0 serving, Protein: 12.0, Fats: 6.0, Carbs: 45.0
-Spring onion Tambali :
+spring onion tambali :
 Calories: 62.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 5.0
 Total Calories: 374.0, Total Proteins: 14.0, Total Fats: 9.0, Total Carbs: 50.0
 
