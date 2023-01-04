@@ -32,7 +32,9 @@ marie biscuit :
 Calories: 48.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 8.0
 filter coffee mocha :
 Calories: 94.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 57.0
-Total Calories: 413.0, Total Proteins: 9.0, Total Fats: 14.5, Total Carbs: 109.5
+see's candies assorted :
+Calories: 180.0, Measure: 2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
+Total Calories: 593.0, Total Proteins: 11.0, Total Fats: 25.5, Total Carbs: 132.5
 
 Salad
 mini bell pepper salad :
@@ -44,8 +46,10 @@ tomato millet with powder :
 Calories: 323.0, Measure: 1.0 serving, Protein: 7.0, Fats: 11.0, Carbs: 42.0
 dahi :
 Calories: 75.0, Measure: 0.5 cup, Protein: 5.0, Fats: 3.5, Carbs: 7.0
-Total Calories: 398.0, Total Proteins: 12.0, Total Fats: 14.5, Total Carbs: 49.0
+fada ni khichdi :
+Calories: 235.0, Measure: 1.0 serving, Protein: 7.0, Fats: 6.0, Carbs: 31.0
+Total Calories: 633.0, Total Proteins: 19.0, Total Fats: 20.5, Total Carbs: 80.0
 
 Total consumed today
-Total Calories: 1882.1, Total Proteins: 57.4, Total Fats: 51.5, Total Carbs: 315.9
+Total Calories: 2297.1, Total Proteins: 66.4, Total Fats: 68.5, Total Carbs: 369.9
 

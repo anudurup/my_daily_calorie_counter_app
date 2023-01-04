@@ -1,0 +1,23 @@
+Breakfast
+homemade poha :
+Calories: 209.0, Measure: 1.0 serving, Protein: 4.0, Fats: 15.0, Carbs: 4.0
+coffee with oat creamer :
+Calories: 50.0, Measure: 1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
+Total Calories: 259.0, Total Proteins: 4.0, Total Fats: 17.0, Total Carbs: 12.0
+
+Smoothie
+berry smoothie with oat milk :
+Calories: 188.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 37.0
+Total Calories: 188.0, Total Proteins: 2.0, Total Fats: 3.0, Total Carbs: 37.0
+
+Lunch
+Snack
+kirkland salted mixed nuts :
+Calories: 45.0, Measure: 1.0 tbsp, Protein: 1.0, Fats: 3.0, Carbs: 1.0
+Total Calories: 45.0, Total Proteins: 1.0, Total Fats: 3.0, Total Carbs: 1.0
+
+Salad
+Dinner
+Total consumed today
+Total Calories: 492.0, Total Proteins: 7.0, Total Fats: 23.0, Total Carbs: 50.0
+

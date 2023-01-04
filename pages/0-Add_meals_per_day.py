@@ -4,11 +4,27 @@ import pandas as pd
 import os
 from datetime import datetime
 
+def delete_item_from_meal(title,item):
+    print(title)
+    print(item)
+    filepath = fpath + os.sep + title + '.txt'
+    lines = open(filepath).readlines()
+    for i,line in enumerate(lines):
+        if item in line:
+            print(i)
+            lines.pop(i+1)
+            lines.pop(i)
+            break
+    with open(filepath, 'w') as f:
+        f.writelines(lines)
+
 st.title("Add meals per day to track")
 dates = os.listdir("daily_trackers")
 dates = dates[::-1]
 date_selectbox = st.selectbox("Select Date you want to add meal:", options=dates)
 day_folder = 'daily_trackers' + os.sep + f'{date_selectbox}'
+fpath = "daily_trackers" + os.sep + date_selectbox
+functions.create_total_nutrition_details(date_selectbox) 
 
 #Create Breakfast
 def add_breakfast_item():
@@ -29,11 +45,47 @@ def add_breakfast_item():
         else:
             measure_quantity = float(quantity) * float(measure)           
         f.write(f"Calories: {float(calorie)*quantity}, Measure: {measure_quantity}, Protein: {float(protein)*quantity}, Fats: {float(fat)*quantity}, Carbs: {float(carbs)*quantity}\n")
+    st.session_state["breakfast_item"] = ""
+    st.session_state['breakfast_quantity'] = ""
+
+st.subheader("Breakfast:")
+if os.path.exists(fpath + os.sep + 'breakfast.txt'):
+    fname = open(fpath + os.sep + 'breakfast.txt')
+    lines = fname.readlines()
+    fname.close()
+    title = ""
+    calories = list()
+    proteins = list()
+    fats = list()
+    carbs = list()
+    for i,line in enumerate(lines):
+        if not ':' in line:            
+            st.subheader(line)
+            title = line.lower().rstrip()
+        else:
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'breakfast.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal('breakfast',line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
+                if 'Calories' in line:
+                    values = line.split(',')
+                    calories.append(float(values[0].split(':')[1]))
+                    proteins.append(float(values[2].split(':')[1]))
+                    fats.append(float(values[3].split(':')[1]))
+                    carbs.append(float(values[4].split(':')[1]))
+    st.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
     
-st.subheader("Enter breakfast items:")
 col1, col2 = st.columns(2)
 with col1:
-    st.text_input(label="Enter breakfast item:", placeholder="Enter breakfast item...", key='breakfast_item')
+    st.text_input(label="Add breakfast items:", placeholder="Enter breakfast item...", key='breakfast_item')
     if st.session_state['breakfast_item'] != "":  
         breakfast_item = st.session_state["breakfast_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
@@ -67,12 +119,48 @@ def add_smoothie_item():
         else:
             measure_quantity = float(quantity) * float(measure)           
         f.write(f"Calories: {float(calorie)*quantity}, Measure: {measure_quantity}, Protein: {float(protein)*quantity}, Fats: {float(fat)*quantity}, Carbs: {float(carbs)*quantity}\n")
+    st.session_state["smoothie_item"] = ""
+    st.session_state['smoothie_quantity'] = ""
 
-st.subheader("Enter smoothie items:")
+st.subheader("Smoothie:")
+if os.path.exists(fpath + os.sep + 'smoothie.txt'):
+    fname = open(fpath + os.sep + 'smoothie.txt')
+    lines = fname.readlines()
+    fname.close()
+    title = ""
+    calories = list()
+    proteins = list()
+    fats = list()
+    carbs = list()
+    for i,line in enumerate(lines):
+        if not ':' in line:            
+            st.subheader(line)
+            title = line.lower().rstrip()
+        else:
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'smoothie.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal('smoothie',line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
+                if 'Calories' in line:
+                    values = line.split(',')
+                    calories.append(float(values[0].split(':')[1]))
+                    proteins.append(float(values[2].split(':')[1]))
+                    fats.append(float(values[3].split(':')[1]))
+                    carbs.append(float(values[4].split(':')[1]))
+    st.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
+    
 col3, col4 = st.columns(2)
 with col3:
-    st.text_input(label="Enter smoothie item:", placeholder="Enter smoothie item...", key='smoothie_item')
-    if st.session_state['smoothie_item'] != "":   
+    st.text_input(label="Add smoothie items:", placeholder="Enter smoothie item...", key='smoothie_item')
+    if st.session_state['smoothie_item'] != "":  
         smoothie_item = st.session_state["smoothie_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
@@ -105,12 +193,48 @@ def add_lunch_item():
         else:
             measure_quantity = float(quantity) * float(measure)           
         f.write(f"Calories: {float(calorie)*quantity}, Measure: {measure_quantity}, Protein: {float(protein)*quantity}, Fats: {float(fat)*quantity}, Carbs: {float(carbs)*quantity}\n")
+    st.session_state["lunch_item"] = ""
+    st.session_state['lunch_quantity'] = ""
 
-st.subheader("Enter lunch items:")
+st.subheader("Lunch:")
+if os.path.exists(fpath + os.sep + 'lunch.txt'):
+    fname = open(fpath + os.sep + 'lunch.txt')
+    lines = fname.readlines()
+    fname.close()
+    title = ""
+    calories = list()
+    proteins = list()
+    fats = list()
+    carbs = list()
+    for i,line in enumerate(lines):
+        if not ':' in line:            
+            st.subheader(line)
+            title = line.lower().rstrip()
+        else:
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'lunch.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal('lunch',line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
+                if 'Calories' in line:
+                    values = line.split(',')
+                    calories.append(float(values[0].split(':')[1]))
+                    proteins.append(float(values[2].split(':')[1]))
+                    fats.append(float(values[3].split(':')[1]))
+                    carbs.append(float(values[4].split(':')[1]))
+    st.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
+    
 col5, col6 = st.columns(2)
 with col5:
-    st.text_input(label="Enter lunch item:", placeholder="Enter lunch item...", key='lunch_item')
-    if st.session_state['lunch_item'] != "":   
+    st.text_input(label="Add lunch items:", placeholder="Enter lunch item...", key='lunch_item')
+    if st.session_state['lunch_item'] != "":  
         lunch_item = st.session_state["lunch_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
@@ -143,12 +267,48 @@ def add_snack_item():
         else:
             measure_quantity = float(quantity) * float(measure)           
         f.write(f"Calories: {float(calorie)*quantity}, Measure: {measure_quantity}, Protein: {float(protein)*quantity}, Fats: {float(fat)*quantity}, Carbs: {float(carbs)*quantity}\n")
+    st.session_state["snack_item"] = ""
+    st.session_state['snack_quantity'] = ""
 
-st.subheader("Enter snack items:")
+st.subheader("Snack:")
+if os.path.exists(fpath + os.sep + 'snack.txt'):
+    fname = open(fpath + os.sep + 'snack.txt')
+    lines = fname.readlines()
+    fname.close()
+    title = ""
+    calories = list()
+    proteins = list()
+    fats = list()
+    carbs = list()
+    for i,line in enumerate(lines):
+        if not ':' in line:            
+            st.subheader(line)
+            title = line.lower().rstrip()
+        else:
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'snack.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal('snack',line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
+                if 'Calories' in line:
+                    values = line.split(',')
+                    calories.append(float(values[0].split(':')[1]))
+                    proteins.append(float(values[2].split(':')[1]))
+                    fats.append(float(values[3].split(':')[1]))
+                    carbs.append(float(values[4].split(':')[1]))
+    st.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
+    
 col7, col8 = st.columns(2)
 with col7:
-    st.text_input(label="Enter snack item:", placeholder="Enter snack item...", key='snack_item')
-    if st.session_state['snack_item'] != "":   
+    st.text_input(label="Add snack items:", placeholder="Enter snack item...", key='snack_item')
+    if st.session_state['snack_item'] != "":  
         snack_item = st.session_state["snack_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
@@ -181,12 +341,48 @@ def add_salad_item():
         else:
             measure_quantity = float(quantity) * float(measure)           
         f.write(f"Calories: {float(calorie)*quantity}, Measure: {measure_quantity}, Protein: {float(protein)*quantity}, Fats: {float(fat)*quantity}, Carbs: {float(carbs)*quantity}\n")
+    st.session_state["salad_item"] = ""
+    st.session_state['salad_quantity'] = ""
 
-st.subheader("Enter salad items:")
+st.subheader("Salad:")
+if os.path.exists(fpath + os.sep + 'salad.txt'):
+    fname = open(fpath + os.sep + 'salad.txt')
+    lines = fname.readlines()
+    fname.close()
+    title = ""
+    calories = list()
+    proteins = list()
+    fats = list()
+    carbs = list()
+    for i,line in enumerate(lines):
+        if not ':' in line:            
+            st.subheader(line)
+            title = line.lower().rstrip()
+        else:
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'salad.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal('salad',line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
+                if 'Calories' in line:
+                    values = line.split(',')
+                    calories.append(float(values[0].split(':')[1]))
+                    proteins.append(float(values[2].split(':')[1]))
+                    fats.append(float(values[3].split(':')[1]))
+                    carbs.append(float(values[4].split(':')[1]))
+    st.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
+    
 col9, col10 = st.columns(2)
 with col9:
-    st.text_input(label="Enter salad item:", placeholder="Enter salad item...", key='salad_item')
-    if st.session_state['salad_item'] != "":   
+    st.text_input(label="Add salad items:", placeholder="Enter salad item...", key='salad_item')
+    if st.session_state['salad_item'] != "":  
         salad_item = st.session_state["salad_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
@@ -219,12 +415,48 @@ def add_dinner_item():
         else:
             measure_quantity = float(quantity) * float(measure)           
         f.write(f"Calories: {float(calorie)*quantity}, Measure: {measure_quantity}, Protein: {float(protein)*quantity}, Fats: {float(fat)*quantity}, Carbs: {float(carbs)*quantity}\n")
+    st.session_state["dinner_item"] = ""
+    st.session_state['dinner_quantity'] = ""
 
-st.subheader("Enter dinner items:")
+st.subheader("Dinner:")
+if os.path.exists(fpath + os.sep + 'dinner.txt'):
+    fname = open(fpath + os.sep + 'dinner.txt')
+    lines = fname.readlines()
+    fname.close()
+    title = ""
+    calories = list()
+    proteins = list()
+    fats = list()
+    carbs = list()
+    for i,line in enumerate(lines):
+        if not ':' in line:            
+            st.subheader(line)
+            title = line.lower().rstrip()
+        else:
+            if not "Calories" in line:
+                checkbox = st.checkbox(line.split(':')[0],key = line.split(':')[0])
+                if checkbox:  # If we check the checkbox it will be True
+                    lines.pop(i+1)
+                    lines.pop(i)
+                    with open(fpath + os.sep + 'dinner.txt', 'w') as f:
+                        f.writelines(lines)
+                    delete_item_from_meal('dinner',line.split(':')[0])
+                    del st.session_state[line.split(':')[0]]
+                    st.experimental_rerun() # This clears the task once it is checked.
+            else:
+                st.write(line) 
+                if 'Calories' in line:
+                    values = line.split(',')
+                    calories.append(float(values[0].split(':')[1]))
+                    proteins.append(float(values[2].split(':')[1]))
+                    fats.append(float(values[3].split(':')[1]))
+                    carbs.append(float(values[4].split(':')[1]))
+    st.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
+    
 col11, col12 = st.columns(2)
 with col11:
-    st.text_input(label="Enter dinner item:", placeholder="Enter dinner item...", key='dinner_item')
-    if st.session_state['dinner_item'] != "":   
+    st.text_input(label="Add dinner items:", placeholder="Enter dinner item...", key='dinner_item')
+    if st.session_state['dinner_item'] != "":  
         dinner_item = st.session_state["dinner_item"].lower()
         measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
         match_items = list()
@@ -236,4 +468,4 @@ with col12:
     st.text_input(label="Enter dinner quantity:", placeholder="Enter dinner quantity...", key='dinner_quantity')
 st.button("Add dinner item", key="add_dinner_item", on_click=add_dinner_item)
 if not functions.check_if_item_exists(st.session_state['dinner_item'].lower()):
-    st.info("Add single item/meal to the database.")       
+    st.info("Add single item/meal to the database.")

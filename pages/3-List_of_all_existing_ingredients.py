@@ -7,5 +7,6 @@ df = pd.read_excel("item_calorie_dict.xlsx",engine="openpyxl")
 ingredients = df['food_item'].to_list()
 measures = df["measure"].to_list()
 calories = df["calories"].to_list()
-for i,ingr in enumerate(ingredients):
-    st.write(f'{ingr} : quantity - {measures[i]} calories - {calories[i]}')
+df = pd.read_excel("item_calorie_dict.xlsx", engine="openpyxl")
+df2 = df.filter(['food_item','measure','calories'], axis=1)
+st.dataframe(df2,width=400,height=600)

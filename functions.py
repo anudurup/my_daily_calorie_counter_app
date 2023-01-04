@@ -137,4 +137,4 @@ def create_total_nutrition_details(date_selectbox):
                 total_fats += sum(fats)
                 total_carbs += sum(carbs)
         f.write("Total consumed today" + "\n")
-        f.write(f"Total Calories: {total_calories}, Total Proteins: {total_proteins}, Total Fats: {total_fats}, Total Carbs: {total_carbs}" + "\n\n")      
+        f.write(f"Total Calories: {total_calories}, Total Proteins: {total_proteins}, Total Fats: {total_fats}, Total Carbs: {total_carbs}" + "\n\n")    

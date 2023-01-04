@@ -1,0 +1,6 @@
+capsicum besan bhaji :
+Calories: 56.0, Measure: 0.4 serving, Protein: 2.4000000000000004, Fats: 2.4000000000000004, Carbs: 5.6000000000000005
+moong dal fry :
+Calories: 68.4, Measure: 0.4 serving, Protein: 6.800000000000001, Fats: 1.6, Carbs: 6.4
+multigrain roti :
+Calories: 174.6, Measure: 1.8 serving, Protein: 5.4, Fats: 0.0, Carbs: 32.4
