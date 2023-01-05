@@ -1,6 +1,6 @@
 Title: Value
 Current Weight: 72.8
-Calories burned with exercise: 82
+Calories burned with exercise: 293
 BMR:  1390.75
 Total cals to consume per day:  2155.6625
-Calorie Deficit: 574.6624999999999
+Calorie Deficit: 785.6624999999999
