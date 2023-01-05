@@ -2,6 +2,7 @@ import streamlit as st
 import functions
 import pandas as pd
 
+st.set_page_config(layout="wide", page_title="2-Add_single_item_to_database.py")
 def add_item_to_dictionary():        
         item = st.session_state['food_item'].lower()
         fname = 'item_calorie_dict.csv'
@@ -33,11 +34,24 @@ def clear_items():
     st.session_state["fats"] = ""
     st.session_state["carbs"] = ""
 
-st.title("Add single item to database")
-st.text_input(label="Enter food item", key='food_item')
-st.text_input(label="Enter measure", key='measure')
-st.text_input(label="Enter calories", key='calories')
-st.text_input(label="Enter protein", key='protein') 
-st.text_input(label="Enter fats", key='fats')
-st.text_input(label="Enter carbs", key='carbs')
-st.button(label="Add item", on_click=add_item_to_dictionary, key="add_item")
+col1, empty_col,col2 = st.columns([5,1,5])
+with col1:
+    st.title("List of all existing ingredients")
+    st.subheader("Make sure the ingredients you add match once of these.")
+    df = pd.read_csv("item_calorie_dict.csv")
+    ingredients = df['food_item'].to_list()
+    measures = df["measure"].to_list()
+    calories = df["calories"].to_list()
+    df = pd.read_csv("item_calorie_dict.csv")
+    df2 = df.filter(['food_item','measure','calories'], axis=1)
+    st.dataframe(df2,width=400,height=600)
+
+with col2:
+    st.title("Add single item to database")
+    st.text_input(label="Enter food item", key='food_item')
+    st.text_input(label="Enter measure", key='measure')
+    st.text_input(label="Enter calories", key='calories')
+    st.text_input(label="Enter protein", key='protein') 
+    st.text_input(label="Enter fats", key='fats')
+    st.text_input(label="Enter carbs", key='carbs')
+    st.button(label="Add item", on_click=add_item_to_dictionary, key="add_item")

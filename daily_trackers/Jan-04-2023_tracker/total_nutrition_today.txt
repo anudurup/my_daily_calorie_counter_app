@@ -11,13 +11,25 @@ Calories: 188.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 37.0
 Total Calories: 188.0, Total Proteins: 2.0, Total Fats: 3.0, Total Carbs: 37.0
 
 Lunch
+vegetable lasagna with tofu ricotta :
+Calories: 728.0, Measure: 1.3 serving, Protein: 27.3, Fats: 20.8, Carbs: 110.5
+filter coffee mocha :
+Calories: 94.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 57.0
+Total Calories: 822.0, Total Proteins: 28.3, Total Fats: 21.8, Total Carbs: 167.5
+
 Snack
 kirkland salted mixed nuts :
 Calories: 45.0, Measure: 1.0 tbsp, Protein: 1.0, Fats: 3.0, Carbs: 1.0
-Total Calories: 45.0, Total Proteins: 1.0, Total Fats: 3.0, Total Carbs: 1.0
+see's candies assorted :
+Calories: 180.0, Measure: 2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
+Total Calories: 225.0, Total Proteins: 3.0, Total Fats: 14.0, Total Carbs: 24.0
 
 Salad
+diet bhel chaat :
+Calories: 169.0, Measure: 1.0 serving, Protein: 9.0, Fats: 7.0, Carbs: 17.0
+Total Calories: 169.0, Total Proteins: 9.0, Total Fats: 7.0, Total Carbs: 17.0
+
 Dinner
 Total consumed today
-Total Calories: 492.0, Total Proteins: 7.0, Total Fats: 23.0, Total Carbs: 50.0
+Total Calories: 1663.0, Total Proteins: 46.3, Total Fats: 62.8, Total Carbs: 257.5
 
