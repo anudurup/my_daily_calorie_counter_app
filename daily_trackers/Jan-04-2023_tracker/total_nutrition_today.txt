@@ -22,7 +22,13 @@ kirkland salted mixed nuts :
 Calories: 45.0, Measure: 1.0 tbsp, Protein: 1.0, Fats: 3.0, Carbs: 1.0
 see's candies assorted :
 Calories: 180.0, Measure: 2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
-Total Calories: 225.0, Total Proteins: 3.0, Total Fats: 14.0, Total Carbs: 24.0
+sunfeast 5 grain digestive :
+Calories: 194.0, Measure: 4.0 biscuits, Protein: 14.0, Fats: 8.0, Carbs: 26.0
+pitted date :
+Calories: 46.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 12.0
+marie biscuit :
+Calories: 24.0, Measure: 1.0, Protein: 0.0, Fats: 0.0, Carbs: 4.0
+Total Calories: 489.0, Total Proteins: 17.0, Total Fats: 22.0, Total Carbs: 66.0
 
 Salad
 diet bhel chaat :
@@ -30,6 +36,10 @@ Calories: 169.0, Measure: 1.0 serving, Protein: 9.0, Fats: 7.0, Carbs: 17.0
 Total Calories: 169.0, Total Proteins: 9.0, Total Fats: 7.0, Total Carbs: 17.0
 
 Dinner
+veggie penne pasta no cheese :
+Calories: 347.40000000000003, Measure: 0.9 serving, Protein: 9.9, Fats: 8.1, Carbs: 59.4
+Total Calories: 347.40000000000003, Total Proteins: 9.9, Total Fats: 8.1, Total Carbs: 59.4
+
 Total consumed today
-Total Calories: 1663.0, Total Proteins: 46.3, Total Fats: 62.8, Total Carbs: 257.5
+Total Calories: 2274.4, Total Proteins: 70.2, Total Fats: 78.89999999999999, Total Carbs: 358.9
 

@@ -39,7 +39,7 @@ def add_breakfast_item():
     with open(fname, 'a') as f:
         f.write(key + " :\n")
         quantity = float(st.session_state["breakfast_quantity"])
-        if not isinstance(measure,int):
+        if (len(measure.split()) > 1):
             measure_quantity = float(quantity) * float(measure.split()[0])
             measure_quantity = str(measure_quantity) + " " + measure.split()[1]
         else:
@@ -113,7 +113,7 @@ def add_smoothie_item():
     with open(fname, 'a') as f:
         f.write(key + " :\n")
         quantity = float(st.session_state["smoothie_quantity"])
-        if not isinstance(measure,int):
+        if (len(measure.split()) > 1):
             measure_quantity = float(quantity) * float(measure.split()[0])
             measure_quantity = str(measure_quantity) + " " + measure.split()[1]
         else:
@@ -187,7 +187,7 @@ def add_lunch_item():
     with open(fname, 'a') as f:
         f.write(key + " :\n")
         quantity = float(st.session_state["lunch_quantity"])
-        if not isinstance(measure,int):
+        if (len(measure.split()) > 1):
             measure_quantity = float(quantity) * float(measure.split()[0])
             measure_quantity = str(measure_quantity) + " " + measure.split()[1]
         else:
@@ -261,7 +261,7 @@ def add_snack_item():
     with open(fname, 'a') as f:
         f.write(key + " :\n")
         quantity = float(st.session_state["snack_quantity"])
-        if not isinstance(measure,int):
+        if (len(measure.split()) > 1):
             measure_quantity = float(quantity) * float(measure.split()[0])
             measure_quantity = str(measure_quantity) + " " + measure.split()[1]
         else:
@@ -335,7 +335,7 @@ def add_salad_item():
     with open(fname, 'a') as f:
         f.write(key + " :\n")
         quantity = float(st.session_state["salad_quantity"])
-        if not isinstance(measure,int):
+        if (len(measure.split()) > 1):
             measure_quantity = float(quantity) * float(measure.split()[0])
             measure_quantity = str(measure_quantity) + " " + measure.split()[1]
         else:
@@ -409,7 +409,7 @@ def add_dinner_item():
     with open(fname, 'a') as f:
         f.write(key + " :\n")
         quantity = float(st.session_state["dinner_quantity"])
-        if not isinstance(measure,int):
+        if (len(measure.split()) > 1):
             measure_quantity = float(quantity) * float(measure.split()[0])
             measure_quantity = str(measure_quantity) + " " + measure.split()[1]
         else:

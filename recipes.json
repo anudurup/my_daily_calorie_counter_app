@@ -1410,5 +1410,19 @@
         "total_fats": 4.25,
         "total_carbs": 16.25,
         "no_of_servings": 1.0
+    },
+    "veggie penne pasta no cheese": {
+        "zucchini": "0.2 medium",
+        "eggplant": "0.5 ",
+        "green capsicum": "0.5 ",
+        "red bell pepper": "0.5 ",
+        "basil pasta sauce": "1.5 cup",
+        "olive oil": "2.0 tsp",
+        "whole wheat pasta": "1.5 cup",
+        "total_cals": 386.75,
+        "total_protein": 11.95,
+        "total_fats": 9.5,
+        "total_carbs": 66.75,
+        "no_of_servings": 2.0
     }
 }
