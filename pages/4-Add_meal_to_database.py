@@ -40,10 +40,10 @@ def add_meal_to_dictionary():
         recipes_json[recipe_name] = ingre_dict
         functions.write_to_recipes_json_file(recipes_json)
         
-        calorie_dict_file = 'item_calorie_dict.xlsx'
-        calorie_dict_dataframe = pd.read_excel(calorie_dict_file,engine = 'openpyxl')
-        recipes_excel = 'recipes.xlsx'
-        recipes_excel_dataframe = pd.read_excel(recipes_excel,engine = 'openpyxl')
+        calorie_dict_file = 'item_calorie_dict.csv'
+        calorie_dict_dataframe = pd.read_csv(calorie_dict_file)
+        recipes_excel = 'recipes.csv'
+        recipes_excel_dataframe = pd.read_csv(recipes_excel)
         ingredient_string = ""
         for k,v in ingre_dict.items():
             if not ('total' in k) and not ('no_of_servings' == k):
@@ -51,21 +51,19 @@ def add_meal_to_dictionary():
         ingredient_string = ingredient_string.rstrip(',')
 
         if create_meal == 1 and update_meal == 0:
-            calorie_dict_dataframe_intermediate = {'food_item':recipe_name,'measure':'1 serving','calories':total_cals,"protein":total_protein,"fats":total_fats,"carbohydrates":total_carbs}
-            calorie_dict_dataframe = calorie_dict_dataframe.append(calorie_dict_dataframe_intermediate, ignore_index = True)
+            calorie_dict_dataframe.loc[len(calorie_dict_dataframe.index)] = [recipe_name, '1 serving', total_cals, total_protein, total_fats, total_carbs]
+            calorie_dict_dataframe.to_csv('item_calorie_dict.csv',index=False)
 
-            recipes_excel_dataframe_intermediate = {'food_item':recipe_name,'ingredients':ingredient_string,'no_of_servings':no_of_servings,"calories":total_cals,"protein":total_protein,"fats":total_fats,"carbohydrates":total_carbs}
-            recipes_excel_dataframe = recipes_excel_dataframe.append(recipes_excel_dataframe_intermediate, ignore_index = True)
+            recipes_excel_dataframe.loc[len(recipes_excel_dataframe.index)] = [recipe_name, ingredient_string, no_of_servings, total_cals, total_protein, total_fats, total_carbs]
+            recipes_excel_dataframe.to_csv('recipes.csv',index=False)
         elif create_meal == 0 and update_meal == 1:
-            calorie_dict_index = calorie_dict_dataframe.index[calorie_dict_dataframe['food_item']==recipe]
-            calorie_dict_dataframe.iloc[calorie_dict_index] = [recipe,'1 serving',total_cals,total_protein,total_fats,total_carbs]
-            
-            recipes_excel_index = recipes_excel_dataframe.index[recipes_excel_dataframe['food_item']==recipe]
-            recipes_excel_dataframe.iloc[recipes_excel_index] = [recipe,ingredient_string,no_of_servings,total_cals,total_protein,total_fats,total_carbs]
-            
-        functions.update_excel_file(calorie_dict_dataframe,calorie_dict_file)
-        functions.update_excel_file(recipes_excel_dataframe,recipes_excel)
+            calorie_dict_dataframe.loc[calorie_dict_dataframe['food_item'] == recipe] = [recipe_name, '1 serving', total_cals, total_protein, total_fats, total_carbs]
+            calorie_dict_dataframe.to_csv('item_calorie_dict.csv',index=False)
+
+            recipes_excel_dataframe.loc[recipes_excel_dataframe['food_item'] == recipe] = [recipe_name, ingredient_string, no_of_servings, total_cals, total_protein, total_fats, total_carbs]
+            recipes_excel_dataframe.to_csv('recipes.csv',index=False)
         st.info("Added meal to database")
+        clear_ingredients()
 
 def clear_ingredients():
     ingredients = list()
@@ -86,7 +84,7 @@ def add_ingr():
 def update_ingredients():
     recipe_name = st.session_state['meal'].lower()
     if not (recipe_name == '') and functions.check_if_item_exists(recipe_name):
-        df = pd.read_excel('recipes.xlsx', engine="openpyxl")
+        df = pd.read_csv('recipes.csv')
         for row, value in df.iterrows():
             if value["food_item"] == recipe_name:
                 ingredient_string = value["ingredients"]
@@ -134,8 +132,4 @@ for index, ingr in enumerate(ingredients):
         del st.session_state[ingr]
         st.experimental_rerun() # This clears the task once it is checked.
 
-col3, col4 = st.columns([0.5,2])
-with col3:
-    st.button(label="Add meal", on_click=add_meal_to_dictionary, key="add_meal")
-with col4: 
-    st.button("Clear all ingredients", key="clear_ingredients", on_click=clear_ingredients)
+st.button(label="Add meal", on_click=add_meal_to_dictionary, key="add_meal")

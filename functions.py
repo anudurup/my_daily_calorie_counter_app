@@ -28,7 +28,7 @@ def get_dayname():
     return day_name
 
 def load_item_calorie_dict():
-        cd = pd.read_excel('item_calorie_dict.xlsx',engine = 'openpyxl')
+        cd = pd.read_csv('item_calorie_dict.csv')
         measures = list(cd['measure'])
         food_items = list(cd['food_item'])
         calories = list(cd['calories'])
@@ -36,17 +36,6 @@ def load_item_calorie_dict():
         fats = list(cd['fats'])
         carbohydrates = list(cd['carbohydrates'])
         return measures,food_items,calories,protein,fats,carbohydrates
-
-def update_excel_file(df,fname):
-        with pd.ExcelWriter(fname, engine="openpyxl", mode="a") as writer:
-            workBook = writer.book
-            try:
-                workBook.remove(workBook["Sheet1"])
-            except:
-                print("Worksheet does not exist")
-            finally:
-                df.to_excel(writer, sheet_name="Sheet1",index=False)
-                writer.save()
 
 def get_calories_per_food_item(ingredient):
         measures,food_items,calories,protein,fats,carbohydrates = load_item_calorie_dict()
