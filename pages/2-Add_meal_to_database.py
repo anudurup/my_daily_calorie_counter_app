@@ -150,8 +150,9 @@ st.write("Make sure the meals you add match once of these.")
 st.write("Click the checkbox to remove a recipe from this list.")
 df = pd.read_csv("recipes.csv")
 df2 = df.filter(['food_item','no_of_servings','ingredients'], axis=1)
-st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(173, 216, 230)'}),width=1000,height=600)
+st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(173, 216, 230)'}),width=1000,height=500)
 
+col3,col4 = st.columns (2)
 def remove_meal_function():    
     if st.session_state["remove_meal_index"] != "":
         remove_index = int(st.session_state["remove_meal_index"])
@@ -163,10 +164,10 @@ def remove_meal_function():
         recipes_excel_dataframe.drop(recipes_excel_dataframe.index[remove_index], inplace=True)
         recipes_excel_dataframe.to_csv("recipes.csv")
         st.session_state["remove_meal_index"] = ""
-
-st.subheader("Remove meal from database")
-st.text_input("Enter index of item to remove",key="remove_meal_index")
-st.button("Remove meal",key="remove_meal",on_click=remove_meal_function)
+with col4:
+    st.subheader("Remove meal from database")
+    st.text_input("Enter index of item to remove",key="remove_meal_index")
+    st.button("Remove meal",key="remove_meal",on_click=remove_meal_function)
 
 def update_recipe_name():
     current_name = st.session_state["current_meal"]
@@ -194,9 +195,10 @@ def update_recipe_name():
     st.session_state["current_meal"] = ""
     st.session_state["changed_meal"] = ""
 
-st.subheader("Change name of a meal")
-current_recipe_name = st.text_input(label="current meal name", placeholder="meal_name...",
-            key='current_meal')
-changed_recipe_name = st.text_input(label="changed meal name", placeholder="meal_name...",
-            key='changed_meal')
-change_recipe = st.button(label="change recipe name",key="change_recipe_name",on_click=update_recipe_name)
+with col3:
+    st.subheader("Change name of a meal")
+    current_recipe_name = st.text_input(label="current meal name", placeholder="meal_name...",
+                key='current_meal')
+    changed_recipe_name = st.text_input(label="changed meal name", placeholder="meal_name...",
+                key='changed_meal')
+    change_recipe = st.button(label="change recipe name",key="change_recipe_name",on_click=update_recipe_name)

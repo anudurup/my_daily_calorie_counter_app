@@ -9,7 +9,7 @@ mocha,"sugar:3.0 tsp,cocoa:0.67 tbsp,sweetened oat milk:0.67 cup",2.0,66.05,1.34
 khakra chaat,"tomato:1.0,onion:0.125,green capsicum:0.25,khakra:2.0,dahi:0.75 cup",2.0,174.625,10.43875,6.8475,19.0875
 tava bhindi sabji,"bhindi:4.5 pods,olive oil:2.0 tsp,garam masala:0.15 tsp,haldi:0.15 tsp,chili powder:0.15 tsp,amchoor:0.2 tbsp",2.0,110.5,4.31175,4.7745,16.21875
 lemon millet,"olive oil:1.0 tsp,barnyard millet:0.25 cup,peanuts:1.0 tbsp,raw chana dal:0.5 tbsp",1.0,297.5,8.43,11.58,40.07
-chowmein,"rava chowmein:2.0 serving,soy sauce:1.0 tbsp,white vinegar:1.0 tbsp,schezwan stir fry sauce:2.0 tbsp,red bell pepper:0.75 ,green capsicum:0.75 ,olive oil:4.0 tsp,onion:0.75 ,red chilli sauce:0.33 tbsp,green chilli sauce:0.33 tbsp,mushroom:1.0 cup",3.0,365.9513333,12.94716667,7.0335,66.02466667
+rava chowmein with schezwan sauce,"rava chowmein:2.0 serving,soy sauce:1.0 tbsp,white vinegar:1.0 tbsp,schezwan stir fry sauce:2.0 tbsp,red bell pepper:0.75 ,green capsicum:0.75 ,olive oil:4.0 tsp,onion:0.75 ,red chilli sauce:0.33 tbsp,green chilli sauce:0.33 tbsp,mushroom:1.0 cup",3.0,365.9513333,12.94716667,7.0335,66.02466667
 apple banana nuts smoothie,"flaxseed powder:0.6 tbsp,apple:1.0,spinach:0.6 cup,walnuts:1.5 tbsp,large banana:1.0,pitted date:5.0,unsweetened almond milk:1.2 cup",2.0,233.45,3.565,6.505,42.4
 masoor dal khichdi,"masoor dal:0.08 cup,barnyard millet:0.25 cup,olive oil:1.5 tsp,raw chana dal:0.5 tbsp,peanuts:1.0 tbsp,cashews:1.0 tbsp,frozen carrots and peas:0.25 cup",1.0,436.92,13.98,18.155,55.7725
 millet pongal,"barnyard millet:0.18 cup,olive oil:1.5 tsp,cashews:1.0 tbsp,mango pickle:2.0 tbsp,yellow moong dal:0.15 cup",1.0,352.73,9.71,16.34,41.28
@@ -48,7 +48,7 @@ kellogs k cereal,"unsweetened almond milk:1.0 cup,sugar:0.5 tsp,kellogg's specia
 spinach sambar,"toor dal:0.5 cup,spinach:1.0 cup,olive oil:2.0 tsp,tamarind paste:1.0 tbsp,sambar masala:1.0 tsp",4.0,86.125,4.3,2.6,12.05
 kala chana sabji,"kala chana:0.5 cup,onion:0.5 ,olive oil:1.0 tsp,tomato:2.0 ,garam masala:0.125 tsp,ginger garlic paste:0.5 tbsp",2.0,178.1,15.595,5.515,18.7075
 pizza sandwich,"whole wheat bread:2.0 slice,onion:0.125 ,tomato:0.25 ,green capsicum:0.125 ,red bell pepper:0.125 ,vegan mozzarella cheese:0.5 cup,ragu pizza sauce:0.33 cup,olive oil:1.0 tsp",1.0,462.85,13.37625,18.02125,63.36
-black bean salad,"black beans:0.25 cup,onion:0.125 ,tomato:0.25 ,green capsicum:0.125 ,red bell pepper:0.125 ,corn:0.125 ear,olive oil:0.25 tsp",2.0,107.0,7.559375,1.131875,18.1925
+"black bean,corn and bell pepper salad","black beans:0.25 cup,onion:0.125 ,tomato:0.25 ,green capsicum:0.125 ,red bell pepper:0.125 ,corn:0.125 ear,olive oil:0.25 tsp",2.0,107.0,7.559375,1.131875,18.1925
 black bean spring mix salad,"black beans:0.25 cup,tomato:2.0 ,cucumber:1.0 large,spring mix:1.5 cup,maple syrup:1.0 tsp,green capsicum:0.125 ,red bell pepper:0.125 ,dahi:0.5 cup",2.0,191.1875,16.556875,2.738125,28.20875
 aloo masala sandwich,"whole wheat bread:2.0 slice,potato:0.5  large,olive oil:0.5 tsp,vegan butter:0.33 tbsp",1.0,378.8,11.75,6.43,69.5
 apple spinach smoothie,"apple:1.0 ,spinach:1.0 cup,unsweetened almond milk:1.25 cup,pitted date:6.0 ",2.0,138.75,1.9175,1.79,28.7675

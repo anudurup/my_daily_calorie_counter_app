@@ -102,24 +102,6 @@
         "total_carbs": 40.07,
         "no_of_servings": 1.0
     },
-    "chowmein": {
-        "rava chowmein": "2.0 serving",
-        "soy sauce": "1.0 tbsp",
-        "white vinegar": "1.0 tbsp",
-        "schezwan stir fry sauce": "2.0 tbsp",
-        "red bell pepper": "0.75 ",
-        "green capsicum": "0.75 ",
-        "olive oil": "4.0 tsp",
-        "onion": "0.75 ",
-        "red chilli sauce": "0.33 tbsp",
-        "green chilli sauce": "0.33 tbsp",
-        "mushroom": "1.0 cup",
-        "total_cals": 365.95133333333325,
-        "total_protein": 12.947166666666666,
-        "total_fats": 7.0335,
-        "total_carbs": 66.02466666666668,
-        "no_of_servings": 3.0
-    },
     "masoor dal khichdi": {
         "masoor dal": "0.08 cup",
         "barnyard millet": "0.25 cup",
@@ -572,20 +554,6 @@
         "total_fats": 18.02125,
         "total_carbs": 63.36,
         "no_of_servings": 1.0
-    },
-    "black bean salad": {
-        "black beans": "0.25 cup",
-        "onion": "0.125 ",
-        "tomato": "0.25 ",
-        "green capsicum": "0.125 ",
-        "red bell pepper": "0.125 ",
-        "corn": "0.125 ear",
-        "olive oil": "0.25 tsp",
-        "total_cals": 107.0,
-        "total_protein": 7.559375,
-        "total_fats": 1.131875,
-        "total_carbs": 18.1925,
-        "no_of_servings": 2.0
     },
     "black bean spring mix salad": {
         "black beans": "0.25 cup",
@@ -1393,6 +1361,38 @@
         "total_protein": 4.311749999999999,
         "total_fats": 4.7745,
         "total_carbs": 16.21875,
+        "no_of_servings": 2.0
+    },
+    "rava chowmein with schezwan sauce": {
+        "rava chowmein": "2.0 serving",
+        "soy sauce": "1.0 tbsp",
+        "white vinegar": "1.0 tbsp",
+        "schezwan stir fry sauce": "2.0 tbsp",
+        "red bell pepper": "0.75 ",
+        "green capsicum": "0.75 ",
+        "olive oil": "4.0 tsp",
+        "onion": "0.75 ",
+        "red chilli sauce": "0.33 tbsp",
+        "green chilli sauce": "0.33 tbsp",
+        "mushroom": "1.0 cup",
+        "total_cals": 365.95133333333325,
+        "total_protein": 12.947166666666666,
+        "total_fats": 7.0335,
+        "total_carbs": 66.02466666666668,
+        "no_of_servings": 3.0
+    },
+    "black bean,corn and bell pepper salad": {
+        "black beans": "0.25 cup",
+        "onion": "0.125 ",
+        "tomato": "0.25 ",
+        "green capsicum": "0.125 ",
+        "red bell pepper": "0.125 ",
+        "corn": "0.125 ear",
+        "olive oil": "0.25 tsp",
+        "total_cals": 107.0,
+        "total_protein": 7.559375,
+        "total_fats": 1.131875,
+        "total_carbs": 18.1925,
         "no_of_servings": 2.0
     }
 }
