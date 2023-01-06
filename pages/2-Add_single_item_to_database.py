@@ -44,7 +44,7 @@ with col1:
     calories = df["calories"].to_list()
     df = pd.read_csv("item_calorie_dict.csv")
     df2 = df.filter(['food_item','measure','calories'], axis=1)
-    st.dataframe(df2,width=400,height=600)
+    st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(144, 238, 144)'}),width=400,height=600)
 
 with col2:
     st.title("Add single item to database")

@@ -121,17 +121,7 @@ with col1:
     calories = df["calories"].to_list()
     df = pd.read_csv("item_calorie_dict.csv")
     df2 = df.filter(['food_item','measure','calories'], axis=1)
-    st.dataframe(df2,width=400,height=600)    
-
-    st.subheader("List of all existing meals")
-    st.write("Make sure the meals you add match once of these.")
-    st.write("Click the checkbox to remove a recipe from this list.")
-    df = pd.read_csv("recipes.csv")
-    df2 = df.filter(['food_item','no_of_servings','ingredients'], axis=1)
-    st.dataframe(df2)
-
-    st.text_input("Enter index of item to remove",key="remove_meal_index")
-    st.button("Remove meal", key="remove_meal",on_click=remove_meal_function)
+    st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(144, 238, 144)'}),width=600,height=600)    
 
     
 with col2:
@@ -166,3 +156,13 @@ with col2:
             st.experimental_rerun() # This clears the task once it is checked.
 
     st.button(label="Add meal", on_click=add_meal_to_dictionary, key="add_meal")
+
+st.subheader("List of all existing meals")
+st.write("Make sure the meals you add match once of these.")
+st.write("Click the checkbox to remove a recipe from this list.")
+df = pd.read_csv("recipes.csv")
+df2 = df.filter(['food_item','no_of_servings','ingredients'], axis=1)
+st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(173, 216, 230)'}),width=1000,height=600)
+
+st.text_input("Enter index of item to remove",key="remove_meal_index")
+st.button("Remove meal", key="remove_meal",on_click=remove_meal_function)

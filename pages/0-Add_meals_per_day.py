@@ -4,6 +4,14 @@ import pandas as pd
 import os
 from datetime import datetime
 
+now = datetime.now()
+date = now.strftime("%b-%d-%Y")
+day = functions.get_dayname()
+day_folder = 'daily_trackers' + os.sep + f'{date}_tracker'
+
+if not os.path.exists(day_folder):
+    os.mkdir(day_folder)
+
 def delete_item_from_meal(title,item):
     print(title)
     print(item)
