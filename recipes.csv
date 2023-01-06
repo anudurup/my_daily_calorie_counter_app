@@ -31,7 +31,7 @@ apple peanut butter smoothie,"apple:1.0,peanut butter:2.0 tbsp,greek yoghurt:0.5
 gutti vankaya,"olive oil:4.0 tsp,peanuts:3.0 tbsp,sesame seeds:0.67 tbsp,coriander seeds:1.0 tbsp,cardamom:0.25 tsp,clove:4.0,shredded coconut:0.0625 cup,garlic clove:3.0,chili powder:1.5 tsp,haldi:0.25 tsp,cumin seeds:1.0 tbsp,eggplant:1.2,methi leaves:0.1 cup,cinnamon stick:1.0,tamarind paste:3.0 tbsp",4.0,170.4475,4.7870625,10.0156,18.918425
 palak sambar,"olive oil:1.5 tsp,spinach:1.0 cup,toor dal:0.125 cup,sambar masala:1.0 tsp,tamarind paste:0.5 tbsp",2.0,69.5,2.6,3.7,7.1
 bhindi dopyaza,"bhindi:2.0 pods,onion:1.0 ,olive oil:1.0 tsp,cumin seeds:0.17 tbsp,tomato:0.67 ,ginger garlic paste:1.5 tbsp,chili powder:0.33 tsp,garam masala:0.33 tsp,coriander powder:0.33 tsp,amchoor:0.17 tbsp",1.0,271.74,24.8472,13.6398,23.7178
-chana masala sabji,"olive oil:2.0 tsp,onion:0.5 ,tomato:2.0 ,chana masala:0.125 tbsp,garam masala:0.125 tsp,garbanzo beans:0.5 cup",2.0,267.75,14.70125,6.0025,13.37
+chole sabji,"olive oil:2.0 tsp,onion:0.5 ,tomato:2.0 ,chana masala:0.125 tbsp,garam masala:0.125 tsp,garbanzo beans:0.5 cup",2.0,267.75,14.70125,6.0025,13.37
 mini bell pepper salad,"mini bell pepper:20.0 ,baby carrot:9.0 ,tomato:1.3 ",2.0,124.2,8.0845,1.234,21.64
 diet bhel chaat,"diet bhel:0.75 cup,bombay sandwich chutney:3.0 tsp,tomato:0.75 ,onion:0.25 ,green capsicum:0.25 ,dahi:0.67 cup",2.0,137.5,9.22,5.905,13.53875
 rava idli,"raw chana dal:1.0 tbsp,olive oil:3.0 tsp,dahi:0.75 cup,roasted semolina:0.75 cup",9.0,79.58333333,2.731666667,2.395833333,11.72472222
@@ -110,6 +110,6 @@ coffee with oat creamer,planet oat creamer:2.0 tbsp,1.0,50.0,0.0,2.0,8.0
 red apple pear orange smoothie no yogurt,"apple:1.0 ,green pear:1.0  large,orange:1.0  large,pitted date:8.0 ,unsweetened almond milk:1.25 cup",2.0,283.25,3.0675,1.99,64.7175
 capsicum besan sabji,"green capsicum:1.0 ,besan:0.33 cup,olive oil:2.0 tsp,onion:0.75 ",1.0,263.48,19.71,11.416,26.135
 vegetable lasagna with tofu ricotta,"pasta lasagna sheet:6.0 sheet,red bell pepper:0.5 ,green capsicum:0.5 ,zucchini:1.0 medium,eggplant:4.0 ,mushroom:0.5 cup,olive oil:8.0 tsp,basil pasta sauce:2.0 cup,firm tofu:0.5 block,nutritional yeast:1.5 tbsp,half yolk egg:2.0 serving,spinach:1.0 cup,vegan mozzarella cheese:0.25 cup",4.0,560.25,23.67875,18.80875,87.05
-moong dal fry,"yellow moong dal:0.25 cup,olive oil:1.0 tsp,onion:0.25 ,tomato:1.0 ",1.0,171.75,17.17,5.14,16.945
+moong dal sabji,"yellow moong dal:0.25 cup,olive oil:1.0 tsp,onion:0.25 ,tomato:1.0 ",1.0,171.75,17.17,5.14,16.945
 veggie penne pasta no cheese,"zucchini:0.2 medium,eggplant:0.5 ,green capsicum:0.5 ,red bell pepper:0.5 ,basil pasta sauce:1.5 cup,olive oil:2.0 tsp,whole wheat pasta:1.5 cup",2.0,386.75,12.7875,10.8375,67.165
 mulitgrain roti,aashirvaad multigrain atta:2.5 cup,10.0,97.5,3.5,0.5,18.0

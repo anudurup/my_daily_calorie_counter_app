@@ -127,3 +127,19 @@ def create_total_nutrition_details(date_selectbox):
                 total_carbs += sum(carbs)
         f.write("Total consumed today" + "\n")
         f.write(f"Total Calories: {total_calories}, Total Proteins: {total_proteins}, Total Fats: {total_fats}, Total Carbs: {total_carbs}" + "\n\n")    
+
+def update_trackers_for_recipe_name_change(recipe,changed_name):
+    import glob
+    import os
+    files = glob.glob("daily_trackers\*\*.txt")
+    for file in files:
+        if ('calorie_deficit' in file) or ('total_nutrition' in file):
+            files.remove(file)
+    for file in files:
+        with open(file) as f:
+            lines = f.readlines()
+            for i,line in enumerate(lines):
+                if (recipe in line):
+                    lines[i] = changed_name + " :\n"
+            with open(file,'w') as out_file:
+                out_file.writelines(lines)

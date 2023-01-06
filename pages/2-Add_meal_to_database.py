@@ -192,6 +192,7 @@ def update_recipe_name():
     json_object = json.dumps(recipes, indent=4)
     with open("recipes.json", "w") as outfile:
         outfile.write(json_object)
+    functions.update_trackers_for_recipe_name_change(current_name,new_name)
     st.session_state["current_meal"] = ""
     st.session_state["changed_meal"] = ""
 
