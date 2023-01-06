@@ -91,19 +91,6 @@
         "total_carbs": 19.0875,
         "no_of_servings": 2.0
     },
-    "tava bhindi": {
-        "bhindi": "4.5 pods",
-        "olive oil": "2.0 tsp",
-        "garam masala": "0.15 tsp",
-        "haldi": "0.15 tsp",
-        "chili powder": "0.15 tsp",
-        "amchoor": "0.2 tbsp",
-        "total_cals": 110.5,
-        "total_protein": 4.311749999999999,
-        "total_fats": 4.7745,
-        "total_carbs": 16.21875,
-        "no_of_servings": 2.0
-    },
     "lemon millet": {
         "olive oil": "1.0 tsp",
         "barnyard millet": "0.25 cup",
@@ -133,20 +120,6 @@
         "total_carbs": 66.02466666666668,
         "no_of_servings": 3.0
     },
-    "apple banana smoothie": {
-        "flaxseed powder": "0.6 tbsp",
-        "apple": "1.0",
-        "spinach": "0.6 cup",
-        "walnuts": "1.5 tbsp",
-        "large banana": "1.0",
-        "pitted date": "5.0",
-        "unsweetened almond milk": "1.2 cup",
-        "total_cals": 233.45,
-        "total_protein": 3.5650000000000004,
-        "total_fats": 6.505000000000001,
-        "total_carbs": 42.39999999999999,
-        "no_of_servings": 2.0
-    },
     "masoor dal khichdi": {
         "masoor dal": "0.08 cup",
         "barnyard millet": "0.25 cup",
@@ -173,15 +146,6 @@
         "total_carbs": 41.28,
         "no_of_servings": 1.0
     },
-    "black coffee": {
-        "sugar": "1.0 tsp",
-        "unsweetened almond milk": "0.125 cup",
-        "total_cals": 18.75,
-        "total_protein": 0.1375,
-        "total_fats": 0.325,
-        "total_carbs": 15.5375,
-        "no_of_servings": 1.0
-    },
     "rava upma": {
         "olive oil": "1.0 tsp",
         "cashews": "1.0 tbsp",
@@ -193,19 +157,6 @@
         "total_fats": 11.597499999999998,
         "total_carbs": 35.4965,
         "no_of_servings": 1.0
-    },
-    "apple smoothie": {
-        "spinach": "1.0 cup",
-        "apple": "1.0",
-        "walnuts": "2.0 tbsp",
-        "flaxseed powder": "1.0 tbsp",
-        "unsweetened almond milk": "1.2 cup",
-        "pitted date": "6.0",
-        "total_cals": 205.5,
-        "total_protein": 3.64,
-        "total_fats": 8.125,
-        "total_carbs": 30.74,
-        "no_of_servings": 2.0
     },
     "indian milk tea": {
         "sugar": "3.0 tsp",
@@ -1394,5 +1345,54 @@
         "total_fats": 0.5,
         "total_carbs": 18.0,
         "no_of_servings": 10.0
+    },
+    "apple smoothie with almond milk": {
+        "spinach": "1.0 cup",
+        "apple": "1.0 ",
+        "walnuts": "2.0 tbsp",
+        "flaxseed powder": "1.0 tbsp",
+        "unsweetened almond milk": "1.2 cup",
+        "pitted date": "6.0 ",
+        "total_cals": 205.5,
+        "total_protein": 2.1,
+        "total_fats": 6.7,
+        "total_carbs": 30.6,
+        "no_of_servings": 2.0
+    },
+    "apple banana nuts smoothie": {
+        "flaxseed powder": "0.6 tbsp",
+        "apple": "1.0",
+        "spinach": "0.6 cup",
+        "walnuts": "1.5 tbsp",
+        "large banana": "1.0",
+        "pitted date": "5.0",
+        "unsweetened almond milk": "1.2 cup",
+        "total_cals": 233.45,
+        "total_protein": 3.5650000000000004,
+        "total_fats": 6.505000000000001,
+        "total_carbs": 42.39999999999999,
+        "no_of_servings": 2.0
+    },
+    "coffee with almond milk": {
+        "sugar": "1.0 tsp",
+        "unsweetened almond milk": "0.125 cup",
+        "total_cals": 18.75,
+        "total_protein": 0.1375,
+        "total_fats": 0.325,
+        "total_carbs": 15.5375,
+        "no_of_servings": 1.0
+    },
+    "tava bhindi sabji": {
+        "bhindi": "4.5 pods",
+        "olive oil": "2.0 tsp",
+        "garam masala": "0.15 tsp",
+        "haldi": "0.15 tsp",
+        "chili powder": "0.15 tsp",
+        "amchoor": "0.2 tbsp",
+        "total_cals": 110.5,
+        "total_protein": 4.311749999999999,
+        "total_fats": 4.7745,
+        "total_carbs": 16.21875,
+        "no_of_servings": 2.0
     }
 }

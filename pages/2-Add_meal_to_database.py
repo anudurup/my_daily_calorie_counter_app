@@ -99,18 +99,6 @@ def update_ingredients():
         with open('new_recipe.txt','w') as f:
             f.writelines(ingredients)
 
-def remove_meal_function():    
-    if st.session_state["remove_meal_index"] != "":
-        remove_index = int(st.session_state["remove_meal_index"])
-        calorie_dict_dataframe = pd.read_csv("item_calorie_dict.csv")    
-        calorie_dict_dataframe.drop(calorie_dict_dataframe.index[remove_index], inplace=True)
-        functions.update_excel_file(calorie_dict_dataframe, "item_calorie_dict.csv")
-        
-        recipes_excel_dataframe = pd.read_csv("recipes.csv")
-        recipes_excel_dataframe.drop(recipes_excel_dataframe.index[remove_index], inplace=True)
-        functions.update_excel_file(recipes_excel_dataframe, "recipes.csv")
-        st.session_state["remove_meal_index"] = ""
-
 col1,empty_col,col2 = st.columns([5,1,5])
 with col1:
     st.subheader("List of all existing ingredients")
@@ -164,5 +152,51 @@ df = pd.read_csv("recipes.csv")
 df2 = df.filter(['food_item','no_of_servings','ingredients'], axis=1)
 st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(173, 216, 230)'}),width=1000,height=600)
 
+def remove_meal_function():    
+    if st.session_state["remove_meal_index"] != "":
+        remove_index = int(st.session_state["remove_meal_index"])
+        calorie_dict_dataframe = pd.read_csv("item_calorie_dict.csv")    
+        calorie_dict_dataframe.drop(calorie_dict_dataframe.index[remove_index], inplace=True)
+        calorie_dict_dataframe.to_csv("item_calorie_dict.csv")
+        
+        recipes_excel_dataframe = pd.read_csv("recipes.csv")
+        recipes_excel_dataframe.drop(recipes_excel_dataframe.index[remove_index], inplace=True)
+        recipes_excel_dataframe.to_csv("recipes.csv")
+        st.session_state["remove_meal_index"] = ""
+
+st.subheader("Remove meal from database")
 st.text_input("Enter index of item to remove",key="remove_meal_index")
-st.button("Remove meal", key="remove_meal",on_click=remove_meal_function)
+st.button("Remove meal",key="remove_meal",on_click=remove_meal_function)
+
+def update_recipe_name():
+    current_name = st.session_state["current_meal"]
+    new_name = st.session_state["changed_meal"]
+    df = pd.read_csv("recipes.csv")
+    index = df.index[df['food_item']==current_name]
+    df.at[index,'food_item'] = new_name
+    df.to_csv("recipes.csv",index=False)
+    df = pd.read_csv("item_calorie_dict.csv")
+    index = df.index[df['food_item']==current_name]
+    df.at[index,'food_item'] = new_name
+    df.to_csv("item_calorie_dict.csv",index=False)
+    f = open("recipes.json")
+    recipes = json.load(f)
+    recipes[new_name] = recipes[current_name]
+    del recipes[current_name]
+    f.close()
+    import os
+    file = 'recipes.json'
+    if (os.path.exists(file)):
+        os.remove(file)
+    json_object = json.dumps(recipes, indent=4)
+    with open("recipes.json", "w") as outfile:
+        outfile.write(json_object)
+    st.session_state["current_meal"] = ""
+    st.session_state["changed_meal"] = ""
+
+st.subheader("Change name of a meal")
+current_recipe_name = st.text_input(label="current meal name", placeholder="meal_name...",
+            key='current_meal')
+changed_recipe_name = st.text_input(label="changed meal name", placeholder="meal_name...",
+            key='changed_meal')
+change_recipe = st.button(label="change recipe name",key="change_recipe_name",on_click=update_recipe_name)
