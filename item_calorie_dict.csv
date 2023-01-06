@@ -33,10 +33,17 @@ strawberry,1,3.8,0.1,0.0,0.9
 restaurant tandoori roti,1,165.0,6.0,1.0,28.0
 oat and chocolate digestive,1,70.0,1.0,3.5,10.0
 baklava piece,1,306.0,5.5,20.0,29.0
+whole wheat pizza crust,1,390.0,12.0,6.0,78.0
+avocado,1,320.0,4.0,29.4,17.0
+pappad small,2,50.0,3.0,0.0,10.0
+generic mini veg uttapam,2,181.0,4.0,11.0,18.0
+caramel popcorn with cashews,0.33 cup,120.0,1.0,6.0,16.0
+firm tofu,1 block,320.0,40.0,20.0,10.0
 blueberry,1 box,229.0,2.97,1.33,58.25
 movie large popcorn,1 bucket,1120.0,21.0,77.0,154.0
 jackfruit,1 bulb,18.6,0.3,0.0,4.7
 coriander leaves,1 bunch,10.0,1.0,0.3,2.0
+crumbl brownie cookie,1 cookie,600.0,8.0,32.0,72.0
 dahi,1 cup,150.0,10.0,7.0,14.0
 barnyard millet,1 cup,756.0,22.0,8.0,146.0
 urad dal,1 cup,735.0,48.0,4.0,124.0
@@ -85,18 +92,35 @@ soya chunks,1 cup,160.0,24.0,0.0,15.0
 restaurant bhindi fry,1 cup,196.0,2.9,17.0,12.0
 white rice,1 cup,716.0,13.0,1.0,158.0
 collard greens,1 cup,76.0,4.1,4.3,6.5
+basil pasta sauce,1 cup,140.0,4.0,5.0,22.0
+vegan mozzarella cheese,1 cup,320.0,0.0,20.0,32.0
+pista,1 cup,684.0,25.36,54.68,34.4
+generic quick upma,1 cup,768.0,16.0,23.2,122.8
+rajma,1 cup,612.0,43.4,1.5,110.4
+murmura chivda,1 cup,113.0,1.2,7.6,9.9
+skinny popcorn,1 cup,40.0,0.533,2.67,4.0
+jalapeno makhana,1 cup,84.0,0.0,4.0,20.0
+all purpose flour,1 cup,455.0,12.0,1.2,95.4
+green peas,1 cup,118.0,8.0,0.6,21.0
 corn,1 ear,123.0,4.7,1.9,27.0
 potato,1 large,278.0,7.5,0.4,63.0
 cucumber,1 large,42.0,1.8,0.3,10.0
 nectarine,1 large,69.0,1.7,0.5,16.0
 peach,1 large,68.0,1.6,0.4,17.0
+green pear,1 large,160.0,1.1,0.2,38.0
+orange,1 large,90.0,1.7,0.3,23.0
+zucchini,1 medium,30.0,2.3,0.7,5.4
 top ramen masala noodles,1 pack,277.0,5.34,11.22,38.76
 maggie masala noodles,1 pack,310.0,6.0,13.0,43.0
+mtr tomato rice powder,1 pack,40.4,0.6,1.2,6.8
+mtr lemon rice powder,1 pack,57.0,0.8,2.6,7.6
 multigrain pav,1 piece,111.0,4.1,0.57,21.73
 generic samosa chaat,1 plate,292.0,8.6,14.2,29.8
+pasta lasagna sheet,1 sheet,85.0,3.5,0.5,18.5
 whole wheat bread,1 slice,100.0,4.0,1.0,19.0
 rasmalai cake slice,1 slice,408.0,4.0,27.0,37.0
 blaze pizza vegan with red and green sauce,1 slice,120.0,3.0,4.0,17.0
+spring onion,1 stalk,4.8,0.3,0.0,1.1
 amchoor,1 tbsp,36.0,0.0,0.0,9.0
 cocoa,1 tbsp,10.0,1.0,0.5,3.0
 walnuts,1 tbsp,49.0,1.1,4.9,1.0
@@ -132,6 +156,9 @@ honey,1 tbsp,60.0,0.0,0.0,17.0
 worcestershire sauce,1 tbsp,13.0,0.0,0.0,3.3
 nutritional yeast,1 tbsp,28.0,3.8,0.6,3.2
 buffalo sauce,1 tbsp,1.8,0.2,0.1,0.1
+goji berries,1 tbsp,20.0,0.8,0.0,4.2
+planet oat creamer,1 tbsp,25.0,0.0,1.0,4.0
+veer ginger garlic paste,1 tbsp,170.0,4.0,8.0,12.0
 chili powder,1 tsp,8.0,0.32,0.44,1.42
 coriander powder,1 tsp,5.0,0.22,0.32,0.99
 haldi,1 tsp,8.0,0.17,0.22,1.43
@@ -148,165 +175,126 @@ chawanprash,1 tsp,50.0,0.0,0.0,11.0
 bombay chutney,1 tsp,6.0,0.0,0.0,1.0
 jaggery,1 tsp,15.8,0.0,0.0,4.0
 ghee,1 tsp,37.0,0.0,4.3,0.0
-basil pasta sauce,1 cup,140.0,4.0,5.0,22.0
-crumbl brownie cookie,1 cookie,600.0,8.0,32.0,72.0
-vegan mozzarella cheese,1 cup,320.0,0.0,20.0,32.0
-pista,1 cup,684.0,25.36,54.68,34.4
-generic quick upma,1 cup,768.0,16.0,23.2,122.8
-pappad small,2,50.0,3.0,0.0,10.0
-generic mini veg uttapam,2,181.0,4.0,11.0,18.0
+pumpkin pie spice,1 tsp,5.8,0.1,0.2,1.2
+bouillon cube,1 tsp,11.0,0.4,0.4,1.7
+truvia stevia brown sugar,1 tsp,10.0,0.0,0.0,4.0
+sunfeast 5 grain digestive,2 biscuits,97.0,7.7,4.4,13.3
 oats ginger chilli khakra,2 pieces,200.0,4.0,10.0,24.0
+see's candies assorted,2 pieces,180.0,2.0,11.0,23.0
 drumstick,3 pieces,6.7,0.7,0.0,1.0
 marshmallow,4 pieces,92.0,0.5,0.0,23.6
 pani puri dry,5 pieces,100.0,2.0,4.0,17.0
 bhindi,8 pods,29.0,1.9,0.1,6.68
-pumpkin pie spice,1 tsp,5.8,0.1,0.2,1.2
-zucchini,1 medium,30.0,2.3,0.7,5.4
-bouillon cube,1 tsp,11.0,0.4,0.4,1.7
-goji berries,1 tbsp,20.0,0.8,0.0,4.2
-poha,1 serving,183.15,3.15,13.65,4.2
-makhana,1 serving,90.0,2.0,3.5,13.0
-rava chowmein,1 serving,372.0,10.0,0.5,82.0
-harvest snaps green peas,1 serving,130.0,5.0,5.0,16.0
-millet dosa,1 serving,129.95625,4.3,2.875,20.675
-coriander chutney,1 serving,68.91666667,6.75,3.5,2.416666667
-half yolk egg,1 serving,46.0,4.0,2.0,0.0
-multigrain roti,1 serving,97.5,3.5,0.5,18.0
-moong dal khichdi,1 serving,396.53,15.05,11.63,49.45
-berry banana smoothie,1 serving,246.5,5.7,1.7,52.1
-mocha,1 serving,147.1,2.68,3.35,72.73
-khakra chaat,1 serving,174.625,10.3125,6.625,18.6875
-tava bhindi,1 serving,115.0,2.4,4.15,15.525
-lemon millet,1 serving,297.5,8.0,10.5,39.0
-chowmein,1 serving,351.1966667,11.25,5.333333333,62.13333333
-apple banana smoothie,1 serving,233.45,2.15,5.1,45.25
-masoor dal khichdi,1 serving,436.92,13.36,16.66,54.55
-millet pongal,1 serving,351.73,8.71,15.59,40.28
-black coffee,1 serving,18.75,0.125,0.25,15.125
-rava upma,1 serving,276.14,7.58,10.58,34.74
-apple smoothie,1 serving,205.5,2.1,6.7,33.6
-indian milk tea,1 serving,62.7,1.005,1.675,27.86
-red sauce pasta,1 serving,387.45,12.4125,14.8,49.2625
-egg fried millet,1 serving,555.429,18.503,18.332,70.829
-aloo paratha,1 serving,245.6,5.4,9.0,37.6
-beans sabji,1 serving,96.0,7.0,7.0,29.5
-brinjal sabji,1 serving,154.24,3.58,4.06,22.88
-spring mix salad,1 serving,142.5,0.5,6.0,8.0
-pani puri chaat,1 serving,53.83,2.3875,1.4,9.2075
-pesarattu upma,1 serving,489.25,24.75,14.25,63.125
-panchmel dal,1 serving,140.875,7.71875,5.28125,12.5
-millet biryani,1 serving,505.93,13.085,15.915,74.53
-pumpkin chutney,1 serving,74.0,2.0,3.666666667,6.833333333
-apple peanut butter smoothie,1 serving,264.0,12.0,14.5,20.5
-gutti vankaya,1 serving,169.2975,3.79875,8.595,16.8725
-palak sambar,1 serving,69.25,2.0,3.125,7.0
-bhindi dopyaza,1 serving,221.87,11.93,9.835,19.35
-chana masala sabji,1 serving,267.75,14.5,5.0625,12.625
-mini bell pepper salad,1 serving,114.95,4.55,0.0,10.65
-diet bhel chaat,1 serving,169.25,9.9375,7.125,17.5625
-rava idli,1 serving,79.58333333,2.694444444,2.111111111,11.58333333
-pesarattu,1 serving,53.8,1.95,2.05,6.4
-carrot chutney,1 serving,45.5,0.5,2.5,1.5
-quinoa dosa,1 serving,54.7558,2.6156,0.70625,9.1718
-ragi dosa,1 serving,135.2666667,4.066666667,2.233333333,24.46666667
-bajra pesarattu,1 serving,65.0,2.21875,1.75,9.90625
-tomato pachadi,1 serving,65.86375,7.49,2.215,2.345
-vermicelli upma,1 serving,173.85,3.89,6.58,15.11
-mixed veg raita,1 serving,56.5,6.25,1.75,5.125
-methi thepla,1 serving,126.5,4.83,2.081,20.312
-kellogs k cereal,1 serving,247.5,5.5,2.0,59.5
-spinach sambar,1 serving,65.6,2.64,2.165,8.26
-spinach sambar,1 serving,86.0,4.0,2.25,12.0
-kala chana sabji,1 serving,177.875,15.25,4.75,17.8125
-pizza sandwich,1 serving,342.85,13.195,9.82,50.975
-black bean salad,1 serving,213.875,14.625,1.625,36.0
-cookies and cream mousse cup,1 serving,240.0,0.0,20.0,31.0
-aloo masala sandwich,1 serving,381.3,11.5,5.98,69.5
-apple spinach smoothie,1 serving,221.75,9.625,1.25,41.375
-bajra roti,1 serving,171.9,5.4,1.5,32.7
-black bean spring mix salad,1 serving,191.125,15.25,2.0,26.625
-bhindi fry,1 serving,86.625,1.5,4.0,9.6875
-avocado egg sandwich,1 serving,339.2,12.8,19.5,27.9
-oat khakra chaat,1 serving,290.125,12.3125,12.625,33.1875
-quinoa rice flour dosa,1 serving,95.28571429,2.642857143,0.142857143,18.07142857
+millet dosa,1 serving,129.95625,4.3325,3.1755,20.699
+coriander chutney,1 serving,68.91666667,6.974166667,4.263333333,3.086666667
+half yolk egg,1 serving,46.0,4.95,2.35,0.5
+roti,1 serving,86.66666667,3.111111111,0.444444444,16.0
+moong dal khichdi,1 serving,396.53,16.085,14.76,51.7575
+berry banana smoothie,1 serving,246.5,7.175,2.86,52.265
+mocha,1 serving,66.05,1.34,1.8425,29.465
+khakra chaat,1 serving,174.625,10.43875,6.8475,19.0875
+tava bhindi,1 serving,110.5,4.31175,4.7745,16.21875
+lemon millet,1 serving,297.5,8.43,11.58,40.07
+chowmein,1 serving,365.9513333,12.94716667,7.0335,66.02466667
+apple banana smoothie,1 serving,233.45,3.565,6.505,42.4
+masoor dal khichdi,1 serving,436.92,13.98,18.155,55.7725
+millet pongal,1 serving,352.73,9.71,16.34,41.28
+black coffee,1 serving,18.75,0.1375,0.325,15.5375
+rava upma,1 serving,276.14,7.856,11.5975,35.4965
+apple smoothie,1 serving,205.5,3.64,8.125,30.74
+indian milk tea,1 serving,62.7,1.005,1.675,28.46
+egg fried millet,1 serving,555.429,19.04105,19.926,71.96035
+aloo paratha,1 serving,241.375,6.25,6.35,38.25
+beans sabji,1 serving,96.0,7.2,7.65,29.95
+brinjal sabji,1 serving,149.1333333,10.5845,8.263,49.7425
+spring mix salad,1 serving,142.5,3.6,7.365,16.895
+red sauce pasta,1 serving,577.45,14.99125,26.69625,72.51125
+pani puri chaat,1 serving,53.83,2.4442,1.5194,9.2601
+panchmel dal,1 serving,137.125,7.889375,6.3775,12.903125
+millet biryani,1 serving,501.43,13.63425,17.3355,74.84075
+pumpkin chutney,1 serving,74.0,2.338333333,4.245,7.795
+apple peanut butter smoothie,1 serving,264.0,12.49,15.875,17.71
+gutti vankaya,1 serving,170.4475,4.7870625,10.0156,18.918425
+palak sambar,1 serving,69.5,2.6,3.7,7.1
+bhindi dopyaza,1 serving,271.74,24.8472,13.6398,23.7178
+chana masala sabji,1 serving,267.75,14.70125,6.0025,13.37
+mini bell pepper salad,1 serving,124.2,8.0845,1.234,21.64
+diet bhel chaat,1 serving,137.5,9.22,5.905,13.53875
+rava idli,1 serving,79.58333333,2.731666667,2.395833333,11.72472222
+pesarattu,1 serving,53.8,1.977,2.3535,6.4605
+carrot chutney,1 serving,47.0,0.9,3.0,4.3
+quinoa dosa,1 serving,54.7558,2.63989,0.776788,9.260544
+ragi dosa,1 serving,135.2666667,4.104,2.421333333,24.492
+bajra pesarattu,1 serving,65.0,2.24875,1.96,9.943125
+tomato pachadi,1 serving,65.86375,7.753,2.93,3.592
+vermicelli upma,1 serving,293.85,7.1281,19.4657,24.9585
+mixed veg raita,1 serving,56.5,6.4025,1.8925,5.3225
+methi thepla,1 serving,126.5,4.83,2.216,20.312
+kellogs k cereal,1 serving,247.5,5.6,3.35,59.8
+spinach sambar,1 serving,86.125,4.3,2.6,12.05
+kala chana sabji,1 serving,178.1,15.595,5.515,18.7075
+pizza sandwich,1 serving,462.85,13.37625,18.02125,63.36
+black bean salad,1 serving,107.0,7.559375,1.131875,18.1925
+black bean spring mix salad,1 serving,191.1875,16.556875,2.738125,28.20875
+aloo masala sandwich,1 serving,378.8,11.75,6.43,69.5
+apple spinach smoothie,1 serving,138.75,1.9175,1.79,28.7675
+bajra roti,1 serving,171.9,5.4,1.56,32.7
+bhindi fry,1 serving,86.625,2.87,4.6775,10.73375
+avocado egg sandwich,1 serving,348.8,17.252,15.144,33.59
+oat khakra chaat,1 serving,290.525,12.43875,12.8475,33.5875
+quinoa rice flour dosa,1 serving,96.04151429,3.287028571,0.863392857,18.24322857
 buttermilk,1 serving,9.375,0.625,0.4375,0.875
-drumstick sambar,1 serving,113.375,4.0,4.25,13.3125
-tandoori makhana,1 serving,90.0,2.0,3.5,13.0
-blueberry banana smoothie,1 serving,287.25,8.125,1.75,61.625
-cashew mushroom makhana curry,1 serving,188.975,8.705,12.0,11.79
-achari baingan,1 serving,132.5,5.0,7.816666667,10.0
-capsicum besan bhaji,1 serving,140.01,6.1,6.0,14.54
-mushroom bell pepper fry,1 serving,94.875,6.875,5.25,3.75
-vegan chickpea burger patty,1 serving,160.875,6.1875,4.6875,10.0
-spinach carrot paratha,1 serving,126.55,4.0125,2.75,19.1125
-masoor dal tadka,1 serving,155.4,8.68,4.155,18.895
-aloo bhindi,1 serving,288.0,4.5,12.0,37.5
-homemade poha,1 serving,209.15,4.15,15.65,4.7
-masoor dal palak khichdi,1 serving,187.155,6.085,2.93,32.645
-soya chunks pulao,1 serving,223.15,20.75,5.0,23.85
-apple spinach flaxseed smoothie,1 serving,192.5,1.125,2.75,37.375
-restaurant dal tadka,1 serving,259.0,12.0,10.7,28.9
-restaurant paneer butter masala,1 serving,660.0,29.3,51.1,20.4
-restaurant veg biryani,1 serving,448.0,8.9,18.2,60.8
-restaurant sweet pongal,1 serving,272.0,3.8,6.9,48.7
-restaurant veg raita,1 serving,30.0,2.3,0.1,5.0
-rice flour and sooji dosa,1 serving,101.2875,3.03125,2.085,17.34375
-aloo capsicum sabji,1 serving,119.75,7.375,2.0,18.125
-rice kheer,1 serving,305.5,4.875,7.875,80.75
-aloo spinach carrot paratha,1 serving,176.4,4.4,2.0,30.8
-peanut butter sandwich,1 serving,324.0,12.0,10.0,49.5
-green apple pear orange smoothie,1 serving,295.0,9.5,0.0,64.75
-strawberry blueberry banana smoothie,1 serving,194.125,7.125,1.375,36.125
-homemade tomato pasta,1 serving,270.03,12.11,6.3,42.97
-aloo millet pulao,1 serving,374.4,8.6,8.0,55.9
-aloo millet pulao with ghee,1 serving,371.4,8.6,8.0,55.9
-coriander coconut chutney,1 serving,121.875,3.75,5.0,16.125
-restaurant kadai vegetable,1 serving,145.0,4.5,5.5,23.0
-restaurant paneer tikka masala,1 serving,230.0,11.0,17.0,5.0
-chana masala sabji with ghee,1 serving,256.5,12.75,5.0625,12.375
-rava dosa,1 serving,137.4166667,3.5,2.291666667,24.25
-nirvanaah chocolate sundae,1 serving,437.0,5.99,22.64,54.1
-strawberry blueberry smoothie,1 serving,228.0,8.325,1.5,42.125
-brinjal sambar,1 serving,195.75,8.0,4.5,30.125
-bhindi pulao,1 serving,496.5665236,9.656652361,24.89270386,58.15450644
-masala masoor,1 serving,276.17,19.235,4.66,36.925
-green peas pulao,1 serving,322.7467811,8.154506438,8.798283262,50.42918455
-apple pumpkin smoothie,1 serving,196.125,6.5625,0.5,41.4375
-sprouts khichdi,1 serving,398.325,6.275,17.6,53.825
-goji berry pear smoothie,1 serving,285.875,2.0625,6.625,53.5625
-millet idli,1 serving,82.665,3.3,0.96,14.7
-apple pear smoothie,1 serving,245.0,6.5,1.0,49.5
-rajma,1 cup,612.0,43.4,1.5,110.4
-ghee rajma sabji,1 serving,155.9166667,12.58333333,3.5,18.91666667
-murmura chivda,1 cup,113.0,1.2,7.6,9.9
-whole wheat pizza crust,1,390.0,12.0,6.0,78.0
-firm tofu,1 block,320.0,40.0,20.0,10.0
-filter coffee mocha,1 serving,94.2,1.005,1.675,57.86
-indian style vegan tofu pizza,1 serving,424.0,25.0,14.5,54.75
-caramel popcorn with cashews,0.33 cup,120.0,1.0,6.0,16.0
-skinny popcorn,1 cup,40.0,0.533,2.67,4.0
-kala chana onion tomato salad,1 serving,75.845,5.6575,0.99,10.7075
-high protein soya chunks dosa,1 serving,104.7083333,4.3125,2.291666667,15.27083333
-ragada pattice,1 serving,300.2916667,13.95833333,1.875,64.66666667
-spring onion,1 stalk,4.8,0.3,0.0,1.1
-spring onion tambali,1 serving,62.625,2.5625,3.5,5.625
-goji berry apple smoothie,1 serving,222.75,2.125,6.75,34.125
-sunfeast 5 grain digestive,2 biscuits,97.0,7.7,4.4,13.3
-vegan blueberry no bake cheesecake,1 serving,330.7616667,2.776666667,5.388333333,37.52333333
-see's candies assorted,2 pieces,180.0,2.0,11.0,23.0
-jalapeno makhana,1 cup,84.0,0.0,4.0,20.0
-all purpose flour,1 cup,455.0,12.0,1.2,95.4
-madatha kaja,1 serving,617.0,3.0,33.25,203.75
-planet oat creamer,1 tbsp,25.0,0.0,1.0,4.0
-veer ginger garlic paste,1 tbsp,170.0,4.0,8.0,12.0
-mtr tomato rice powder,1 pack,40.4,0.6,1.2,6.8
-tomato millet with powder,1 serving,323.3333333,7.5,11.66666667,42.33333333
+blueberry banana smoothie,1 serving,287.25,9.3225,2.44,61.8125
+drumstick sambar,1 serving,114.28125,4.89375,4.76875,13.31875
+cashew mushroom makhana curry,1 serving,188.975,9.048,12.878,12.3865
+achari baingan,1 serving,132.5,5.726666667,8.653333333,10.53
+capsicum besan bhaji,1 serving,140.01,6.6614,6.9248,15.2627
+mushroom bell pepper fry,1 serving,94.875,7.3125,6.24,4.675
+vegan chickpea burger patty,1 serving,160.875,6.2275,5.2425,10.095
+spinach carrot paratha,1 serving,126.575,4.1075,3.0125,19.1625
+masoor dal tadka,1 serving,155.4,8.795,4.686,19.078
+aloo bhindi,1 serving,288.0,5.65,13.8,38.18
+homemade poha,1 serving,325.20000000000005,6.3500000000000005,8.5,50.35
+masoor dal palak khichdi,1 serving,374.31,13.235,6.592,65.39
+soya chunks pulao,1 serving,223.15,20.9635,5.857,24.133
+apple spinach flaxseed smoothie,1 serving,192.5,2.7575,3.3475,37.5325
+rice flour and sooji dosa,1 serving,101.2875,3.07875,2.278125,17.3675
+aloo capsicum sabji,1 serving,119.75,7.6875,2.615,18.625
+rice kheer,1 serving,305.5,5.375,9.9,83.2
+aloo spinach carrot paratha,1 serving,177.3,5.26,2.85,31.46
+peanut butter sandwich,1 serving,324.0,12.01,10.06,49.63
+green apple pear orange smoothie,1 serving,324.5,11.45,0.4,70.75
+strawberry blueberry banana smoothie,1 serving,196.125,8.27875,1.90375,38.48375
+homemade tomato pasta,1 serving,287.53,13.39485,8.43505,46.2356
+aloo millet pulao,1 serving,534.4,12.915,24.785,68.235
+aloo millet pulao with ghee,1 serving,531.4,12.915,24.585,68.235
+coriander coconut chutney,1 serving,121.9125,3.90625,5.2875,16.1875
+chana masala sabji with ghee,1 serving,256.5,12.91875,5.7125,12.97
+rava dosa,1 serving,137.4166667,3.548333333,2.579166667,24.3025
+strawberry blueberry smoothie,1 serving,231.2,9.83,1.9575,45.85
+brinjal sambar,1 serving,195.8125,8.8375,5.2375,30.7375
+bhindi pulao,1 serving,353.2188841,9.656652361,11.69527897,53.58798283
+masala masoor,1 serving,276.17,19.32,5.355,37.2725
+green peas pulao,1 serving,364.1087513,8.83143915,10.25714233,57.81742158
+apple pumpkin smoothie,1 serving,196.125,7.4975,0.885,38.54125
+sprouts khichdi,1 serving,398.325,6.745,18.2075,53.92625
+goji berry pear smoothie,1 serving,344.875,4.96875,8.0625,65.81875
+millet idli,1 serving,82.668,3.3085,0.9801,14.7088
+apple pear smoothie,1 serving,274.5,8.08,1.515,55.58
+ghee rajma sabji,1 serving,155.9166667,12.73083333,4.136666667,19.29666667
+filter coffee mocha,1 serving,94.575,1.0675,1.8,59.1225
+indian style vegan tofu pizza,1 serving,544.0,25.34,23.045,67.5225
+kala chana onion tomato salad,1 serving,75.9935,5.733,1.104,10.98025
+high protein soya chunks dosa,1 serving,104.7083333,4.348333333,2.584166667,15.32083333
+ragada pattice,1 serving,303.4979167,14.15791667,2.222083333,64.73833333
+spring onion tambali,1 serving,63.225,2.809375,3.625,5.7
+goji berry apple smoothie,1 serving,222.75,4.0175,8.14,34.4175
+vegan blueberry no bake cheesecake,1 serving,330.7616667,6.536683333,15.94648333,45.12375
+madatha kaja,1 serving,617.0,3.0,36.975,208.65
+tomato millet with powder,1 serving,323.6,8.241666667,12.90833333,43.69166667
 coffee with oat creamer,1 serving,50.0,0.0,2.0,8.0
-red apple pear orange smoothie no yogurt,1 serving,253.75,1.125,1.25,58.625
-mtr lemon rice powder,1 pack,57.0,0.8,2.6,7.6
-capsicum besan sabji,1 serving,263.48,19.18,9.98,25.24
-pasta lasagna sheet,1 sheet,85.0,3.5,0.5,18.5
-vegetable lasagna with tofu ricotta,1 serving,560.25,21.75,16.25,85.875
-truvia stevia brown sugar,1 tsp,10.0,0.0,0.0,4.0
-moong dal fry,1 serving,171.75,17.0,4.25,16.25
-veggie penne pasta no cheese,1 serving,386.75,11.95,9.5,66.75
+red apple pear orange smoothie no yogurt,1 serving,283.25,3.0675,1.99,64.7175
+capsicum besan sabji,1 serving,263.48,19.71,11.416,26.135
+vegetable lasagna with tofu ricotta,1 serving,560.25,23.67875,18.80875,87.05
+moong dal fry,1 serving,171.75,17.17,5.14,16.945
+veggie penne pasta no cheese,1 serving,386.75,12.7875,10.8375,67.165
