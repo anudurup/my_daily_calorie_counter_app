@@ -15,7 +15,9 @@ moong dal fry :
 Calories: 34.2, Measure: 0.2 serving, Protein: 3.4000000000000004, Fats: 1.0, Carbs: 3.2
 frozen roti :
 Calories: 100.5, Measure: 0.67, Protein: 2.68, Fats: 3.35, Carbs: 16.75
-Total Calories: 442.7, Total Proteins: 18.78, Total Fats: 14.549999999999999, Total Carbs: 66.45
+filter coffee mocha :
+Calories: 94.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 59.0
+Total Calories: 536.7, Total Proteins: 19.78, Total Fats: 15.549999999999999, Total Carbs: 125.45
 
 Snack
 nectarine :
@@ -27,5 +29,5 @@ Total Calories: 249.0, Total Proteins: 3.0, Total Fats: 11.0, Total Carbs: 39.0
 Salad
 Dinner
 Total consumed today
-Total Calories: 1017.7, Total Proteins: 28.78, Total Fats: 38.55, Total Carbs: 148.45
+Total Calories: 1111.7, Total Proteins: 29.78, Total Fats: 39.55, Total Carbs: 207.45
 

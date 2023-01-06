@@ -6,3 +6,5 @@ moong dal fry :
 Calories: 34.2, Measure: 0.2 serving, Protein: 3.4000000000000004, Fats: 1.0, Carbs: 3.2
 frozen roti :
 Calories: 100.5, Measure: 0.67, Protein: 2.68, Fats: 3.35, Carbs: 16.75
+filter coffee mocha :
+Calories: 94.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 59.0

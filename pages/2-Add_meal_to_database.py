@@ -3,7 +3,7 @@ import functions
 import pandas as pd
 import json
 
-st.set_page_config(layout="wide", page_title="3-Add_meal_to_database.py")
+st.set_page_config(layout="wide", page_title="2-Add_meal_to_database.py")
 def add_meal_to_dictionary():        
         f = open('new_recipe.txt')
         lines = f.readlines()

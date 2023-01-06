@@ -2,7 +2,7 @@ import streamlit as st
 import functions
 import pandas as pd
 
-st.set_page_config(layout="wide", page_title="2-Add_single_item_to_database.py")
+st.set_page_config(layout="wide", page_title="1-Add_single_item_to_database.py")
 def add_item_to_dictionary():        
         item = st.session_state['food_item'].lower()
         fname = 'item_calorie_dict.csv'
