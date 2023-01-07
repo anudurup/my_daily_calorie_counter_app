@@ -16,7 +16,7 @@ def add_item_to_dictionary():
         update_flag = 0
         if item in df['food_item'].values:
             update_flag = 1
-            df.loc[len(df.index)]  = [item,measure,calories,protein,fats,carbs]
+            df.loc[df['food_item']==item]  = [item,measure,calories,protein,fats,carbs]
         else:
             df.loc[len(df.index)] = [item,measure,calories,protein,fats,carbs]
         df.to_csv('item_calorie_dict.csv',index=False)
