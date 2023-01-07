@@ -63,6 +63,8 @@ def add_meal_to_dictionary():
 
             recipes_excel_dataframe.loc[recipes_excel_dataframe['food_item'] == recipe] = [recipe_name, ingredient_string, no_of_servings, total_cals, total_protein, total_fats, total_carbs]
             recipes_excel_dataframe.to_csv('recipes.csv',index=False)
+
+            functions.update_daily_tracker_on_meal_update(recipe)
         st.info("Added meal to database")
         clear_ingredients()
 

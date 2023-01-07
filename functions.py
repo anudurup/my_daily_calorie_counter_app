@@ -143,3 +143,28 @@ def update_trackers_for_recipe_name_change(recipe,changed_name):
                     lines[i] = changed_name + " :\n"
             with open(file,'w') as out_file:
                 out_file.writelines(lines)
+
+def update_daily_tracker_on_meal_update(recipe):
+    import pandas as pd
+    import glob
+    df = pd.read_csv("recipes.csv")
+    files = glob.glob("daily_trackers\*\*.txt")
+    files = [file for file in files if not ('calorie_deficit' in file) and not ('total_nutrition' in file)]
+    for file in files:
+        with open(file) as f:
+            lines = f.readlines()
+            prev_recipe = ''
+            for i,line in enumerate(lines):
+                if not 'Calories' in line:
+                    check_recipe = line.split(':')[0].rstrip().lstrip()
+                    prev_recipe = check_recipe
+                else:
+                    if recipe in prev_recipe:
+                        measure = float(line.split(',')[1].split(':')[1].split()[0])
+                        calories = df.loc[df['food_item']==recipe]["calories"].squeeze() * measure
+                        protein = df.loc[df['food_item']==recipe]["protein"].squeeze() * measure
+                        fats = df.loc[df['food_item']==recipe]["fats"].squeeze() * measure
+                        carbs = df.loc[df['food_item']==recipe]["carbohydrates"].squeeze() * measure
+                        lines[i] = f"Calories: {calories}, Measure: {line.split(',')[1].split(':')[1]}, Protein: {protein}, Fats: {fats}, Carbs: {carbs}"
+            with open(file,'w') as out_file:
+                out_file.writelines(lines)
