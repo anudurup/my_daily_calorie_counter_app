@@ -101,107 +101,35 @@ def update_ingredients():
         with open('new_recipe.txt','w') as f:
             f.writelines(ingredients)
 
-col1,empty_col,col2 = st.columns([5,1,5])
-with col1:
-    st.subheader("List of all existing ingredients")
-    st.write("Make sure the ingredients you add match once of these.")
-    df = pd.read_csv("item_calorie_dict.csv")
-    ingredients = df['food_item'].to_list()
-    measures = df["measure"].to_list()
-    calories = df["calories"].to_list()
-    df = pd.read_csv("item_calorie_dict.csv")
-    df2 = df.filter(['food_item','measure','calories'], axis=1)
-    st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(144, 238, 144)'}),width=600,height=600)    
+recipe_name = st.text_input(label="meal_name", placeholder="meal_name...",
+            key='meal',on_change=update_ingredients)
+st.text_input(label="no_of_servings", placeholder="no_of_servings...",
+            key='no_of_servings')
+st.text_input(label="add ingredient", placeholder="Add ingredient...",
+            key='new_ingredient')
+st.text_input(label="add quantity", placeholder="Add quantity for the given ingredient...",
+            key='new_quantity')
+ingredient = st.session_state["new_ingredient"].lower()
+if not (ingredient == "") and not functions.check_if_item_exists(ingredient):
+    st.info(f"Add single item: {ingredient} to the database")
 
-    
-with col2:
-    recipe_name = st.text_input(label="meal_name", placeholder="meal_name...",
-                key='meal',on_change=update_ingredients)
-    st.text_input(label="no_of_servings", placeholder="no_of_servings...",
-                key='no_of_servings')
-    st.text_input(label="add ingredient", placeholder="Add ingredient...",
-                key='new_ingredient')
-    st.text_input(label="add quantity", placeholder="Add quantity for the given ingredient...",
-                key='new_quantity')
-    ingredient = st.session_state["new_ingredient"].lower()
-    if not (ingredient == "") and not functions.check_if_item_exists(ingredient):
-        st.info(f"Add single item: {ingredient} to the database")
+if st.session_state["new_ingredient"].lower() != "":   
+    measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
+    match_items = list()
+    for key in food_items:
+        if ingredient in key:
+            match_items.append(key)
+    selectbox = st.selectbox(label=f"Pick item which matches \"{ingredient}\":",key=f'select_index_{ingredient}',options=match_items)
+    st.button("Add ingredient", key="selected_ingredient", on_click=add_ingr)
 
-    if st.session_state["new_ingredient"].lower() != "":   
-        measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
-        match_items = list()
-        for key in food_items:
-            if ingredient in key:
-                match_items.append(key)
-        selectbox = st.selectbox(label=f"Pick item which matches \"{ingredient}\":",key=f'select_index_{ingredient}',options=match_items)
-        st.button("Add ingredient", key="selected_ingredient", on_click=add_ingr)
+ingredients = functions.get_todos('new_recipe.txt')
+for index, ingr in enumerate(ingredients):
+    checkbox = st.checkbox(ingr, key=ingr)
+    if checkbox:  # If we check the checkbox it will be True
+        ingredients.pop(index)
+        functions.write_todos(ingredients, 'new_recipe.txt')
+        del st.session_state[ingr]
+        st.experimental_rerun() # This clears the task once it is checked.
 
-    ingredients = functions.get_todos('new_recipe.txt')
-    for index, ingr in enumerate(ingredients):
-        checkbox = st.checkbox(ingr, key=ingr)
-        if checkbox:  # If we check the checkbox it will be True
-            ingredients.pop(index)
-            functions.write_todos(ingredients, 'new_recipe.txt')
-            del st.session_state[ingr]
-            st.experimental_rerun() # This clears the task once it is checked.
+st.button(label="Add meal", on_click=add_meal_to_dictionary, key="add_meal")
 
-    st.button(label="Add meal", on_click=add_meal_to_dictionary, key="add_meal")
-
-st.subheader("List of all existing meals")
-st.write("Make sure the meals you add match once of these.")
-st.write("Click the checkbox to remove a recipe from this list.")
-df = pd.read_csv("recipes.csv")
-df2 = df.filter(['food_item','no_of_servings','ingredients'], axis=1)
-st.dataframe(df2.style.set_properties(**{'background-color': 'rgb(173, 216, 230)'}),width=1000,height=500)
-
-col3,col4 = st.columns (2)
-def remove_meal_function():    
-    if st.session_state["remove_meal_index"] != "":
-        remove_index = int(st.session_state["remove_meal_index"])
-        calorie_dict_dataframe = pd.read_csv("item_calorie_dict.csv")    
-        calorie_dict_dataframe.drop(calorie_dict_dataframe.index[remove_index], inplace=True)
-        calorie_dict_dataframe.to_csv("item_calorie_dict.csv")
-        
-        recipes_excel_dataframe = pd.read_csv("recipes.csv")
-        recipes_excel_dataframe.drop(recipes_excel_dataframe.index[remove_index], inplace=True)
-        recipes_excel_dataframe.to_csv("recipes.csv")
-        st.session_state["remove_meal_index"] = ""
-with col4:
-    st.subheader("Remove meal from database")
-    st.text_input("Enter index of item to remove",key="remove_meal_index")
-    st.button("Remove meal",key="remove_meal",on_click=remove_meal_function)
-
-def update_recipe_name():
-    current_name = st.session_state["current_meal"]
-    new_name = st.session_state["changed_meal"]
-    df = pd.read_csv("recipes.csv")
-    index = df.index[df['food_item']==current_name]
-    df.at[index,'food_item'] = new_name
-    df.to_csv("recipes.csv",index=False)
-    df = pd.read_csv("item_calorie_dict.csv")
-    index = df.index[df['food_item']==current_name]
-    df.at[index,'food_item'] = new_name
-    df.to_csv("item_calorie_dict.csv",index=False)
-    f = open("recipes.json")
-    recipes = json.load(f)
-    recipes[new_name] = recipes[current_name]
-    del recipes[current_name]
-    f.close()
-    import os
-    file = 'recipes.json'
-    if (os.path.exists(file)):
-        os.remove(file)
-    json_object = json.dumps(recipes, indent=4)
-    with open("recipes.json", "w") as outfile:
-        outfile.write(json_object)
-    functions.update_trackers_for_recipe_name_change(current_name,new_name)
-    st.session_state["current_meal"] = ""
-    st.session_state["changed_meal"] = ""
-
-with col3:
-    st.subheader("Change name of a meal")
-    current_recipe_name = st.text_input(label="current meal name", placeholder="meal_name...",
-                key='current_meal')
-    changed_recipe_name = st.text_input(label="changed meal name", placeholder="meal_name...",
-                key='changed_meal')
-    change_recipe = st.button(label="change recipe name",key="change_recipe_name",on_click=update_recipe_name)

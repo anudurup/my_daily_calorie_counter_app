@@ -1394,5 +1394,22 @@
         "total_fats": 0.5,
         "total_carbs": 18.0,
         "no_of_servings": 10.0
+    },
+    "ching's hakka noodles with veggies and schezwan sauce": {
+        "ching's secret just soak hakka noodles": "1.0 pack",
+        "olive oil": "3.0 tsp",
+        "red bell pepper": "0.5 ",
+        "green capsicum": "0.5 ",
+        "fried egg": "1.0 ",
+        "mushroom": "1.0 cup",
+        "onion": "0.5 ",
+        "schezwan stir fry sauce": "2.0 tbsp",
+        "red chili sauce": "0.33 tbsp",
+        "green chili sauce": "0.33 tbsp",
+        "total_cals": 467.725,
+        "total_protein": 16.75,
+        "total_fats": 9.0,
+        "total_carbs": 75.06,
+        "no_of_servings": 2.0
     }
 }
