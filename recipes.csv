@@ -1,115 +1,115 @@
 food_item,ingredients,no_of_servings,calories,protein,fats,carbohydrates
-millet dosa,"barnyard millet:1.75 cup,urad dal:0.875 cup,methi seeds:1.0 tbsp,thin poha:0.5 cup,olive oil:10.0 tsp",20.0,129.95625,4.3325,3.1755,20.699
-coriander chutney,"raw chana dal:1.0 tbsp,olive oil:3.0 tsp,peanuts:2.0 tbsp,onion:1.0,tomato:2.5,coriander leaves:3.0 bunch",6.0,68.91666667,6.974166667,4.263333333,3.086666667
-half yolk egg,"egg white boiled:1.0,egg yolk boiled:0.5",1.0,46.0,4.95,2.35,0.5
-roti,aashirvaad multigrain atta:2.0 cup,9.0,86.66666667,3.111111111,0.444444444,16.0
-moong dal khichdi,"barnyard millet:0.2 cup,yellow moong dal:0.13 cup,olive oil:1.0 tsp,cashew pieces:3.0,peanuts:0.5 tbsp,raw chana dal:0.4 tbsp,dahi:0.5 cup,frozen carrots and peas:0.25 cup",1.0,396.53,16.085,14.76,51.7575
-berry banana smoothie,"large banana:1.0,mixed berries:1.5 cup,spinach:1.0 cup,greek yoghurt:0.3 cup,pitted date:7.0,unsweetened almond milk:1.7 cup",2.0,246.5,7.175,2.86,52.265
-mocha,"sugar:3.0 tsp,cocoa:0.67 tbsp,sweetened oat milk:0.67 cup",2.0,66.05,1.34,1.8425,29.465
-khakra chaat,"tomato:1.0,onion:0.125,green capsicum:0.25,khakra:2.0,dahi:0.75 cup",2.0,174.625,10.43875,6.8475,19.0875
-tava bhindi sabji,"bhindi:4.5 pods,olive oil:2.0 tsp,garam masala:0.15 tsp,haldi:0.15 tsp,chili powder:0.15 tsp,amchoor:0.2 tbsp",2.0,110.5,4.31175,4.7745,16.21875
-lemon millet,"olive oil:1.0 tsp,barnyard millet:0.25 cup,peanuts:1.0 tbsp,raw chana dal:0.5 tbsp",1.0,297.5,8.43,11.58,40.07
-rava chowmein with schezwan sauce,"rava chowmein:2.0 serving,soy sauce:1.0 tbsp,white vinegar:1.0 tbsp,schezwan stir fry sauce:2.0 tbsp,red bell pepper:0.75 ,green capsicum:0.75 ,olive oil:4.0 tsp,onion:0.75 ,red chilli sauce:0.33 tbsp,green chilli sauce:0.33 tbsp,mushroom:1.0 cup",3.0,365.9513333,12.94716667,7.0335,66.02466667
-apple banana nuts smoothie,"flaxseed powder:0.6 tbsp,apple:1.0,spinach:0.6 cup,walnuts:1.5 tbsp,large banana:1.0,pitted date:5.0,unsweetened almond milk:1.2 cup",2.0,233.45,3.565,6.505,42.4
-masoor dal khichdi,"masoor dal:0.08 cup,barnyard millet:0.25 cup,olive oil:1.5 tsp,raw chana dal:0.5 tbsp,peanuts:1.0 tbsp,cashews:1.0 tbsp,frozen carrots and peas:0.25 cup",1.0,436.92,13.98,18.155,55.7725
-millet pongal,"barnyard millet:0.18 cup,olive oil:1.5 tsp,cashews:1.0 tbsp,mango pickle:2.0 tbsp,yellow moong dal:0.15 cup",1.0,352.73,9.71,16.34,41.28
-coffee with almond milk,"sugar:1.0 tsp,unsweetened almond milk:0.125 cup",1.0,18.75,0.1375,0.325,15.5375
-rava upma,"olive oil:1.0 tsp,cashews:1.0 tbsp,peanuts:0.5 tbsp,raw chana dal:0.33 tbsp,roasted semolina:0.25 cup",1.0,276.14,7.856,11.5975,35.4965
-apple smoothie with almond milk,"spinach:1.0 cup,apple:1.0,walnuts:2.0 tbsp,flaxseed powder:1.0 tbsp,unsweetened almond milk:1.2 cup,pitted date:6.0",2.0,205.5,3.64,8.125,30.74
-indian milk tea,"sugar:3.0 tsp,sweetened oat milk:0.67 cup",2.0,62.7,1.005,1.675,28.46
-egg fried millet,"barnyard millet:0.833 cup,olive oil:4.5 tsp,green capsicum:0.33,red bell pepper:0.4,onion:0.33,soy sauce:1.0 tbsp,fried egg:2.0,green chili sauce:0.5 tbsp,red chili sauce:0.5 tbsp,schezwan stir fry sauce:1.7 tbsp,white vinegar:1.0 tbsp",2.0,555.429,19.04105,19.926,71.96035
-aloo paratha,"potato:2.0 large,olive oil:10.0 tsp,multigrain roti:10.0 serving",8.0,241.375,6.25,6.35,38.25
-beans sabji,"green beans:1.0 cup,olive oil:2.0 tsp,idli podi:2.0 tbsp",2.0,96.0,7.2,7.65,29.95
-brinjal sabji,"eggplant:1.2,olive oil:2.5 tsp,tamarind paste:1.0 tbsp,chili powder:0.15 tsp,haldi:0.15 tsp,idli podi:4.0 tbsp",3.0,149.1333333,10.5845,8.263,49.7425
-spring mix salad,"spring mix:3.0 cup,olive oil:3.0 tsp,cherry tomato:20.0 ,cucumber:1.0 large,maple syrup:3.0 tsp,white vinegar:1.0 tbsp",2.0,142.5,3.6,7.365,16.895
-red sauce pasta,"basil pasta sauce:2.0 cup,whole wheat pasta:1.3 cup,olive oil:3.0 tsp,onion:0.125,green capsicum:0.25,red bell pepper:0.25,fried egg:1.0,mushroom:0.25 cup,vegan mozzarella cheese:1.0 cup",2.0,577.45,14.99125,26.69625,72.51125
-pani puri chaat,"pani puri dry:8.0 pieces,vatana:1.0 cup,olive oil:6.0 tsp,onion:0.8,potato:1.5 large,tamarind paste:1.0 tbsp,bombay sandwich chutney:6.0 tsp,tomato:3.0,pitted date:5.0",40.0,53.83,2.4442,1.5194,9.2601
-panchmel dal,"toor dal:0.0625 cup,raw chana dal:2.0 tbsp,olive oil:2.0 tsp,yellow moong dal:0.0625 cup,masoor dal:0.0625 cup,tomato:1.0,garam masala:0.125 tsp,haldi:0.125 tsp,chili powder:0.125 tsp",2.0,137.125,7.889375,6.3775,12.903125
-millet biryani,"barnyard millet:0.33 cup,frozen carrots and peas:0.25 cup,olive oil:1.5 tsp,potato:0.25 large,raw chana dal:0.5 tbsp,peanuts:0.6 tbsp,cashews:1.0 tbsp,haldi:0.125 tsp,chili powder:0.125 tsp,biryani masala powder:0.25 tbsp",1.0,501.43,13.63425,17.3355,74.84075
-pumpkin chutney,"pumpkin:4.0 cup,raw chana dal:2.0 tbsp,peanuts:3.0 tbsp,olive oil:2.0 tsp,tamarind paste:2.0 tbsp",6.0,74.0,2.338333333,4.245,7.795
-apple peanut butter smoothie,"apple:1.0,peanut butter:2.0 tbsp,greek yoghurt:0.5 cup,flaxseed powder:1.0 tbsp,walnuts:2.0 tbsp,unsweetened almond milk:1.0 cup",2.0,264.0,12.49,15.875,17.71
-gutti vankaya,"olive oil:4.0 tsp,peanuts:3.0 tbsp,sesame seeds:0.67 tbsp,coriander seeds:1.0 tbsp,cardamom:0.25 tsp,clove:4.0,shredded coconut:0.0625 cup,garlic clove:3.0,chili powder:1.5 tsp,haldi:0.25 tsp,cumin seeds:1.0 tbsp,eggplant:1.2,methi leaves:0.1 cup,cinnamon stick:1.0,tamarind paste:3.0 tbsp",4.0,170.4475,4.7870625,10.0156,18.918425
-palak sambar,"olive oil:1.5 tsp,spinach:1.0 cup,toor dal:0.125 cup,sambar masala:1.0 tsp,tamarind paste:0.5 tbsp",2.0,69.5,2.6,3.7,7.1
-bhindi dopyaza,"bhindi:2.0 pods,onion:1.0 ,olive oil:1.0 tsp,cumin seeds:0.17 tbsp,tomato:0.67 ,ginger garlic paste:1.5 tbsp,chili powder:0.33 tsp,garam masala:0.33 tsp,coriander powder:0.33 tsp,amchoor:0.17 tbsp",1.0,271.74,24.8472,13.6398,23.7178
-chole sabji,"olive oil:2.0 tsp,onion:0.5 ,tomato:2.0 ,chana masala:0.125 tbsp,garam masala:0.125 tsp,garbanzo beans:0.5 cup",2.0,267.75,14.70125,6.0025,13.37
-mini bell pepper salad,"mini bell pepper:20.0 ,baby carrot:9.0 ,tomato:1.3 ",2.0,124.2,8.0845,1.234,21.64
-diet bhel chaat,"diet bhel:0.75 cup,bombay sandwich chutney:3.0 tsp,tomato:0.75 ,onion:0.25 ,green capsicum:0.25 ,dahi:0.67 cup",2.0,137.5,9.22,5.905,13.53875
-rava idli,"raw chana dal:1.0 tbsp,olive oil:3.0 tsp,dahi:0.75 cup,roasted semolina:0.75 cup",9.0,79.58333333,2.731666667,2.395833333,11.72472222
-pesarattu,"mung bean sprouts:0.25 cup,olive oil:2.5 tsp,onion:0.25 ,roasted semolina:0.25 cup",5.0,53.8,1.977,2.3535,6.4605
-carrot chutney,"baby carrot:6.0 ,raw chana dal:1.0 tbsp,olive oil:1.0 tsp",2.0,47.0,0.9,3.0,4.3
-quinoa dosa,"quinoa:1.0 cup,raw chana dal:2.0 tbsp,urad dal:0.5 cup,toor dal:0.0625 cup,methi seeds:0.156 tbsp",20.0,54.7558,2.63989,0.776788,9.260544
-ragi dosa,"sooji:1.0 cup,rice flour:1.0 cup,dahi:0.5 cup,onion:1.0 ,olive oil:5.0 tsp,ragi flour :1.0 cup",15.0,135.2666667,4.104,2.421333333,24.492
-bajra pesarattu,"mung bean sprouts:1.0 cup,bajra flour:0.5 cup,onion:0.25 ,olive oil:2.5 tsp",8.0,65.0,2.24875,1.96,9.943125
-tomato pachadi,"tomato:2.0 ,raw chana dal:0.38 tbsp,urad dal:0.0125 cup,olive oil:1.0 tsp,garlic clove:1.0 ",2.0,65.86375,7.753,2.93,3.592
-vermicelli upma,"vermicelli:0.33 cup,raw chana dal:0.25 tbsp,peanuts:0.5 tbsp,olive oil:1.0 tsp,cashews:3.0  tbsp",1.0,293.85,7.1281,19.4657,24.9585
-mixed veg raita,"tomato:0.5 ,onion:0.25 ,cucumber:0.25 large,dahi:0.5 cup",2.0,56.5,6.4025,1.8925,5.3225
-methi thepla,"methi leaves:1.0 cup,aashirvaad multigrain atta:2.25 cup,besan:0.5 cup,dahi:0.33 cup,olive oil:2.5 tsp",10.0,126.5,4.83,2.216,20.312
-kellogs k cereal,"unsweetened almond milk:1.0 cup,sugar:0.5 tsp,kellogg's special k red berries cereal:1.5 cup",1.0,247.5,5.6,3.35,59.8
-spinach sambar,"toor dal:0.5 cup,spinach:1.0 cup,olive oil:2.0 tsp,tamarind paste:1.0 tbsp,sambar masala:1.0 tsp",4.0,86.125,4.3,2.6,12.05
-kala chana sabji,"kala chana:0.5 cup,onion:0.5 ,olive oil:1.0 tsp,tomato:2.0 ,garam masala:0.125 tsp,ginger garlic paste:0.5 tbsp",2.0,178.1,15.595,5.515,18.7075
-pizza sandwich,"whole wheat bread:2.0 slice,onion:0.125 ,tomato:0.25 ,green capsicum:0.125 ,red bell pepper:0.125 ,vegan mozzarella cheese:0.5 cup,ragu pizza sauce:0.33 cup,olive oil:1.0 tsp",1.0,462.85,13.37625,18.02125,63.36
-"black bean,corn and bell pepper salad","black beans:0.25 cup,onion:0.125 ,tomato:0.25 ,green capsicum:0.125 ,red bell pepper:0.125 ,corn:0.125 ear,olive oil:0.25 tsp",2.0,107.0,7.559375,1.131875,18.1925
-black bean spring mix salad,"black beans:0.25 cup,tomato:2.0 ,cucumber:1.0 large,spring mix:1.5 cup,maple syrup:1.0 tsp,green capsicum:0.125 ,red bell pepper:0.125 ,dahi:0.5 cup",2.0,191.1875,16.556875,2.738125,28.20875
-aloo masala sandwich,"whole wheat bread:2.0 slice,potato:0.5  large,olive oil:0.5 tsp,vegan butter:0.33 tbsp",1.0,378.8,11.75,6.43,69.5
-apple spinach smoothie,"apple:1.0 ,spinach:1.0 cup,unsweetened almond milk:1.25 cup,pitted date:6.0 ",2.0,138.75,1.9175,1.79,28.7675
-bajra roti,"aashirvaad multigrain atta:0.75 cup,bajra flour:0.75 cup",5.0,171.9,5.4,1.56,32.7
-bhindi fry,"bhindi:3.0 pods,olive oil:2.0 tsp,chili powder:0.125 tsp,garam masala:0.125 tsp,amchoor:0.125 tbsp",2.0,86.625,2.87,4.6775,10.73375
-avocado egg sandwich,"whole wheat bread:1.0 slice,olive oil:0.5 tsp,half yolk egg:1.0 serving,tomato:0.4 ,avocado egg sandwich:0.5  serving",1.0,348.8,17.252,15.144,33.59
-oat khakra chaat,"oats ginger chilli khakra:2.0 pieces,onion:0.125 ,tomato:1.0 ,green capsicum:0.25 ,bombay chutney:1.0 tsp,jaggery:1.0 tsp,dahi:0.75 cup",2.0,290.525,12.43875,12.8475,33.5875
-quinoa rice flour dosa,"quinoa dosa:7.0 serving,rice flour:0.5 cup",7.0,96.04151429,3.287028571,0.863392857,18.24322857
-buttermilk,dahi:0.0625 cup,1.0,9.375,0.625,0.4375,0.875
-blueberry banana smoothie,"blueberry:1.0 box,small banana:1.0 ,greek yoghurt:0.5 cup,pitted date:6.0 ,unsweetened almond milk:1.25 cup",2.0,287.25,9.3225,2.44,61.8125
-drumstick sambar,"toor dal:0.25 cup,drumstick:2.5 pieces,olive oil:2.0 tsp,sambar masala:0.125 tsp,tamarind paste:1.0 tbsp",2.0,114.28125,4.89375,4.76875,13.31875
-cashew mushroom makhana curry,"cashews:4.0 tbsp,sliced mushrooms:0.33 cup,lotus seeds:0.5 cup,olive oil:2.0 tsp,onion:0.25 ,tomato:1.0 ",2.0,188.975,9.048,12.878,12.3865
-achari baingan,"ginger garlic paste:1.0 tbsp,small brinjal:2.0 cup,olive oil:3.3 tsp,dahi:0.75 cup,onion:0.5 ",3.0,132.5,5.726666667,8.653333333,10.53
-capsicum besan bhaji,"besan:0.25 cup,green capsicum:2.0 ,olive oil:2.0 tsp,ginger garlic paste:0.5 tbsp,onion:0.33 ",2.0,140.01,6.6614,6.9248,15.2627
-mushroom bell pepper fry,"green capsicum:0.5 ,olive oil:2.0 tsp,ginger garlic paste:0.5 tbsp,onion:0.25 ,tomato:1.0 ,sliced mushrooms:1.25 cup",2.0,94.875,7.3125,6.24,4.675
-vegan chickpea burger patty,"gluten free all purpose flour:0.1875 cup,olive oil:4.0 tsp,onion:1.0 ,garbanzo beans:0.5 cup",4.0,160.875,6.2275,5.2425,10.095
-spinach carrot paratha,"spinach:1.0 cup,besan:0.125 cup,dahi:0.25 cup,olive oil:5.0 tsp,baby carrot:0.5 ,aashirvaad multigrain atta:2.5 cup",10.0,126.575,4.1075,3.0125,19.1625
-masoor dal tadka,"masoor dal:0.33 cup,tomato:0.5 ,ginger garlic paste:0.33 tbsp,olive oil:1.5 tsp",2.0,155.4,8.795,4.686,19.078
-aloo bhindi,"bhindi:1.0 pods,potato:0.5 large,olive oil:3.0 tsp",1.0,288.0,5.65,13.8,38.18
-homemade poha,"raw chana dal:0.5 tbsp,olive oil:1.0 tsp,peanuts:1.0 tbsp,thin poha:0.55 cup",1.0,325.2,6.35,8.5,50.35
-masoor dal palak khichdi,"barnyard millet:0.2 cup,masoor dal:0.13 cup,spinach:1.0 cup,potato:0.33 large,olive oil:1.0 tsp",1.0,374.31,13.235,6.592,65.39
-soya chunks pulao,"soya chunks:1.0 cup,olive oil:2.5 tsp,onion:0.7 ,potato:0.5 large,tomato:0.5 ",2.0,223.15,20.9635,5.857,24.133
-apple spinach flaxseed smoothie,"apple:1.5 ,spinach:1.0 cup,pitted date:7.0 ,unsweetened almond milk:1.25 cup,flaxseed powder:1.0 tbsp",2.0,192.5,2.7575,3.3475,37.5325
-rice flour and sooji dosa,"rice flour:0.75 cup,sooji:0.25 cup,dahi:0.5 cup,olive oil:2.67 tsp,onion:0.5 ",8.0,101.2875,3.07875,2.278125,17.3675
-aloo capsicum sabji,"potato:0.5 large,green capsicum:0.5 ,tomato:1.0 ,olive oil:1.0 tsp,onion:0.25 ",2.0,119.75,7.6875,2.615,18.625
-rice kheer,"white rice:0.25 cup,almonds:0.5 tbsp,ghee:1.0 tsp,sugar:6.0 tsp,cashew pieces:5.0 ,sweetened oat milk:2.0 cup",2.0,305.5,5.375,9.9,83.2
-aloo spinach carrot paratha,"spinach:1.0 cup,potato:1.0 large,baby carrot:4.0 ,olive oil:2.5 tsp,multigrain roti:5.0 serving",5.0,177.3,5.26,2.85,31.46
-peanut butter sandwich,"whole wheat bread:2.0 slice,peanut butter:1.0 tbsp,honey:0.5 tbsp",1.0,324.0,12.01,10.06,49.63
-green apple pear orange smoothie,"green apple:1.0 ,green pear:1.0 large,orange:1.0  large,greek yoghurt:0.75 cup,pitted date:8.0 ",2.0,324.5,11.45,0.4,70.75
-strawberry blueberry banana smoothie,"strawberry:5.0 ,blueberry:0.25 box,greek yoghurt:0.5 cup,pitted date:6.0 ,large banana:0.5 ,unsweetened almond milk:1.25 cup",2.0,196.125,8.27875,1.90375,38.48375
-homemade tomato pasta,"onion:0.5 ,mushroom:0.7 cup,green capsicum:0.67 ,red bell pepper:0.25 ,olive oil:2.0 tsp,basil pasta sauce:0.5 cup,ragu pizza sauce:0.25 cup,whole wheat pasta:1.3 cup",2.0,287.53,13.39485,8.43505,46.2356
+millet dosa,"barnyard millet: 1.75 cup,urad dal: 0.875 cup,methi seeds: 1.0 tbsp,thin poha: 0.5 cup,olive oil: 10.0 tsp",20.0,129.95625,4.3,2.875,20.675
+coriander chutney,"raw chana dal: 1.0 tbsp,olive oil: 3.0 tsp,peanuts: 2.0 tbsp,onion: 1.0,tomato: 2.5,coriander leaves: 3.0 bunch",6.0,68.91666666666667,6.75,3.5,2.4166666666666665
+half yolk egg,"egg white boiled: 1.0,egg yolk boiled: 0.5",1.0,46.0,4.0,2.0,0.0
+roti,aashirvaad multigrain atta: 2.0 cup,9.0,86.66666666666667,3.111111111111111,0.4444444444444444,16.0
+moong dal khichdi,"barnyard millet: 0.2 cup,yellow moong dal: 0.13 cup,olive oil: 1.0 tsp,cashew pieces: 3.0,peanuts: 0.5 tbsp,raw chana dal: 0.4 tbsp,dahi: 0.5 cup,frozen carrots and peas: 0.25 cup",1.0,396.53,15.05,11.63,49.45
+berry banana smoothie,"large banana: 1.0,mixed berries: 1.5 cup,spinach: 1.0 cup,greek yoghurt: 0.3 cup,pitted date: 7.0,unsweetened almond milk: 1.7 cup",2.0,246.5,5.699999999999999,1.7,52.1
+mocha,"sugar: 3.0 tsp,cocoa: 0.67 tbsp,sweetened oat milk: 0.67 cup",2.0,66.05000000000001,1.34,1.675,28.865
+khakra chaat,"tomato: 1.0,onion: 0.125,green capsicum: 0.25,khakra: 2.0,dahi: 0.75 cup",2.0,174.625,10.3125,6.625,18.6875
+tava bhindi sabji,"bhindi: 4.5 pods,olive oil: 2.0 tsp,garam masala: 0.15 tsp,haldi: 0.15 tsp,chili powder: 0.15 tsp,amchoor: 0.2 tbsp",2.0,110.5,2.25,4.0,14.624999999999998
+lemon millet,"olive oil: 1.0 tsp,barnyard millet: 0.25 cup,peanuts: 1.0 tbsp,raw chana dal: 0.5 tbsp",1.0,297.5,8.0,10.5,39.0
+rava chowmein with schezwan sauce,"ying yaang veg hakka sooji noodles: 2.0 portion,soy sauce: 1.0 tbsp,white vinegar: 1.0 tbsp,schezwan stir fry sauce: 2.0 tbsp,red bell pepper: 0.75,green capsicum: 0.75,olive oil: 4.0 tsp,onion: 0.75,red chilli sauce: 0.33 tbsp,green chilli sauce: 0.33 tbsp,mushroom: 1.0 cup",3.0,365.8633333333333,12.25,5.333333333333333,64.8
+apple banana nuts smoothie,"flaxseed powder: 0.6 tbsp,apple: 1.0,spinach: 0.6 cup,walnuts: 1.5 tbsp,large banana: 1.0,pitted date: 5.0,unsweetened almond milk: 1.2 cup",2.0,233.45,2.15,5.1,42.25
+masoor dal khichdi,"masoor dal: 0.08 cup,barnyard millet: 0.25 cup,olive oil: 1.5 tsp,raw chana dal: 0.5 tbsp,peanuts: 1.0 tbsp,cashews: 1.0 tbsp,frozen carrots and peas: 0.25 cup",1.0,436.92,13.36,16.66,54.55
+millet pongal,"barnyard millet: 0.18 cup,olive oil: 1.5 tsp,cashews: 1.0 tbsp,mango pickle: 2.0 tbsp,yellow moong dal: 0.15 cup",1.0,351.73,8.71,15.59,40.28
+coffee with almond milk,"sugar: 1.0 tsp,unsweetened almond milk: 0.125 cup",1.0,18.75,0.125,0.25,15.125
+rava upma,"olive oil: 1.0 tsp,cashews: 1.0 tbsp,peanuts: 0.5 tbsp,raw chana dal: 0.33 tbsp,roasted semolina: 0.25 cup",1.0,276.14,7.58,10.58,34.74
+apple smoothie with almond milk,"spinach: 1.0 cup,apple: 1.0,walnuts: 2.0 tbsp,flaxseed powder: 1.0 tbsp,unsweetened almond milk: 1.2 cup,pitted date: 6.0",2.0,205.5,2.1,6.7,30.6
+indian milk tea,"sugar: 3.0 tsp,sweetened oat milk: 0.67 cup",2.0,62.7,1.005,1.675,27.86
+egg fried millet,"barnyard millet: 0.833 cup,olive oil: 4.5 tsp,green capsicum: 0.33,red bell pepper: 0.4,onion: 0.33,soy sauce: 1.0 tbsp,fried egg: 2.0,green chili sauce: 0.5 tbsp,red chili sauce: 0.5 tbsp,schezwan stir fry sauce: 1.7 tbsp,white vinegar: 1.0 tbsp",2.0,555.429,18.503,18.332,70.82900000000001
+aloo paratha,"potato: 2.0 large,olive oil: 10.0 tsp,multigrain roti: 10.0 serving",8.0,240.75,5.5,5.0,38.25
+beans sabji,"green beans: 1.0 cup,olive oil: 2.0 tsp,idli podi: 2.0 tbsp",2.0,96.0,7.0,7.0,29.5
+brinjal sabji,"eggplant: 1.2,olive oil: 2.5 tsp,tamarind paste: 1.0 tbsp,chili powder: 0.15 tsp,haldi: 0.15 tsp,idli podi: 4.0 tbsp",3.0,149.13333333333333,10.4,7.733333333333333,49.7
+spring mix salad,"spring mix: 3.0 cup,olive oil: 3.0 tsp,cherry tomato: 20.0,cucumber: 1.0 large,maple syrup: 3.0 tsp,white vinegar: 1.0 tbsp",2.0,142.5,0.5,6.0,8.0
+red sauce pasta,"basil pasta sauce: 2.0 cup,whole wheat pasta: 1.3 cup,olive oil: 3.0 tsp,onion: 0.125,green capsicum: 0.25,red bell pepper: 0.25,fried egg: 1.0,mushroom: 0.25 cup,vegan mozzarella cheese: 1.0 cup",2.0,577.45,14.4125,25.3,72.2625
+pani puri chaat,"pani puri dry: 8.0 pieces,vatana: 1.0 cup,olive oil: 6.0 tsp,onion: 0.8,potato: 1.5 large,tamarind paste: 1.0 tbsp,bombay sandwich chutney: 6.0 tsp,tomato: 3.0,pitted date: 5.0",40.0,53.83,2.3875,1.4,9.2075
+panchmel dal,"toor dal: 0.0625 cup,raw chana dal: 2.0 tbsp,olive oil: 2.0 tsp,yellow moong dal: 0.0625 cup,masoor dal: 0.0625 cup,tomato: 1.0,garam masala: 0.125 tsp,haldi: 0.125 tsp,chili powder: 0.125 tsp",2.0,137.125,7.59375,5.15625,11.75
+millet biryani,"barnyard millet: 0.33 cup,frozen carrots and peas: 0.25 cup,olive oil: 1.5 tsp,potato: 0.25 large,raw chana dal: 0.5 tbsp,peanuts: 0.6 tbsp,cashews: 1.0 tbsp,haldi: 0.125 tsp,chili powder: 0.125 tsp,biryani masala powder: 0.25 tbsp",1.0,501.43,12.96,15.79,73.78
+pumpkin chutney,"pumpkin: 4.0 cup,raw chana dal: 2.0 tbsp,peanuts: 3.0 tbsp,olive oil: 2.0 tsp,tamarind paste: 2.0 tbsp",6.0,74.0,2.0,3.6666666666666665,6.833333333333333
+apple peanut butter smoothie,"apple: 1.0,peanut butter: 2.0 tbsp,greek yoghurt: 0.5 cup,flaxseed powder: 1.0 tbsp,walnuts: 2.0 tbsp,unsweetened almond milk: 1.0 cup",2.0,264.0,12.0,14.5,17.5
+gutti vankaya,"olive oil: 4.0 tsp,peanuts: 3.0 tbsp,sesame seeds: 0.67 tbsp,coriander seeds: 1.0 tbsp,cardamom: 0.25 tsp,clove: 4.0,shredded coconut: 0.0625 cup,garlic clove: 3.0,chili powder: 1.5 tsp,haldi: 0.25 tsp,cumin seeds: 1.0 tbsp,eggplant: 1.2,methi leaves: 0.1 cup,cinnamon stick: 1.0,tamarind paste: 3.0 tbsp",4.0,169.8975,3.82375,8.620000000000001,16.9725
+palak sambar,"olive oil: 1.5 tsp,spinach: 1.0 cup,toor dal: 0.125 cup,sambar masala: 1.0 tsp,tamarind paste: 0.5 tbsp",2.0,69.25,2.0,3.125,7.0
+bhindi dopyaza,"bhindi: 2.0 pods,onion: 1.0,olive oil: 1.0 tsp,cumin seeds: 0.17 tbsp,tomato: 0.67,ginger garlic paste: 1.5 tbsp,chili powder: 0.33 tsp,garam masala: 0.33 tsp,coriander powder: 0.33 tsp,amchoor: 0.17 tbsp",1.0,271.74,21.860000000000003,11.67,20.7
+chole sabji,"olive oil: 2.0 tsp,onion: 0.5,tomato: 2.0,chana masala: 0.125 tbsp,garam masala: 0.125 tsp,garbanzo beans: 0.5 cup",2.0,267.75,14.5,5.0625,12.625
+mini bell pepper salad,"mini bell pepper: 20.0,baby carrot: 9.0,tomato: 1.3",2.0,114.95,4.55,0.0,10.65
+diet bhel chaat,"diet bhel: 0.75 cup,bombay sandwich chutney: 3.0 tsp,tomato: 0.75,onion: 0.25,green capsicum: 0.25,dahi: 0.67 cup",2.0,137.5,9.1,5.720000000000001,13.19
+rava idli,"raw chana dal: 1.0 tbsp,olive oil: 3.0 tsp,dahi: 0.75 cup,roasted semolina: 0.75 cup",9.0,79.58333333333333,2.6944444444444446,2.111111111111111,11.583333333333334
+pesarattu,"mung bean sprouts: 0.25 cup,olive oil: 2.5 tsp,onion: 0.25,roasted semolina: 0.25 cup",5.0,53.8,1.95,2.05,6.4
+carrot chutney,"baby carrot: 6.0,raw chana dal: 1.0 tbsp,olive oil: 1.0 tsp",2.0,45.5,0.5,2.5,1.5
+quinoa dosa,"quinoa: 1.0 cup,raw chana dal: 2.0 tbsp,urad dal: 0.5 cup,toor dal: 0.0625 cup,methi seeds: 0.156 tbsp",20.0,54.7558,2.6156,0.70625,9.1718
+ragi dosa,"sooji: 1.0 cup,rice flour: 1.0 cup,dahi: 0.5 cup,onion: 1.0,olive oil: 5.0 tsp,ragi flour: 1.0 cup",15.0,135.26666666666668,4.066666666666666,2.2333333333333334,24.466666666666665
+bajra pesarattu,"mung bean sprouts: 1.0 cup,bajra flour: 0.5 cup,onion: 0.25,olive oil: 2.5 tsp",8.0,65.0,2.21875,1.75,9.90625
+tomato pachadi,"tomato: 2.0,raw chana dal: 0.38 tbsp,urad dal: 0.0125 cup,olive oil: 1.0 tsp,garlic clove: 1.0",2.0,65.86375000000001,7.49,2.215,2.345
+vermicelli upma,"vermicelli: 0.33 cup,raw chana dal: 0.25 tbsp,peanuts: 0.5 tbsp,olive oil: 1.0 tsp,cashews: 3.0 tbsp",1.0,293.85,6.890000000000001,18.58,24.11
+mixed veg raita,"tomato: 0.5,onion: 0.25,cucumber: 0.25 large,dahi: 0.5 cup",2.0,56.5,6.25,1.75,5.125
+methi thepla,"methi leaves: 1.0 cup,aashirvaad multigrain atta: 2.25 cup,besan: 0.5 cup,dahi: 0.33 cup,olive oil: 2.5 tsp",10.0,126.5,4.83,2.0810000000000004,20.312
+kellogs k cereal,"unsweetened almond milk: 1.0 cup,sugar: 0.5 tsp,kellogg's special k red berries cereal: 1.5 cup",1.0,247.5,5.5,2.0,59.5
+spinach sambar,"toor dal: 0.5 cup,spinach: 1.0 cup,olive oil: 2.0 tsp,tamarind paste: 1.0 tbsp,sambar masala: 1.0 tsp",4.0,86.0,4.0,2.25,12.0
+kala chana sabji,"kala chana: 0.5 cup,onion: 0.5,olive oil: 1.0 tsp,tomato: 2.0,garam masala: 0.125 tsp,ginger garlic paste: 0.5 tbsp",2.0,177.875,15.25,4.75,17.8125
+pizza sandwich,"whole wheat bread: 2.0 slice,onion: 0.125,tomato: 0.25,green capsicum: 0.125,red bell pepper: 0.125,vegan mozzarella cheese: 0.5 cup,ragu pizza sauce: 0.33 cup,olive oil: 1.0 tsp",1.0,462.85,13.195,17.32,62.975
+"black bean,corn and bell pepper salad","black beans: 0.25 cup,onion: 0.125,tomato: 0.25,green capsicum: 0.125,red bell pepper: 0.125,corn: 0.125 ear,olive oil: 0.25 tsp",2.0,106.9375,7.3125,0.8125,18.0
+black bean spring mix salad,"black beans: 0.25 cup,tomato: 2.0,cucumber: 1.0 large,spring mix: 1.5 cup,maple syrup: 1.0 tsp,green capsicum: 0.125,red bell pepper: 0.125,dahi: 0.5 cup",2.0,191.125,15.25,2.0,26.625
+aloo masala sandwich,"whole wheat bread: 2.0 slice,potato: 0.5 large,olive oil: 0.5 tsp,vegan butter: 0.33 tbsp",1.0,378.8,11.5,5.98,69.5
+apple spinach smoothie,"apple: 1.0,spinach: 1.0 cup,unsweetened almond milk: 1.25 cup,pitted date: 6.0",2.0,138.75,0.625,1.25,28.625
+bajra roti,"aashirvaad multigrain atta: 0.75 cup,bajra flour: 0.75 cup",5.0,171.9,5.4,1.5,32.7
+bhindi fry,"bhindi: 3.0 pods,olive oil: 2.0 tsp,chili powder: 0.125 tsp,garam masala: 0.125 tsp,amchoor: 0.125 tbsp",2.0,86.625,1.5,4.0,9.6875
+avocado egg sandwich,"whole wheat bread: 1.0 slice,olive oil: 0.5 tsp,half yolk egg: 1.0 serving,tomato: 0.4,avocado egg sandwich: 0.5 serving",1.0,357.2,20.8,10.0,37.9
+oat khakra chaat,"oats ginger chilli khakra: 2.0 pieces,onion: 0.125,tomato: 1.0,green capsicum: 0.25,bombay chutney: 1.0 tsp,jaggery: 1.0 tsp,dahi: 0.75 cup",2.0,290.125,12.3125,12.625,33.1875
+quinoa rice flour dosa,"quinoa dosa: 7.0 serving,rice flour: 0.5 cup",7.0,95.28571428571428,2.642857142857143,0.1428571428571428,18.071428571428573
+buttermilk,dahi: 0.0625 cup,1.0,9.375,0.625,0.4375,0.875
+blueberry banana smoothie,"blueberry: 1.0 box,small banana: 1.0,greek yoghurt: 0.5 cup,pitted date: 6.0,unsweetened almond milk: 1.25 cup",2.0,287.25,8.125,1.75,61.625
+drumstick sambar,"toor dal: 0.25 cup,drumstick: 2.5 pieces,olive oil: 2.0 tsp,sambar masala: 0.125 tsp,tamarind paste: 1.0 tbsp",2.0,113.375,4.0,4.25,13.3125
+cashew mushroom makhana curry,"cashews: 4.0 tbsp,sliced mushrooms: 0.33 cup,lotus seeds: 0.5 cup,olive oil: 2.0 tsp,onion: 0.25,tomato: 1.0",2.0,188.975,8.705,12.0,11.79
+achari baingan,"ginger garlic paste: 1.0 tbsp,small brinjal: 2.0 cup,olive oil: 3.3 tsp,dahi: 0.75 cup,onion: 0.5",3.0,132.5,5.0,7.816666666666666,10.0
+capsicum besan bhaji,"besan: 0.25 cup,green capsicum: 2.0,olive oil: 2.0 tsp,ginger garlic paste: 0.5 tbsp,onion: 0.33",2.0,140.01,6.1,6.0,14.54
+mushroom bell pepper fry,"green capsicum: 0.5,olive oil: 2.0 tsp,ginger garlic paste: 0.5 tbsp,onion: 0.25,tomato: 1.0,sliced mushrooms: 1.25 cup",2.0,94.875,6.875,5.25,3.75
+vegan chickpea burger patty,"gluten free all purpose flour: 0.1875 cup,olive oil: 4.0 tsp,onion: 1.0,garbanzo beans: 0.5 cup",4.0,160.875,6.1875,4.6875,10.0
+spinach carrot paratha,"spinach: 1.0 cup,besan: 0.125 cup,dahi: 0.25 cup,olive oil: 5.0 tsp,baby carrot: 0.5,aashirvaad multigrain atta: 2.5 cup",10.0,126.55,4.0125,2.75,19.1125
+masoor dal tadka,"masoor dal: 0.33 cup,tomato: 0.5,ginger garlic paste: 0.33 tbsp,olive oil: 1.5 tsp",2.0,155.4,8.68,4.155,18.895000000000003
+aloo bhindi,"bhindi: 1.0 pods,potato: 0.5 large,olive oil: 3.0 tsp",1.0,288.0,4.5,12.0,37.5
+homemade poha,"raw chana dal: 0.5 tbsp,olive oil: 1.0 tsp,peanuts: 1.0 tbsp,thin poha: 0.55 cup",1.0,325.20000000000005,6.3500000000000005,8.5,50.35
+masoor dal palak khichdi,"barnyard millet: 0.2 cup,masoor dal: 0.13 cup,spinach: 1.0 cup,potato: 0.33 large,olive oil: 1.0 tsp",1.0,374.31000000000006,12.17,5.86,65.29
+soya chunks pulao,"soya chunks: 1.0 cup,olive oil: 2.5 tsp,onion: 0.7,potato: 0.5 large,tomato: 0.5",2.0,223.15,20.75,5.0,23.85
+apple spinach flaxseed smoothie,"apple: 1.5,spinach: 1.0 cup,pitted date: 7.0,unsweetened almond milk: 1.25 cup,flaxseed powder: 1.0 tbsp",2.0,192.5,1.125,2.75,37.375
+rice flour and sooji dosa,"rice flour: 0.75 cup,sooji: 0.25 cup,dahi: 0.5 cup,olive oil: 2.67 tsp,onion: 0.5",8.0,101.2875,3.03125,2.085,17.34375
+aloo capsicum sabji,"potato: 0.5 large,green capsicum: 0.5,tomato: 1.0,olive oil: 1.0 tsp,onion: 0.25",2.0,119.75,7.375,2.0,18.125
+rice kheer,"white rice: 0.25 cup,almonds: 0.5 tbsp,ghee: 1.0 tsp,sugar: 6.0 tsp,cashew pieces: 5.0,sweetened oat milk: 2.0 cup",2.0,305.5,4.875,7.875,80.75
+aloo spinach carrot paratha,"spinach: 1.0 cup,potato: 1.0 large,baby carrot: 4.0,olive oil: 2.5 tsp,multigrain roti: 5.0 serving",5.0,176.4,4.4,2.0,30.8
+peanut butter sandwich,"whole wheat bread: 2.0 slice,peanut butter: 1.0 tbsp,honey: 0.5 tbsp",1.0,324.0,12.0,10.0,49.5
+green apple pear orange smoothie,"green apple: 1.0,green pear: 1.0 large,orange: 1.0 large,greek yoghurt: 0.75 cup,pitted date: 8.0",2.0,324.5,10.0,0.0,70.75
+strawberry blueberry banana smoothie,"strawberry: 5.0,blueberry: 0.25 box,greek yoghurt: 0.5 cup,pitted date: 6.0,large banana: 0.5,unsweetened almond milk: 1.25 cup",2.0,194.125,7.125,1.375,36.125
+homemade tomato pasta,"onion: 0.5,mushroom: 0.7 cup,green capsicum: 0.67,red bell pepper: 0.25,olive oil: 2.0 tsp,basil pasta sauce: 0.5 cup,ragu pizza sauce: 0.25 cup,whole wheat pasta: 1.3 cup",2.0,287.53,12.61,7.05,45.72
 aloo millet pulao,"barnyard millet: 0.25 cup,potato: 0.3 large,peanuts: 0.5 tbsp,olive oil: 1.0 tsp,cashews: 4.0 tbsp,raw chana dal: 1.0 tbsp",1.0,567.4,13.6,25.0,70.9
-aloo millet pulao with ghee,"barnyard millet:0.25 cup,potato:0.3 large,peanuts:0.5 tbsp,ghee:1.0 tsp,cashews:4.0  tbsp",1.0,531.4,12.915,24.585,68.235
-coriander coconut chutney,"coriander leaves:3.0 bunch,shredded coconut:0.75 cup,roasted dalia:0.5 cup",4.0,121.9125,3.90625,5.2875,16.1875
-chana masala sabji with ghee,"ghee:4.0 tsp,onion:1.0 ,tomato:3.0 ,chana masala:0.25 tbsp,garam masala:0.25 tsp,garbanzo beans:1.0 cup",4.0,256.5,12.91875,5.7125,12.97
-rava dosa,"rice flour:0.5 cup,dahi:0.25 cup,olive oil:2.5 tsp,roasted semolina:0.5 cup,aashirvaad multigrain atta:0.25 cup",6.0,137.4166667,3.548333333,2.579166667,24.3025
-strawberry blueberry smoothie,"strawberry:8.0 ,blueberry:0.5 box,greek yoghurt:0.6 cup,pitted date:8.0 ,unsweetened almond milk:1.25 cup",2.0,231.2,9.83,1.9575,45.85
-brinjal sambar,"toor dal:0.25 cup,olive oil:1.0 tsp,sambar masala:0.125 tsp,small brinjal:1.0 cup",1.0,195.8125,8.8375,5.2375,30.7375
-bhindi pulao,"bhindi:2.0 cup,olive oil:2.5 tsp,walnuts:2.0 tbsp,barnyard millet:0.75 cup",2.33,353.2188841,9.656652361,11.69527897,53.58798283
-masala masoor,"olive oil:1.0 tsp,masoor dal:0.33 cup,onion:0.125 ,tomato:0.5 ",1.0,276.17,19.32,5.355,37.2725
-green peas pulao,"olive oil:3.0 tsp,green peas pulao:0.5 serving,barnyard millet:0.75 cup",2.33,364.1087513,8.83143915,10.25714233,57.81742158
-apple pumpkin smoothie,"apple:1.0 ,pumpkin:0.125 cup,greek yoghurt:0.5 cup,large banana:0.5 ,unsweetened almond milk:0.5 cup,pitted date:6.0 ",2.0,196.125,7.4975,0.885,38.54125
-sprouts khichdi,"olive oil:1.0 tsp,mung bean sprouts:0.125 cup,barnyard millet:0.2 cup,shredded coconut:0.5 cup,frozen carrots and peas:0.125 cup",1.0,398.325,6.745,18.2075,53.92625
-goji berry pear smoothie,"green pear:2.0  large,unsweetened almond milk:1.125 cup,flaxseed powder:1.0 tbsp,walnuts:2.0 tbsp,pitted date:7.0 ,goji berries:2.0 tbsp",2.0,344.875,4.96875,8.0625,65.81875
-millet idli,"barnyard millet:0.7 cup,urad dal:0.35 cup,poha:0.2 serving,methi seeds:0.1 tbsp",10.0,82.668,3.3085,0.9801,14.7088
-apple pear smoothie,"apple:1.0 ,green pear:1.0  large,unsweetened almond milk:1.0 cup,greek yoghurt:0.5 cup,pitted date:8.0 ",2.0,274.5,8.08,1.515,55.58
-ghee rajma sabji,"rajma:1.0 cup,olive oil:4.0 tsp,ghee:1.0 tsp,onion:1.0 ,tomato:2.5 ",6.0,155.9166667,12.73083333,4.136666667,19.29666667
-filter coffee mocha,"sweetened oat milk:0.67 cup,sugar:6.0 tsp,black coffee:1.0 serving",2.0,94.575,1.0675,1.8,59.1225
-indian style vegan tofu pizza,"whole wheat pizza crust:1.0 ,ragu pizza sauce:0.5 cup,vegan mozzarella cheese:1.0 cup,green capsicum:0.5 ,mushroom:0.5 cup,onion:0.5 ,tomato:1.5 ,firm tofu:0.4 block,olive oil:2.0 tsp",2.0,544.0,25.34,23.045,67.5225
-kala chana onion tomato salad,"kala chana:0.33 cup,onion:0.125 ,tomato:0.5 ",2.0,75.9935,5.733,1.104,10.98025
-high protein soya chunks dosa,"soya chunks:1.0 cup,tomato:1.0 ,rice flour:0.75 cup,aashirvaad multigrain atta:1.0 cup,olive oil:6.0 tsp",12.0,104.7083333,4.348333333,2.584166667,15.32083333
-ragada pattice,"potato:2.0 large,poha:0.25 serving,olive oil:2.0 tsp,vatana:1.5 cup,onion:1.0 ,bombay chutney:12.0 tsp,jaggery:24.0 tsp,tamarind paste:4.0 tbsp",6.0,303.4979167,14.15791667,2.222083333,64.73833333
-spring onion tambali,"spring onion:3.0 stalk,shredded coconut:0.125 cup,dahi:1.0 cup,olive oil:1.0 tsp",4.0,63.225,2.809375,3.625,5.7
-goji berry apple smoothie,"apple:1.0 ,unsweetened almond milk:1.25 cup,pitted date:6.0 ,walnuts:2.0 tbsp,goji berries:2.0 tbsp,flaxseed powder:1.0 tbsp",2.0,222.75,4.0175,8.14,34.4175
-vegan blueberry no bake cheesecake,"pitted date:21.0 ,peanut butter:4.0 tbsp,cashew pieces:90.0 ,blueberry:0.33 box,honey:4.0 tbsp",6.0,330.7616667,6.536683333,15.94648333,45.12375
-madatha kaja,"all purpose flour:1.0 cup,ghee:9.0 tsp,olive oil:24.0 tsp,sugar:48.0 tsp",4.0,617.0,3.0,36.975,208.65
-tomato millet with powder,"barnyard millet:0.75 cup,mtr tomato rice powder:2.0 pack,olive oil:4.0 tsp,raw chana dal:1.0 tbsp,peanuts:2.5 tbsp",3.0,323.6,8.241666667,12.90833333,43.69166667
-coffee with oat creamer,planet oat creamer:2.0 tbsp,1.0,50.0,0.0,2.0,8.0
-red apple pear orange smoothie no yogurt,"apple:1.0 ,green pear:1.0  large,orange:1.0  large,pitted date:8.0 ,unsweetened almond milk:1.25 cup",2.0,283.25,3.0675,1.99,64.7175
-capsicum besan sabji,"green capsicum:1.0 ,besan:0.33 cup,olive oil:2.0 tsp,onion:0.75 ",1.0,263.48,19.71,11.416,26.135
-vegetable lasagna with tofu ricotta,"pasta lasagna sheet:6.0 sheet,red bell pepper:0.5 ,green capsicum:0.5 ,zucchini:1.0 medium,eggplant:4.0 ,mushroom:0.5 cup,olive oil:8.0 tsp,basil pasta sauce:2.0 cup,firm tofu:0.5 block,nutritional yeast:1.5 tbsp,half yolk egg:2.0 serving,spinach:1.0 cup,vegan mozzarella cheese:0.25 cup",4.0,560.25,23.67875,18.80875,87.05
-moong dal sabji,"yellow moong dal:0.25 cup,olive oil:1.0 tsp,onion:0.25 ,tomato:1.0 ",1.0,171.75,17.17,5.14,16.945
-veggie penne pasta no cheese,"zucchini:0.2 medium,eggplant:0.5 ,green capsicum:0.5 ,red bell pepper:0.5 ,basil pasta sauce:1.5 cup,olive oil:2.0 tsp,whole wheat pasta:1.5 cup",2.0,386.75,12.7875,10.8375,67.165
-mulitgrain roti,aashirvaad multigrain atta:2.5 cup,10.0,97.5,3.5,0.5,18.0
+aloo millet pulao with ghee,"barnyard millet: 0.25 cup,potato: 0.3 large,peanuts: 0.5 tbsp,ghee: 1.0 tsp,cashews: 4.0 tbsp",1.0,531.4,12.6,24.0,67.9
+coriander coconut chutney,"coriander leaves: 3.0 bunch,shredded coconut: 0.75 cup,roasted dalia: 0.5 cup",4.0,121.875,3.75,5.0,16.125
+chana masala sabji with ghee,"ghee: 4.0 tsp,onion: 1.0,tomato: 3.0,chana masala: 0.25 tbsp,garam masala: 0.25 tsp,garbanzo beans: 1.0 cup",4.0,256.5,12.75,5.0625,12.375
+rava dosa,"rice flour: 0.5 cup,dahi: 0.25 cup,olive oil: 2.5 tsp,roasted semolina: 0.5 cup,aashirvaad multigrain atta: 0.25 cup",6.0,137.41666666666666,3.5,2.2916666666666665,24.25
+strawberry blueberry smoothie,"strawberry: 8.0,blueberry: 0.5 box,greek yoghurt: 0.6 cup,pitted date: 8.0,unsweetened almond milk: 1.25 cup",2.0,228.0,8.325,1.5,42.125
+brinjal sambar,"toor dal: 0.25 cup,olive oil: 1.0 tsp,sambar masala: 0.125 tsp,small brinjal: 1.0 cup",1.0,195.75,8.0,4.5,30.125
+bhindi pulao,"bhindi: 2.0 pods,olive oil: 2.5 tsp,walnuts: 2.0 tbsp,barnyard millet: 0.75 cup",2.33,353.21888412017165,8.798283261802576,10.300429184549357,53.00429184549356
+masala masoor,"olive oil: 1.0 tsp,masoor dal: 0.33 cup,onion: 0.125,tomato: 0.5",1.0,276.17,19.235,4.66,36.925
+green peas pulao,"olive oil: 3.0 tsp,green peas pulao: 0.5 serving,barnyard millet: 0.75 cup",2.33,375.32188841201713,8.798283261802576,9.656652360515022,59.65665236051502
+apple pumpkin smoothie,"apple: 1.0,pumpkin: 0.125 cup,greek yoghurt: 0.5 cup,large banana: 0.5,unsweetened almond milk: 0.5 cup,pitted date: 6.0",2.0,196.125,6.5625,0.5,38.4375
+sprouts khichdi,"olive oil: 1.0 tsp,mung bean sprouts: 0.125 cup,barnyard millet: 0.2 cup,shredded coconut: 0.5 cup,frozen carrots and peas: 0.125 cup",1.0,398.3250000000001,6.275,17.6,53.825
+goji berry pear smoothie,"green pear: 2.0 large,unsweetened almond milk: 1.125 cup,flaxseed powder: 1.0 tbsp,walnuts: 2.0 tbsp,pitted date: 7.0,goji berries: 2.0 tbsp",2.0,344.875,3.0625,6.625,65.5625
+millet idli,"barnyard millet: 0.7 cup,urad dal: 0.35 cup,thin poha: 0.2 cup,methi seeds: 0.1 tbsp",10.0,86.885,3.38,0.7,16.36
+apple pear smoothie,"apple: 1.0,green pear: 1.0 large,unsweetened almond milk: 1.0 cup,greek yoghurt: 0.5 cup,pitted date: 8.0",2.0,274.5,7.0,1.0,55.5
+ghee rajma sabji,"rajma: 1.0 cup,olive oil: 4.0 tsp,ghee: 1.0 tsp,onion: 1.0,tomato: 2.5",6.0,155.91666666666666,12.583333333333334,3.5,18.916666666666668
+filter coffee mocha,"sweetened oat milk: 0.67 cup,sugar: 6.0 tsp",2.0,85.2,1.005,1.675,50.36
+indian style vegan tofu pizza,"whole wheat pizza crust: 1.0,ragu pizza sauce: 0.5 cup,vegan mozzarella cheese: 1.0 cup,green capsicum: 0.5,mushroom: 0.5 cup,onion: 0.5,tomato: 1.5,firm tofu: 0.4 block,olive oil: 2.0 tsp",2.0,544.0,25.0,22.0,66.75
+kala chana onion tomato salad,"kala chana: 0.33 cup,onion: 0.125,tomato: 0.5",2.0,75.845,5.657500000000001,0.99,10.7075
+high protein soya chunks dosa,"soya chunks: 1.0 cup,tomato: 1.0,rice flour: 0.75 cup,aashirvaad multigrain atta: 1.0 cup,olive oil: 6.0 tsp",12.0,104.70833333333331,4.3125,2.2916666666666665,15.270833333333334
+ragada pattice,"potato: 2.0 large,thin poha: 0.25 cup,olive oil: 2.0 tsp,vatana: 1.5 cup,onion: 1.0,bombay chutney: 12.0 tsp,jaggery: 24.0 tsp,tamarind paste: 4.0 tbsp",6.0,309.0833333333333,14.125,1.3333333333333333,68.125
+spring onion tambali,"spring onion: 3.0 stalk,shredded coconut: 0.125 cup,dahi: 1.0 cup,olive oil: 1.0 tsp",4.0,62.625,2.5625,3.5,5.625
+goji berry apple smoothie,"apple: 1.0,unsweetened almond milk: 1.25 cup,pitted date: 6.0,walnuts: 2.0 tbsp,goji berries: 2.0 tbsp,flaxseed powder: 1.0 tbsp",2.0,222.75,2.125,6.75,34.125
+vegan blueberry no bake cheesecake,"pitted date: 21.0,peanut butter: 4.0 tbsp,cashew pieces: 90.0,blueberry: 0.33 box,honey: 4.0 tbsp",6.0,330.76166666666666,2.776666666666667,5.388333333333333,37.52333333333333
+madatha kaja,"all purpose flour: 1.0 cup,ghee: 9.0 tsp,olive oil: 24.0 tsp,sugar: 48.0 tsp",4.0,617.0,3.0,33.25,203.75
+tomato millet with powder,"barnyard millet: 0.75 cup,mtr tomato rice powder: 2.0 pack,olive oil: 4.0 tsp,raw chana dal: 1.0 tbsp,peanuts: 2.5 tbsp",3.0,323.3333333333333,7.5,11.666666666666666,42.333333333333336
+coffee with oat creamer,planet oat creamer: 2.0 tbsp,1.0,50.0,0.0,2.0,8.0
+red apple pear orange smoothie no yogurt,"apple: 1.0,green pear: 1.0 large,orange: 1.0 large,pitted date: 8.0,unsweetened almond milk: 1.25 cup",2.0,283.25,1.625,1.25,64.625
+capsicum besan sabji,"green capsicum: 1.0,besan: 0.33 cup,olive oil: 2.0 tsp,onion: 0.75",1.0,263.48,19.18,9.98,25.24
+vegetable lasagna with tofu ricotta,"pasta lasagna sheet: 6.0 sheet,red bell pepper: 0.5,green capsicum: 0.5,zucchini: 1.0 medium,eggplant: 4.0,mushroom: 0.5 cup,olive oil: 8.0 tsp,basil pasta sauce: 2.0 cup,firm tofu: 0.5 block,nutritional yeast: 1.5 tbsp,half yolk egg: 2.0 serving,spinach: 1.0 cup,vegan mozzarella cheese: 0.25 cup",4.0,560.25,21.75,16.25,85.875
+moong dal sabji,"yellow moong dal: 0.25 cup,olive oil: 1.0 tsp,onion: 0.25,tomato: 1.0",1.0,171.75,17.0,4.25,16.25
+veggie penne pasta no cheese,"zucchini: 0.2 medium,eggplant: 0.5,green capsicum: 0.5,red bell pepper: 0.5,basil pasta sauce: 1.5 cup,olive oil: 2.0 tsp,whole wheat pasta: 1.5 cup",2.0,386.75,11.95,9.5,66.75
+mulitgrain roti,aashirvaad multigrain atta: 2.5 cup,10.0,97.5,3.5,0.5,18.0

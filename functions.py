@@ -165,6 +165,6 @@ def update_daily_tracker_on_meal_update(recipe):
                         protein = df.loc[df['food_item']==recipe]["protein"].squeeze() * measure
                         fats = df.loc[df['food_item']==recipe]["fats"].squeeze() * measure
                         carbs = df.loc[df['food_item']==recipe]["carbohydrates"].squeeze() * measure
-                        lines[i] = f"Calories: {calories}, Measure: {line.split(',')[1].split(':')[1]}, Protein: {protein}, Fats: {fats}, Carbs: {carbs}"
+                        lines[i] = f"Calories: {calories}, Measure: {line.split(',')[1].split(':')[1]}, Protein: {protein}, Fats: {fats}, Carbs: {carbs}\n"
             with open(file,'w') as out_file:
                 out_file.writelines(lines)
