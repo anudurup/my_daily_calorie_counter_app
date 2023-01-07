@@ -1,6 +1,6 @@
 kala chana sabji :
-Calories: 88.5, Measure: 0.5 serving, Protein: 7.5, Fats: 2.0, Carbs: 8.5
+Calories: 88.9375, Measure:   0.5 serving, Protein: 7.625, Fats: 2.375, Carbs: 8.90625
 beans sabji :
-Calories: 48.0, Measure: 0.5 serving, Protein: 3.5, Fats: 3.5, Carbs: 14.5
+Calories: 48.0, Measure:   0.5 serving, Protein: 3.5, Fats: 3.5, Carbs: 14.75
 multigrain roti :
-Calories: 174.6, Measure: 1.8 serving, Protein: 5.4, Fats: 0.0, Carbs: 32.4
+Calories: 175.5, Measure:   1.8 serving, Protein: 6.3, Fats: 0.9, Carbs: 32.4

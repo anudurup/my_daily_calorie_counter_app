@@ -1,4 +1,4 @@
 rava upma :
-Calories: 276.0, Measure: 1.0 serving, Protein: 7.0, Fats: 11.0, Carbs: 35.0
+Calories: 276.14, Measure:   1.0 serving, Protein: 7.58, Fats: 10.58, Carbs: 34.74
 coffee with oat creamer :
-Calories: 50.0, Measure: 1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
+Calories: 50.0, Measure:   1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0

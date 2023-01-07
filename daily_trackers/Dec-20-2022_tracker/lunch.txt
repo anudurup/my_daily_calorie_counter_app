@@ -1,4 +1,4 @@
 aloo capsicum :
 Calories: 119, Measure: 1 serving, Protein: 7, Fats: 2, Carbs: 18
 roti :
-Calories: 97, Measure: 1 serving, Protein: 3, Fats: 0, Carbs: 18
+Calories: 86.66666667, Measure:   1 serving, Protein: 3.111111111, Fats: 0.444444444, Carbs: 16.0

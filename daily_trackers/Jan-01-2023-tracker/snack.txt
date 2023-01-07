@@ -1,6 +1,6 @@
 sunfeast 5 grain digestive :
-Calories: 145.5, Measure: 3.0 biscuits, Protein: 10.5, Fats: 6.0, Carbs: 19.5
+Calories: 291.0, Measure:   3.0 biscuits, Protein: 23.1, Fats: 13.200000000000001, Carbs: 39.900000000000006
 pitted date :
-Calories: 92.0, Measure: 4.0, Protein: 0.0, Fats: 0.0, Carbs: 24.0
+Calories: 92.0, Measure:   4.0, Protein: 0.8, Fats: 0.0, Carbs: 24.0
 vegan blueberry no bake cheesecake :
-Calories: 330.0, Measure: 1.0 serving, Protein: 2.0, Fats: 5.0, Carbs: 37.0
+Calories: 330.7616667, Measure:   1.0 serving, Protein: 2.776666667, Fats: 5.388333333, Carbs: 37.52333333

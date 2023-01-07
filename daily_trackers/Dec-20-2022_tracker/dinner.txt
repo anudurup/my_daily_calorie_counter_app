@@ -1,2 +1,2 @@
 millet pongal :
-Calories: 351.0, Measure: 1.0 serving, Protein: 8.0, Fats: 15.0, Carbs: 40.0
+Calories: 351.73, Measure:   1.0 serving, Protein: 8.71, Fats: 15.59, Carbs: 40.28

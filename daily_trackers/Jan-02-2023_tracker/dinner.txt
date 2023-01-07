@@ -1,4 +1,4 @@
 tomato millet with powder :
-Calories: 323.0, Measure: 1.0 serving, Protein: 7.0, Fats: 11.0, Carbs: 42.0
+Calories: 323.3333333, Measure:   1.0 serving, Protein: 7.5, Fats: 11.66666667, Carbs: 42.33333333
 dahi :
-Calories: 75.0, Measure: 0.5 cup, Protein: 5.0, Fats: 3.5, Carbs: 7.0
+Calories: 75.0, Measure:   0.5 cup, Protein: 5.0, Fats: 3.5, Carbs: 7.0

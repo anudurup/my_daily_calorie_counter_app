@@ -1,2 +1,2 @@
 apple pear smoothie :
-Calories: 245.0, Measure: 1.0 serving, Protein: 6.0, Fats: 1.0, Carbs: 49.0
+Calories: 274.5, Measure:   1.0 serving, Protein: 7.0, Fats: 1.0, Carbs: 55.5

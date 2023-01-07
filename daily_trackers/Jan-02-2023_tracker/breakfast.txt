@@ -1,6 +1,6 @@
 high protein soya chunks dosa :
-Calories: 312.0, Measure: 3.0 serving, Protein: 12.0, Fats: 6.0, Carbs: 45.0
+Calories: 314.12499990000003, Measure:   3.0 serving, Protein: 12.9375, Fats: 6.875000001, Carbs: 45.81249999
 spring onion tambali :
-Calories: 62.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 5.0
+Calories: 62.625, Measure:   1.0 serving, Protein: 2.5625, Fats: 3.5, Carbs: 5.625
 coffee with oat creamer :
-Calories: 50.0, Measure: 1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
+Calories: 50.0, Measure:   1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0

@@ -1,4 +1,4 @@
 nectarine :
-Calories: 69.0, Measure: 1.0 large, Protein: 1.0, Fats: 0.0, Carbs: 16.0
+Calories: 69.0, Measure:   1.0 large, Protein: 1.7, Fats: 0.5, Carbs: 16.0
 see's candies assorted :
-Calories: 180.0, Measure: 2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
+Calories: 180.0, Measure:   2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0

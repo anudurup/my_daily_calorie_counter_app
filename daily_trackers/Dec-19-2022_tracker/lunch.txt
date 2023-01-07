@@ -1,8 +1,8 @@
 gutti vankaya :
-Calories: 33.800000000000004, Measure: 0.2 serving, Protein: 0.6000000000000001, Fats: 1.6, Carbs: 3.2
+Calories: 33.9795, Measure:   0.2 serving, Protein: 0.76475, Fats: 1.724, Carbs: 3.3945000000000003
 aloo capsicum sabji :
-Calories: 11.9, Measure: 0.1 serving, Protein: 0.7000000000000001, Fats: 0.2, Carbs: 1.8
+Calories: 11.975000000000001, Measure:   0.1 serving, Protein: 0.7375, Fats: 0.2, Carbs: 1.8125
 ghee rajma sabji :
-Calories: 155.0, Measure: 1.0 serving, Protein: 12.0, Fats: 3.0, Carbs: 18.0
+Calories: 155.9166667, Measure:   1.0 serving, Protein: 12.58333333, Fats: 3.5, Carbs: 18.91666667
 frozen roti :
-Calories: 225.0, Measure: 1.5, Protein: 6.0, Fats: 7.5, Carbs: 37.5
+Calories: 225.0, Measure:   1.5, Protein: 6.0, Fats: 7.5, Carbs: 37.5
