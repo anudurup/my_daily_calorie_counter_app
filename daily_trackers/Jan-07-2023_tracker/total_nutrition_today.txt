@@ -1,0 +1,25 @@
+Breakfast
+vermicelli upma :
+Calories: 293.0, Measure: 1.0 serving, Protein: 6.0, Fats: 18.0, Carbs: 24.0
+Total Calories: 293.0, Total Proteins: 6.0, Total Fats: 18.0, Total Carbs: 24.0
+
+Smoothie
+Lunch
+ching's hakka noodles with veggies and schezwan sauce :
+Calories: 373.6, Measure: 0.8 serving, Protein: 12.8, Fats: 7.2, Carbs: 60.0
+filter coffee mocha :
+Calories: 85.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 50.0
+Total Calories: 458.6, Total Proteins: 13.8, Total Fats: 8.2, Total Carbs: 110.0
+
+Snack
+sunfeast 5 grain digestive :
+Calories: 97.0, Measure: 2.0 biscuits, Protein: 7.0, Fats: 4.0, Carbs: 13.0
+see's candies assorted :
+Calories: 90.0, Measure: 1.0 piece, Protein: 1.0, Fats: 5.0, Carbs: 11.0
+Total Calories: 187.0, Total Proteins: 8.0, Total Fats: 9.0, Total Carbs: 24.0
+
+Salad
+Dinner
+Total consumed today
+Total Calories: 938.6, Total Proteins: 27.8, Total Fats: 35.2, Total Carbs: 158.0
+

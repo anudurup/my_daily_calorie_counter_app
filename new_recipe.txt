@@ -1,0 +1,3 @@
+whole wheat bread: quantity- 2.0 slice
+peanut butter: quantity- 1.0 tbsp
+honey: quantity- 0.5 tbsp

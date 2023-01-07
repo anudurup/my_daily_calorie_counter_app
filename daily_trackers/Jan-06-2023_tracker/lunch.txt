@@ -1,0 +1,6 @@
+aloo bhindi sabji :
+Calories: 171.0, Measure: 0.5 serving, Protein: 2.5, Fats: 8.0, Carbs: 20.0
+frozen roti :
+Calories: 250.5, Measure: 1.67, Protein: 6.68, Fats: 8.35, Carbs: 41.75
+spinach sambar :
+Calories: 34.4, Measure: 0.4 serving, Protein: 1.6, Fats: 0.8, Carbs: 4.800000000000001

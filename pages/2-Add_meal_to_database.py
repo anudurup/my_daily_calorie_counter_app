@@ -78,9 +78,12 @@ def clear_ingredients():
 
 def add_ingr():
     ingredients = functions.get_todos('new_recipe.txt')
-    new_ingredient = selectbox
+    new_ingredient = selectbox.split(':')[0]
     new_quantity = st.session_state["new_quantity"]
-    ingredients.append(f"{new_ingredient}: quantity-{new_quantity}\n")
+    if (len(selectbox.split(':')[1].split()) == 1):
+        ingredients.append(f"{new_ingredient}: quantity-{new_quantity}\n")
+    else:
+        ingredients.append(f"{new_ingredient}: quantity-{new_quantity} {selectbox.split(':')[1].split()[1]}\n")
     functions.write_todos(ingredients, 'new_recipe.txt') 
     del st.session_state["selected_ingredient"]
 
@@ -116,9 +119,9 @@ if not (ingredient == "") and not functions.check_if_item_exists(ingredient):
 if st.session_state["new_ingredient"].lower() != "":   
     measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
     match_items = list()
-    for key in food_items:
+    for i,key in enumerate(food_items):
         if ingredient in key:
-            match_items.append(key)
+            match_items.append(f"{key}:{measures[i]}")
     selectbox = st.selectbox(label=f"Pick item which matches \"{ingredient}\":",key=f'select_index_{ingredient}',options=match_items)
     st.button("Add ingredient", key="selected_ingredient", on_click=add_ingr)
 

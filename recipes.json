@@ -846,16 +846,6 @@
         "total_carbs": 18.895000000000003,
         "no_of_servings": 2.0
     },
-    "aloo bhindi": {
-        "bhindi": "1.0 pods",
-        "potato": "0.5 large",
-        "olive oil": "3.0 tsp",
-        "total_cals": 288.0,
-        "total_protein": 4.5,
-        "total_fats": 12.0,
-        "total_carbs": 37.5,
-        "no_of_servings": 1.0
-    },
     "homemade poha": {
         "raw chana dal": "0.5 tbsp",
         "olive oil": "1.0 tsp",
@@ -1003,17 +993,16 @@
         "no_of_servings": 2.0
     },
     "aloo millet pulao": {
-        "barnyard millet": "0.25 cup",
-        "potato": "0.3 large",
-        "peanuts": "0.5 tbsp",
-        "olive oil": "1.0 tsp",
-        "cashews": "4.0 tbsp",
-        "raw chana dal": "1.0 tbsp",
-        "total_cals": 567.4,
-        "total_protein": 13.6,
-        "total_fats": 25.0,
-        "total_carbs": 70.9,
-        "no_of_servings": 1.0
+        "barnyard millet": "0.7 cup",
+        "potato": "0.5 large",
+        "cashew pieces": "8.0 ",
+        "frozen carrots and peas": "0.25 cup",
+        "olive oil": "3.0 tsp",
+        "total_cals": 292.9,
+        "total_protein": 6.633333333333333,
+        "total_fats": 5.866666666666667,
+        "total_carbs": 45.81666666666666,
+        "no_of_servings": 3.0
     },
     "aloo millet pulao with ghee": {
         "barnyard millet": "0.25 cup",
@@ -1411,5 +1400,40 @@
         "total_fats": 9.0,
         "total_carbs": 75.06,
         "no_of_servings": 2.0
+    },
+    "soya dosa leftover dosa with rice flour and sooji": {
+        "high protein soya chunks dosa": "1.0 serving",
+        "rice flour": "1.5 cup",
+        "sooji": "0.5 cup",
+        "olive oil": "3.0 tsp",
+        "green capsicum": "0.25 ",
+        "onion": "0.25 ",
+        "total_cals": 242.70833333333334,
+        "total_protein": 5.25,
+        "total_fats": 3.1666666666666665,
+        "total_carbs": 46.583333333333336,
+        "no_of_servings": 6.0
+    },
+    "green pear smoothie with oat milk": {
+        "green pear": "1.0 large",
+        "sweetened oat milk": "0.5 cup",
+        "pitted date": "6.0 ",
+        "walnuts": "1.0 tbsp",
+        "goji berries": "1.0 tbsp",
+        "total_cals": 213.5,
+        "total_protein": 1.75,
+        "total_fats": 3.25,
+        "total_carbs": 43.5,
+        "no_of_servings": 2.0
+    },
+    "aloo bhindi sabji": {
+        "potato": "0.5 large",
+        "bhindi": "1.5 pods",
+        "olive oil": "4.0 tsp",
+        "total_cals": 342.5,
+        "total_protein": 5.0,
+        "total_fats": 16.0,
+        "total_carbs": 40.5,
+        "no_of_servings": 1.0
     }
 }
