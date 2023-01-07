@@ -147,7 +147,7 @@ def update_trackers_for_recipe_name_change(recipe,changed_name):
 def update_daily_tracker_on_meal_update(recipe):
     import pandas as pd
     import glob
-    df = pd.read_csv("recipes.csv")
+    df = pd.read_csv("item_calorie_dict.csv")
     files = glob.glob("daily_trackers\*\*.txt")
     files = [file for file in files if not ('calorie_deficit' in file) and not ('total_nutrition' in file)]
     for file in files:
