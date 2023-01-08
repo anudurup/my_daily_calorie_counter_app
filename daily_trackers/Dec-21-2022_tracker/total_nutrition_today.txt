@@ -1,37 +1,25 @@
-Breakfast
-millet dosa :
-Calories: 387.0, Measure: 3.0 serving, Protein: 12.0, Fats: 6.0, Carbs: 60.0
-coriander chutney :
-Calories: 68.0, Measure: 1.0 serving, Protein: 6.0, Fats: 3.0, Carbs: 2.0
-Total Calories: 455.0, Total Proteins: 18.0, Total Fats: 9.0, Total Carbs: 62.0
-
-Smoothie
-apple spinach smoothie :
-Calories: 138.0, Measure: 1.0 serving, Protein: 0.0, Fats: 1.0, Carbs: 28.0
-Total Calories: 138.0, Total Proteins: 0.0, Total Fats: 1.0, Total Carbs: 28.0
-
-Lunch
-indian style vegan tofu pizza :
-Calories: 381.6, Measure: 0.9 serving, Protein: 22.5, Fats: 12.6, Carbs: 48.6
-Total Calories: 381.6, Total Proteins: 22.5, Total Fats: 12.6, Total Carbs: 48.6
-
-Snack
-skinny popcorn :
-Calories: 108.0, Measure: 2.7 cup, Protein: 0.0, Fats: 5.4, Carbs: 10.8
-caramel popcorn with cashews :
-Calories: 120.0, Measure: 0.33 cup, Protein: 1.0, Fats: 6.0, Carbs: 16.0
-Total Calories: 228.0, Total Proteins: 1.0, Total Fats: 11.4, Total Carbs: 26.8
-
-Salad
-kala chana onion tomato salad :
-Calories: 75.0, Measure: 1.0 serving, Protein: 5.0, Fats: 0.0, Carbs: 10.0
-Total Calories: 75.0, Total Proteins: 5.0, Total Fats: 0.0, Total Carbs: 10.0
-
-Dinner
-moong dal khichdi :
-Calories: 396.0, Measure: 1.0 serving, Protein: 15.0, Fats: 11.0, Carbs: 49.0
-Total Calories: 396.0, Total Proteins: 15.0, Total Fats: 11.0, Total Carbs: 49.0
-
+Breakfast:
+millet dosa:
+Measure: 3.0 serving,Calories:389.86875,Protein:12.9,Fats:8.625,Carbs:62.025000000000006
+coriander chutney:
+Measure: 1.0 serving,Calories:68.91666667,Protein:6.75,Fats:3.5,Carbs:2.416666667
+Smoothie:
+apple spinach smoothie:
+Measure: 1.0 serving,Calories:138.75,Protein:0.625,Fats:1.25,Carbs:28.625
+Lunch:
+indian style vegan tofu pizza:
+Measure: 0.9 serving,Calories:489.6,Protein:22.5,Fats:19.8,Carbs:60.075
+Snack:
+skinny popcorn:
+Measure: 2.7 cup,Calories:108.0,Protein:1.4391000000000005,Fats:7.209,Carbs:10.8
+caramel popcorn with cashews:
+Measure: 0.33 cup,Calories:39.6,Protein:0.33,Fats:1.98,Carbs:5.28
+Salad:
+kala chana onion tomato salad:
+Measure: 1.0 serving,Calories:75.845,Protein:5.6575,Fats:0.99,Carbs:10.7075
+Dinner:
+moong dal khichdi:
+Measure: 1.0 serving,Calories:396.53,Protein:15.05,Fats:11.63,Carbs:49.45
 Total consumed today
-Total Calories: 1673.6, Total Proteins: 61.5, Total Fats: 45.0, Total Carbs: 224.4
+Total Calories: 1707.1104166699997, Total Proteins: 65.2516, Total Fats: 54.984, Total Carbs: 229.37916666700005
 

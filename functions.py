@@ -100,31 +100,17 @@ def create_total_nutrition_details(date_selectbox):
     total_carbs = 0
     with open(fpath + os.sep + "total_nutrition_today.txt", "w") as f:
         for i,mealtype in enumerate(mealtime_list):
-            f.write(mealtype.capitalize() + "\n")
+            f.write(mealtype.capitalize() + ":\n")   
             if os.path.exists(fpath + os.sep + mealtype + '.txt'):
-                fname = open(fpath + os.sep + mealtype + '.txt')
-                lines = fname.readlines()
-                recipe_list = list()
-                calories = list()
-                proteins = list()
-                fats = list()
-                carbs = list()
-
-                for line in lines:
-                    f.write(line)
-                    if not ('Calories' in line) and not ('' == line):
-                        recipe_list.append(line.split(":")[0].rstrip())
-                    if 'Calories' in line:
-                        values = line.split(',')
-                        calories.append(float(values[0].split(':')[1]))
-                        proteins.append(float(values[2].split(':')[1]))
-                        fats.append(float(values[3].split(':')[1]))
-                        carbs.append(float(values[4].split(':')[1]))
-                f.write(f"Total Calories: {sum(calories)}, Total Proteins: {sum(proteins)}, Total Fats: {sum(fats)}, Total Carbs: {sum(carbs)}" + "\n\n")
-                total_calories += sum(calories)
-                total_proteins += sum(proteins)
-                total_fats += sum(fats)
-                total_carbs += sum(carbs)
+                fname = fpath + os.sep + mealtype + '.txt'
+                df = pd.read_csv(fname,sep=',')
+                for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+                    f.write(f"{recipe_name}:\n")
+                    f.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}\n")  
+                total_calories += df['calories'].sum()
+                total_proteins += df['protein'].sum()
+                total_fats += df['fats'].sum()
+                total_carbs += df['carbs'].sum()
         f.write("Total consumed today" + "\n")
         f.write(f"Total Calories: {total_calories}, Total Proteins: {total_proteins}, Total Fats: {total_fats}, Total Carbs: {total_carbs}" + "\n\n")    
 

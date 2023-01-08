@@ -1,51 +1,39 @@
-Breakfast
-high protein soya chunks dosa :
-Calories: 312.0, Measure: 3.0 serving, Protein: 12.0, Fats: 6.0, Carbs: 45.0
-spring onion tambali :
-Calories: 62.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 5.0
-coffee with oat creamer :
-Calories: 50.0, Measure: 1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
-Total Calories: 424.0, Total Proteins: 14.0, Total Fats: 11.0, Total Carbs: 58.0
-
-Smoothie
-goji berry apple smoothie :
-Calories: 222.0, Measure: 1.0 serving, Protein: 2.0, Fats: 6.0, Carbs: 34.0
-Total Calories: 222.0, Total Proteins: 2.0, Total Fats: 6.0, Total Carbs: 34.0
-
-Lunch
-kala chana sabji :
-Calories: 88.5, Measure: 0.5 serving, Protein: 7.5, Fats: 2.0, Carbs: 8.5
-beans sabji :
-Calories: 48.0, Measure: 0.5 serving, Protein: 3.5, Fats: 3.5, Carbs: 14.5
-multigrain roti :
-Calories: 174.6, Measure: 1.8 serving, Protein: 5.4, Fats: 0.0, Carbs: 32.4
-Total Calories: 311.1, Total Proteins: 16.4, Total Fats: 5.5, Total Carbs: 55.4
-
-Snack
-sunfeast 5 grain digestive :
-Calories: 97.0, Measure: 2.0 biscuits, Protein: 7.0, Fats: 4.0, Carbs: 13.0
-see's candies assorted :
-Calories: 90.0, Measure: 1.0 pieces, Protein: 1.0, Fats: 5.5, Carbs: 11.5
-jalapeno makhana :
-Calories: 84.0, Measure: 1.0 cup, Protein: 0.0, Fats: 4.0, Carbs: 20.0
-marie biscuit :
-Calories: 48.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 8.0
-filter coffee mocha :
-Calories: 94.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 57.0
-Total Calories: 413.0, Total Proteins: 9.0, Total Fats: 14.5, Total Carbs: 109.5
-
-Salad
-mini bell pepper salad :
-Calories: 114.0, Measure: 1.0 serving, Protein: 4.0, Fats: 0.0, Carbs: 10.0
-Total Calories: 114.0, Total Proteins: 4.0, Total Fats: 0.0, Total Carbs: 10.0
-
-Dinner
-tomato millet with powder :
-Calories: 323.0, Measure: 1.0 serving, Protein: 7.0, Fats: 11.0, Carbs: 42.0
-dahi :
-Calories: 75.0, Measure: 0.5 cup, Protein: 5.0, Fats: 3.5, Carbs: 7.0
-Total Calories: 398.0, Total Proteins: 12.0, Total Fats: 14.5, Total Carbs: 49.0
-
+Breakfast:
+high protein soya chunks dosa:
+Measure: 3.0 serving,Calories:314.12499990000003,Protein:12.9375,Fats:6.875000001,Carbs:45.81249999
+spring onion tambali:
+Measure: 1.0 serving,Calories:62.625,Protein:2.5625,Fats:3.5,Carbs:5.625
+coffee with oat creamer:
+Measure: 1.0 serving,Calories:50.0,Protein:0.0,Fats:2.0,Carbs:8.0
+Smoothie:
+goji berry apple smoothie:
+Measure: 1.0 serving,Calories:222.75,Protein:2.125,Fats:6.75,Carbs:34.125
+Lunch:
+kala chana sabji:
+Measure: 0.5 serving,Calories:88.9375,Protein:7.625,Fats:2.375,Carbs:8.90625
+beans sabji:
+Measure: 0.5 serving,Calories:48.0,Protein:3.5,Fats:3.5,Carbs:14.75
+multigrain roti:
+Measure: 1.8 serving,Calories:175.5,Protein:6.3,Fats:0.9,Carbs:32.4
+Snack:
+sunfeast 5 grain digestive:
+Measure: 2.0 biscuits,Calories:194.0,Protein:15.4,Fats:8.8,Carbs:26.6
+see's candies assorted:
+Measure: 1.0 pieces,Calories:90.0,Protein:1.0,Fats:5.5,Carbs:11.5
+jalapeno makhana:
+Measure: 1.0 cup,Calories:84.0,Protein:0.0,Fats:4.0,Carbs:20.0
+marie biscuit:
+Measure: 2.0,Calories:48.0,Protein:1.0,Fats:1.1666,Carbs:8.334
+filter coffee mocha:
+Measure: 1.0 serving,Calories:85.2,Protein:1.005,Fats:1.675,Carbs:50.36
+Salad:
+mini bell pepper salad:
+Measure: 1.0 serving,Calories:114.95,Protein:4.55,Fats:0.0,Carbs:10.65
+Dinner:
+tomato millet with powder:
+Measure: 1.0 serving,Calories:323.3333333,Protein:7.5,Fats:11.66666667,Carbs:42.33333333
+dahi:
+Measure: 0.5 cup,Calories:75.0,Protein:5.0,Fats:3.5,Carbs:7.0
 Total consumed today
-Total Calories: 1882.1, Total Proteins: 57.4, Total Fats: 51.5, Total Carbs: 315.9
+Total Calories: 1976.4208332, Total Proteins: 70.505, Total Fats: 62.208266671000004, Total Carbs: 326.39608332
 

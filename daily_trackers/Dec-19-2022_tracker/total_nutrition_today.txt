@@ -1,45 +1,33 @@
-Breakfast
-coriander chutney :
-Calories: 68.0, Measure: 1.0 serving, Protein: 6.0, Fats: 3.0, Carbs: 2.0
-half yolk egg :
-Calories: 46.0, Measure: 1.0 serving, Protein: 4.0, Fats: 2.0, Carbs: 0.0
-millet idli :
-Calories: 369.0, Measure: 4.5 serving, Protein: 13.5, Fats: 0.0, Carbs: 63.0
-Total Calories: 483.0, Total Proteins: 23.5, Total Fats: 5.0, Total Carbs: 65.0
-
-Smoothie
-apple pear smoothie :
-Calories: 245.0, Measure: 1.0 serving, Protein: 6.0, Fats: 1.0, Carbs: 49.0
-Total Calories: 245.0, Total Proteins: 6.0, Total Fats: 1.0, Total Carbs: 49.0
-
-Lunch
-gutti vankaya :
-Calories: 33.800000000000004, Measure: 0.2 serving, Protein: 0.6000000000000001, Fats: 1.6, Carbs: 3.2
-aloo capsicum sabji :
-Calories: 11.9, Measure: 0.1 serving, Protein: 0.7000000000000001, Fats: 0.2, Carbs: 1.8
-ghee rajma sabji :
-Calories: 155.0, Measure: 1.0 serving, Protein: 12.0, Fats: 3.0, Carbs: 18.0
-frozen roti :
-Calories: 225.0, Measure: 1.5, Protein: 6.0, Fats: 7.5, Carbs: 37.5
-Total Calories: 425.7, Total Proteins: 19.3, Total Fats: 12.3, Total Carbs: 60.5
-
-Snack
-Kirkland salted mixed nuts :
-Calories: 67.5, Measure: 1.5 tbsp, Protein: 1.5, Fats: 4.5, Carbs: 1.5
-murmura chivda :
-Calories: 113.0, Measure: 1.0 cup, Protein: 1.0, Fats: 7.0, Carbs: 9.0
-Total Calories: 180.5, Total Proteins: 2.5, Total Fats: 11.5, Total Carbs: 10.5
-
-Salad
-mini bell pepper salad :
-Calories: 114.0, Measure: 1.0 serving, Protein: 4.0, Fats: 0.0, Carbs: 10.0
-Total Calories: 114.0, Total Proteins: 4.0, Total Fats: 0.0, Total Carbs: 10.0
-
-Dinner
-lemon millet :
-Calories: 297.0, Measure: 1.0 serving, Protein: 8.0, Fats: 10.0, Carbs: 39.0
-Total Calories: 297.0, Total Proteins: 8.0, Total Fats: 10.0, Total Carbs: 39.0
-
+ Breakfast:
+coriander chutney:
+Measure: 1.0 serving,Calories:68.91666667,Protein:6.75,Fats:3.5,Carbs:2.416666667
+boiled egg with half yolk:
+Measure: 1.0 serving,Calories:46.0,Protein:4.0,Fats:2.0,Carbs:0.0
+millet idli:
+Measure: 4.5 serving,Calories:390.9825,Protein:15.21,Fats:3.15,Carbs:73.62
+Smoothie:
+apple pear smoothie:
+Measure: 1.0 serving,Calories:274.5,Protein:7.0,Fats:1.0,Carbs:55.5
+Lunch:
+gutti vankaya:
+Measure: 0.2 serving,Calories:33.9795,Protein:0.76475,Fats:1.724,Carbs:3.3945000000000003
+aloo capsicum sabji:
+Measure: 0.1 serving,Calories:11.975,Protein:0.7375,Fats:0.2,Carbs:1.8125
+ghee rajma sabji:
+Measure: 1.0 serving,Calories:155.9166667,Protein:12.58333333,Fats:3.5,Carbs:18.91666667
+frozen roti:
+Measure: 1.5,Calories:225.0,Protein:6.0,Fats:7.5,Carbs:37.5
+Snack:
+Kirkland salted mixed nuts:
+Measure: 1.5 tbsp,Calories:67.5,Protein:1.5,Fats:4.5,Carbs:1.5
+murmura chivda:
+Measure: 1.0 cup,Calories:113.0,Protein:1.2,Fats:7.6,Carbs:9.9
+Salad:
+mini bell pepper salad:
+Measure: 1.0 serving,Calories:114.95,Protein:4.55,Fats:0.0,Carbs:10.65
+Dinner:
+lemon millet:
+Measure: 1.0 serving,Calories:297.5,Protein:8.0,Fats:10.5,Carbs:39.0
 Total consumed today
-Total Calories: 1745.2, Total Proteins: 63.3, Total Fats: 39.8, Total Carbs: 234.0
+Total Calories: 1800.2203333700002, Total Proteins: 68.29558333, Total Fats: 45.174, Total Carbs: 254.21033333700004
 

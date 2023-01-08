@@ -1,39 +1,31 @@
-Breakfast
-rava upma :
-Calories: 276.14, Measure:   1.0 serving, Protein: 7.58, Fats: 10.58, Carbs: 34.74
-coffee with oat creamer :
-Calories: 50.0, Measure:   1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
-Total Calories: 326.14, Total Proteins: 7.58, Total Fats: 12.58, Total Carbs: 42.74
-
-Smoothie
-Lunch
-vegetable lasagna with tofu ricotta :
-Calories: 280.125, Measure:   0.5 serving, Protein: 10.875, Fats: 8.125, Carbs: 42.9375
-capsicum besan bhaji :
-Calories: 28.002, Measure:   0.2 serving, Protein: 1.22, Fats: 1.2000000000000002, Carbs: 2.908
-moong dal sabji :
-Calories: 34.35, Measure:   0.2 serving, Protein: 3.4000000000000004, Fats: 0.8500000000000001, Carbs: 3.25
-frozen roti :
-Calories: 100.5, Measure:   0.67, Protein: 2.68, Fats: 3.35, Carbs: 16.75
-filter coffee mocha :
-Calories: 85.2, Measure:   1.0 serving, Protein: 1.005, Fats: 1.675, Carbs: 50.36
-Total Calories: 528.177, Total Proteins: 19.18, Total Fats: 15.2, Total Carbs: 116.2055
-
-Snack
-nectarine :
-Calories: 69.0, Measure:   1.0 large, Protein: 1.7, Fats: 0.5, Carbs: 16.0
-see's candies assorted :
-Calories: 180.0, Measure:   2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
-marie biscuit :
-Calories: 48.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 8.0
-Total Calories: 297.0, Total Proteins: 3.7, Total Fats: 11.5, Total Carbs: 47.0
-
-Salad
-Dinner
-aloo millet pulao :
-Calories: 292.0, Measure: 1.0 serving, Protein: 6.0, Fats: 5.0, Carbs: 45.0
-Total Calories: 292.0, Total Proteins: 6.0, Total Fats: 5.0, Total Carbs: 45.0
-
+Breakfast:
+rava upma:
+Measure: 1.0 serving,Calories:276.14,Protein:7.58,Fats:10.58,Carbs:34.74
+coffee with oat creamer:
+Measure: 1.0 serving,Calories:50.0,Protein:0.0,Fats:2.0,Carbs:8.0
+Smoothie:
+Lunch:
+vegetable lasagna with tofu ricotta:
+Measure: 0.5 serving,Calories:280.125,Protein:10.875,Fats:8.125,Carbs:42.9375
+capsicum besan bhaji:
+Measure: 0.2 serving,Calories:28.002,Protein:1.22,Fats:1.2000000000000002,Carbs:2.908
+moong dal sabji:
+Measure: 0.2 serving,Calories:34.35,Protein:3.4000000000000004,Fats:0.8500000000000001,Carbs:3.25
+frozen roti:
+Measure: 0.67,Calories:100.5,Protein:2.68,Fats:3.35,Carbs:16.75
+filter coffee mocha:
+Measure: 1.0 serving,Calories:85.2,Protein:1.005,Fats:1.675,Carbs:50.36
+Snack:
+nectarine:
+Measure: 1.0 large,Calories:69.0,Protein:1.7,Fats:0.5,Carbs:16.0
+see's candies assorted:
+Measure: 2.0 pieces,Calories:180.0,Protein:2.0,Fats:11.0,Carbs:23.0
+marie biscuit:
+Measure: 2.0,Calories:48.0,Protein:0.0,Fats:0.0,Carbs:8.0
+Salad:
+Dinner:
+aloo millet pulao:
+Measure: 1.0 serving,Calories:292.0,Protein:6.0,Fats:5.0,Carbs:45.0
 Total consumed today
 Total Calories: 1443.317, Total Proteins: 36.459999999999994, Total Fats: 44.28, Total Carbs: 250.9455
 

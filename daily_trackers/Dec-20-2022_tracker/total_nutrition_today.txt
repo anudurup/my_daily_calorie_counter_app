@@ -1,41 +1,29 @@
-Breakfast
-vermicelli upma : 
-Calories: 173, Measure: 1 serving, Protein: 3, Fats: 6, Carbs: 15
-half yolk egg :
-Calories: 46.0, Measure: 1.0 serving, Protein: 4.0, Fats: 2.0, Carbs: 0.0
-Total Calories: 219.0, Total Proteins: 7.0, Total Fats: 8.0, Total Carbs: 15.0
-
-Smoothie
-goji berry pear smoothie :
-Calories: 285.0, Measure: 1.0 serving, Protein: 2.0, Fats: 6.0, Carbs: 53.0
-Total Calories: 285.0, Total Proteins: 2.0, Total Fats: 6.0, Total Carbs: 53.0
-
-Lunch
-aloo capsicum :
-Calories: 119, Measure: 1 serving, Protein: 7, Fats: 2, Carbs: 18
-roti :
-Calories: 97, Measure: 1 serving, Protein: 3, Fats: 0, Carbs: 18
-Total Calories: 216.0, Total Proteins: 10.0, Total Fats: 2.0, Total Carbs: 36.0
-
-Snack
-mixed nuts :
-Calories: 45, Measure: 1 tbsp, Protein: 1, Fats: 3, Carbs: 1
-pitted date :
-Calories: 46.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 12.0
-murmura chivda :
-Calories: 113.0, Measure: 1.0 cup, Protein: 1.0, Fats: 7.0, Carbs: 9.0
-Total Calories: 204.0, Total Proteins: 2.0, Total Fats: 10.0, Total Carbs: 22.0
-
-Salad
-mini bell pepper salad :
-Calories: 114.0, Measure: 1.0 serving, Protein: 4.0, Fats: 0.0, Carbs: 10.0
-Total Calories: 114.0, Total Proteins: 4.0, Total Fats: 0.0, Total Carbs: 10.0
-
-Dinner
-millet pongal :
-Calories: 351.0, Measure: 1.0 serving, Protein: 8.0, Fats: 15.0, Carbs: 40.0
-Total Calories: 351.0, Total Proteins: 8.0, Total Fats: 15.0, Total Carbs: 40.0
-
+Breakfast:
+vermicelli upma:
+Measure: 1 serving,Calories:293.85,Protein:6.89,Fats:18.58,Carbs:24.11
+boiled egg with half yolk:
+Measure: 1.0 serving,Calories:46.0,Protein:4.0,Fats:2.0,Carbs:0.0
+Smoothie:
+goji berry pear smoothie:
+Measure: 1.0 serving,Calories:344.875,Protein:3.0625,Fats:6.625,Carbs:65.5625
+Lunch:
+aloo capsicum:
+Measure: 1 serving,Calories:119.0,Protein:7.0,Fats:2.0,Carbs:18.0
+roti:
+Measure: 1 serving,Calories:86.66666667,Protein:3.111111111,Fats:0.444444444,Carbs:16.0
+Snack:
+mixed nuts:
+Measure: 1 tbsp,Calories:45.0,Protein:1.0,Fats:3.0,Carbs:1.0
+pitted date:
+Measure: 2.0,Calories:46.0,Protein:0.4,Fats:0.0,Carbs:12.0
+murmura chivda:
+Measure: 1.0 cup,Calories:113.0,Protein:1.2,Fats:7.6,Carbs:9.9
+Salad:
+mini bell pepper salad:
+Measure: 1.0 serving,Calories:114.95,Protein:4.55,Fats:0.0,Carbs:10.65
+Dinner:
+millet pongal:
+Measure: 1.0 serving,Calories:351.73,Protein:8.71,Fats:15.59,Carbs:40.28
 Total consumed today
-Total Calories: 1389.0, Total Proteins: 33.0, Total Fats: 41.0, Total Carbs: 176.0
+Total Calories: 1561.07166667, Total Proteins: 39.923611111, Total Fats: 55.839444443999994, Total Carbs: 197.5025
 

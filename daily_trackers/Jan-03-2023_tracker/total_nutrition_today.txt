@@ -1,53 +1,41 @@
-Breakfast
-ragi dosa :
-Calories: 135.0, Measure: 1.0 serving, Protein: 4.0, Fats: 2.0, Carbs: 24.0
-coriander chutney :
-Calories: 27.200000000000003, Measure: 0.4 serving, Protein: 2.4000000000000004, Fats: 1.2000000000000002, Carbs: 0.8
-high protein soya chunks dosa :
-Calories: 156.0, Measure: 1.5 serving, Protein: 6.0, Fats: 3.0, Carbs: 22.5
-spring onion tambali :
-Calories: 62.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 5.0
-coffee with oat creamer :
-Calories: 50.0, Measure: 1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
-Total Calories: 430.2, Total Proteins: 14.4, Total Fats: 11.2, Total Carbs: 60.3
-
-Smoothie
-red apple pear orange smoothie no yogurt :
-Calories: 253.0, Measure: 1.0 serving, Protein: 1.0, Fats: 1.0, Carbs: 58.0
-Total Calories: 253.0, Total Proteins: 1.0, Total Fats: 1.0, Total Carbs: 58.0
-
-Lunch
-capsicum besan bhaji :
-Calories: 56.0, Measure: 0.4 serving, Protein: 2.4000000000000004, Fats: 2.4000000000000004, Carbs: 5.6000000000000005
-moong dal sabji :
-Calories: 68.4, Measure: 0.4 serving, Protein: 6.800000000000001, Fats: 1.6, Carbs: 6.4
-multigrain roti :
-Calories: 174.6, Measure: 1.8 serving, Protein: 5.4, Fats: 0.0, Carbs: 32.4
-Total Calories: 299.0, Total Proteins: 14.600000000000001, Total Fats: 4.0, Total Carbs: 44.4
-
-Snack
-Kirkland salted mixed nuts :
-Calories: 45.0, Measure: 1.0 tbsp, Protein: 1.0, Fats: 3.0, Carbs: 1.0
-see's candies assorted :
-Calories: 180.0, Measure: 2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
-murmura chivda :
-Calories: 56.5, Measure: 0.5 cup, Protein: 0.5, Fats: 3.5, Carbs: 4.5
-harvest snaps green peas :
-Calories: 130.0, Measure: 1.0 serving, Protein: 5.0, Fats: 5.0, Carbs: 16.0
-sunfeast 5 grain digestive :
-Calories: 194.0, Measure: 4.0 biscuits, Protein: 14.0, Fats: 8.0, Carbs: 26.0
-Total Calories: 605.5, Total Proteins: 22.5, Total Fats: 30.5, Total Carbs: 70.5
-
-Salad
-spring mix tomato salad with mustard vinaegrette :
-Calories: 102.0, Measure: 1.0 serving, Protein: 0.0, Fats: 6.0, Carbs: 1.0
-Total Calories: 102.0, Total Proteins: 0.0, Total Fats: 6.0, Total Carbs: 1.0
-
-Dinner
-fada ni khichdi :
-Calories: 235.0, Measure: 1.0 serving, Protein: 7.0, Fats: 6.0, Carbs: 31.0
-Total Calories: 235.0, Total Proteins: 7.0, Total Fats: 6.0, Total Carbs: 31.0
-
+Breakfast:
+ragi dosa:
+Measure: 1.0 serving,Calories:135.2666667,Protein:4.066666667,Fats:2.233333333,Carbs:24.46666667
+coriander chutney:
+Measure: 0.4 serving,Calories:27.566666668,Protein:2.7,Fats:1.4,Carbs:0.9666666668
+high protein soya chunks dosa:
+Measure: 1.5 serving,Calories:157.06249995000002,Protein:6.46875,Fats:3.4375000005,Carbs:22.906249995
+spring onion tambali:
+Measure: 1.0 serving,Calories:62.625,Protein:2.5625,Fats:3.5,Carbs:5.625
+coffee with oat creamer:
+Measure: 1.0 serving,Calories:50.0,Protein:0.0,Fats:2.0,Carbs:8.0
+Smoothie:
+red apple pear orange smoothie no yogurt:
+Measure: 1.0 serving,Calories:283.25,Protein:1.625,Fats:1.25,Carbs:64.625
+Lunch:
+capsicum besan bhaji:
+Measure: 0.4 serving,Calories:56.004,Protein:2.44,Fats:2.4000000000000004,Carbs:5.816
+moong dal sabji:
+Measure: 0.4 serving,Calories:68.7,Protein:6.800000000000001,Fats:1.7000000000000002,Carbs:6.5
+multigrain roti:
+Measure: 1.8 serving,Calories:175.5,Protein:6.3,Fats:0.9,Carbs:32.4
+Snack:
+Kirkland salted mixed nuts:
+Measure: 1.0 tbsp,Calories:45.0,Protein:1.0,Fats:3.0,Carbs:1.0
+see's candies assorted:
+Measure: 2.0 pieces,Calories:180.0,Protein:2.0,Fats:11.0,Carbs:23.0
+murmura chivda:
+Measure: 0.5 cup,Calories:56.5,Protein:0.6,Fats:3.8,Carbs:4.95
+harvest snaps green peas:
+Measure: 1.0 serving,Calories:130.0,Protein:5.0,Fats:5.0,Carbs:16.0
+sunfeast 5 grain digestive:
+Measure: 4.0 biscuits,Calories:388.0,Protein:30.8,Fats:17.6,Carbs:53.2
+Salad:
+spring mix tomato salad with mustard vinaegrette:
+Measure: 1.0 serving,Calories:102.0,Protein:0.0,Fats:6.0,Carbs:1.0
+Dinner:
+fada ni khichdi:
+Measure: 1.0 serving,Calories:235.0,Protein:7.0,Fats:6.0,Carbs:31.0
 Total consumed today
-Total Calories: 1924.7, Total Proteins: 59.5, Total Fats: 58.7, Total Carbs: 265.2
+Total Calories: 2152.474833318, Total Proteins: 79.36291666700001, Total Fats: 71.22083333350001, Total Carbs: 301.45558333179997
 

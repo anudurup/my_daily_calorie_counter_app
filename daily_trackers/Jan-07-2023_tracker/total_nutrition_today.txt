@@ -1,23 +1,21 @@
-Breakfast
-recipe_name,measure,calories,protein,fats,carbs
-vermicelli upma,1.0 serving,293.0,6.0,18.0,24.0
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Smoothie
-Lunch
-recipe_name,measure,calories,protein,fats,carbs
-ching's hakka noodles with veggies and schezwan sauce,0.8 serving,373.6,12.8,7.2,60.0
-filter coffee mocha,1.0 serving,85.0,1.0,1.0,50.0
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Snack
-recipe_name,measure,calories,protein,fats,carbs
-sunfeast 5 grain digestive,2.0 biscuits,97.0,7.0,4.0,13.0
-see's candies assorted,0.5 piece,45.0,0.5,2.5,5.5
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Salad
-Dinner
+Breakfast:
+vermicelli upma:
+Measure: 1.0 serving,Calories:293.0,Protein:6.0,Fats:18.0,Carbs:24.0
+Smoothie:
+Lunch:
+ching's hakka noodles with veggies and schezwan sauce:
+Measure: 0.8 serving,Calories:373.6,Protein:12.8,Fats:7.2,Carbs:60.0
+filter coffee mocha:
+Measure: 1.0 serving,Calories:85.0,Protein:1.0,Fats:1.0,Carbs:50.0
+Snack:
+sunfeast 5 grain digestive:
+Measure: 2.0 biscuits,Calories:97.0,Protein:7.0,Fats:4.0,Carbs:13.0
+see's candies assorted:
+Measure: 0.5 piece,Calories:45.0,Protein:0.5,Fats:2.5,Carbs:5.5
+harvest snaps:
+Measure: 2.0 serving,Calories:260.0,Protein:10.0,Fats:10.0,Carbs:32.0
+Salad:
+Dinner:
 Total consumed today
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
+Total Calories: 1153.6, Total Proteins: 37.3, Total Fats: 42.7, Total Carbs: 184.5
 

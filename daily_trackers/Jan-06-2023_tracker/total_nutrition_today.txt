@@ -1,59 +1,35 @@
-Breakfast
-recipe_name,measure,calories,protein,fats,carbs
-
-soya dosa leftover dosa with rice flour and sooji,2.5 serving,605.0,12.5,7.5,115.0
-
-spring onion tambali,0.5 serving,31.0,1.0,1.5,2.5
-
-idli podi,1.0 tbsp,34.0,6.0,3.0,25.0
-
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Smoothie
-recipe_name,measure,calories,protein,fats,carbs
-
-green pear smoothie with oat milk,1.0 serving,213.0,1.0,3.0,43.0
-
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Lunch
-recipe_name,measure,calories,protein,fats,carbs
-
-aloo bhindi sabji,0.5 serving,171.0,2.5,8.0,20.0
-
-frozen roti,1.67,250.5,6.68,8.35,41.75
-
-spinach sambar,0.4 serving,34.4,1.6,0.8,4.800000000000001
-
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Snack
-recipe_name,measure,calories,protein,fats,carbs
-
-see's candies assorted,1.5 piece,135.0,1.5,7.5,16.5
-
-harvest snaps,2.0 serving,260.0,10.0,10.0,32.0
-
-sunfeast 5 grain digestive,2.0 biscuits,97.0,7.0,4.0,13.0
-
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Salad
-recipe_name,measure,calories,protein,fats,carbs
-
-mini bell pepper salad,1.0 serving,114.0,4.0,0.0,10.0
-
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
-Dinner
-recipe_name,measure,calories,protein,fats,carbs
-
-maggie masala noodles,1.0 pack,310.0,6.0,13.0,43.0
-
-peanut butter sandwich,1.5 serving,486.0,18.0,15.0,73.5
-
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
-
+Breakfast:
+soya dosa leftover dosa with rice flour and sooji:
+Measure: 2.5 serving,Calories:605.0,Protein:12.5,Fats:7.5,Carbs:115.0
+spring onion tambali:
+Measure: 0.5 serving,Calories:31.0,Protein:1.0,Fats:1.5,Carbs:2.5
+idli podi:
+Measure: 1.0 tbsp,Calories:34.0,Protein:6.0,Fats:3.0,Carbs:25.0
+Smoothie:
+green pear smoothie with oat milk:
+Measure: 1.0 serving,Calories:213.0,Protein:1.0,Fats:3.0,Carbs:43.0
+Lunch:
+aloo bhindi sabji:
+Measure: 0.5 serving,Calories:171.0,Protein:2.5,Fats:8.0,Carbs:20.0
+frozen roti:
+Measure: 1.67,Calories:250.5,Protein:6.68,Fats:8.35,Carbs:41.75
+spinach sambar:
+Measure: 0.4 serving,Calories:34.4,Protein:1.6,Fats:0.8,Carbs:4.800000000000001
+Snack:
+see's candies assorted:
+Measure: 1.5 piece,Calories:135.0,Protein:1.5,Fats:7.5,Carbs:16.5
+harvest snaps:
+Measure: 2.0 serving,Calories:260.0,Protein:10.0,Fats:10.0,Carbs:32.0
+sunfeast 5 grain digestive:
+Measure: 2.0 biscuits,Calories:97.0,Protein:7.0,Fats:4.0,Carbs:13.0
+Salad:
+mini bell pepper salad:
+Measure: 1.0 serving,Calories:114.0,Protein:4.0,Fats:0.0,Carbs:10.0
+Dinner:
+maggie masala noodles:
+Measure: 1.0 pack,Calories:310.0,Protein:6.0,Fats:13.0,Carbs:43.0
+peanut butter sandwich:
+Measure: 1.5 serving,Calories:486.0,Protein:18.0,Fats:15.0,Carbs:73.5
 Total consumed today
-Total Calories: 0, Total Proteins: 0, Total Fats: 0, Total Carbs: 0
+Total Calories: 2740.9, Total Proteins: 77.78, Total Fats: 81.65, Total Carbs: 440.05
 
