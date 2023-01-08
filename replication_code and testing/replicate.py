@@ -1,7 +1,7 @@
 mealtype = ['breakfast','smoothie','lunch','snack','salad','dinner']
-out_f = open('replicated.txt','a')
+out_f = open('replication_code and testing/replicated.txt','a')
 for meal in mealtype:
-    f = open('replicate.txt')
+    f = open('replication_code and testing/replicate.txt')
     lines = f.readlines()
     for i,line in enumerate(lines):
         if 'Breakfast' in line:

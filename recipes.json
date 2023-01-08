@@ -1435,5 +1435,24 @@
         "total_fats": 16.0,
         "total_carbs": 40.5,
         "no_of_servings": 1.0
+    },
+    "whole wheat pizza with tofu ricotta": {
+        "whole wheat pizza crust": "1.0 ",
+        "ragu pizza sauce": "0.75 cup",
+        "firm tofu": "0.2 block",
+        "nutritional yeast": "0.5 tbsp",
+        "half yolk egg": "0.5 serving",
+        "spinach": "0.25 cup",
+        "vegan mozzarella cheese": "0.25 cup",
+        "cherry tomato": "8.0 ",
+        "red bell pepper": "0.33 ",
+        "green capsicum": "0.33 ",
+        "onion": "0.125 ",
+        "garlic clove": "2.0 ",
+        "total_cals": 362.665,
+        "total_protein": 14.517499999999998,
+        "total_fats": 9.5,
+        "total_carbs": 55.0775,
+        "no_of_servings": 2.0
     }
 }

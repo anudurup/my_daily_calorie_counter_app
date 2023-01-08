@@ -36,7 +36,7 @@ if os.path.exists(fname):
             del st.session_state[recipe_name]
             st.experimental_rerun()   
     df2 = df.loc[df['mealtype'] == 'breakfast']
-    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}")
     
 col1, col2 = st.columns(2)
 with col1:
@@ -48,7 +48,7 @@ with col1:
         for i,key in enumerate(food_items):
             if breakfast_item in key:
                 match_items.append(f"{key}:{measures[i]}")
-        breakfast_selectbox = st.selectbox(label=f"Pick item which matches \"{breakfast_item}\":",key=f'select_index_{breakfast_item}',options=match_items)
+        breakfast_selectbox = st.selectbox(label=f"Pick item which matches \"{breakfast_item}\":",key=f'breakfast_select_index_{breakfast_item}',options=match_items)
 with col2:
     st.text_input(label="Enter breakfast quantity:", placeholder="Enter breakfast quantity...", key='breakfast_quantity')
 st.button("Add breakfast item", key="add_breakfast_item", on_click=add_breakfast_item)
