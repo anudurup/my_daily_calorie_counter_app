@@ -1,4 +1,3 @@
-ragada pattice :
-Calories: 309.0833333, Measure:1.0 serving, Protein: 14.125, Fats: 1.333333333, Carbs: 68.125
-aloo millet pulao :
-Calories: 73.225, Measure: 0.25 serving, Protein: 1.6583333333333332, Fats: 1.4666666666666668, Carbs: 11.454166666666666
+recipe_name,measure,calories,protein,fats,carbs
+ragada pattice,1.0 serving,309.0833333,14.125,1.333333333,68.125
+aloo millet pulao,0.25 serving,73.225,1.6583333333333332,1.4666666666666668,11.454166666666666

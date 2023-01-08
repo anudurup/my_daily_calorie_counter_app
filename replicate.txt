@@ -1,0 +1,56 @@
+#Create Breakfast
+def add_breakfast_item():
+    measures,food_items,calories,proteins,fats,carbohydrates = functions.load_item_calorie_dict()    
+    key = breakfast_selectbox.split(':')[0]
+    quantity = float(st.session_state["breakfast_quantity"])
+    index = food_items.index(key)      
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
+    fname = day_folder + os.sep + 'breakfast.txt'
+    if not os.path.exists(fname):
+        with open(fname, 'x') as f:
+            pass
+
+    df = pd.read_csv(fname,sep=',')           
+    if (len(measure.split()) > 1):
+        measure_quantity = float(quantity) * float(measure.split()[0])
+        measure_quantity = str(measure_quantity) + " " + measure.split()[1]
+    else:
+        measure_quantity = float(quantity) * float(measure)  
+    if (key in df['recipe_name'].to_list()):
+        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+    else:
+        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+    df.to_csv(fname,sep=',',index=False)
+    st.session_state["breakfast_item"] = ""
+    st.session_state['breakfast_quantity'] = ""
+
+st.subheader("Breakfast:")
+if os.path.exists(fpath + os.sep + 'breakfast.txt'):
+    fname = fpath + os.sep + 'breakfast.txt'
+    df = pd.read_csv(fname,sep=',')
+    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+        checkbox = st.checkbox(recipe_name,key = recipe_name)
+        st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
+        if checkbox:  
+            df = df.drop(df.index[df["recipe_name"] == recipe_name])
+            df.to_csv(fname,sep=',',index=False)
+            del st.session_state[recipe_name]
+            st.experimental_rerun()   
+    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    
+col1, col2 = st.columns(2)
+with col1:
+    st.text_input(label="Add breakfast items:", placeholder="Enter breakfast item...", key='breakfast_item')
+    if st.session_state['breakfast_item'] != "":  
+        breakfast_item = st.session_state["breakfast_item"].lower()
+        measures,food_items,calories,protein,fats,carbohydrates = functions.load_item_calorie_dict()
+        match_items = list()
+        for i,key in enumerate(food_items):
+            if breakfast_item in key:
+                match_items.append(f"{key}:{measures[i]}")
+        breakfast_selectbox = st.selectbox(label=f"Pick item which matches \"{breakfast_item}\":",key=f'select_index_{breakfast_item}',options=match_items)
+with col2:
+    st.text_input(label="Enter breakfast quantity:", placeholder="Enter breakfast quantity...", key='breakfast_quantity')
+st.button("Add breakfast item", key="add_breakfast_item", on_click=add_breakfast_item)
+if not functions.check_if_item_exists(st.session_state['breakfast_item'].lower()):
+    st.info("Add single item/meal to the database.")

@@ -1,2 +1,2 @@
-apple pear smoothie :
-Calories: 274.5, Measure:   1.0 serving, Protein: 7.0, Fats: 1.0, Carbs: 55.5
+recipe_name,measure,calories,protein,fats,carbs
+apple pear smoothie,1.0 serving,274.5,7.0,1.0,55.5

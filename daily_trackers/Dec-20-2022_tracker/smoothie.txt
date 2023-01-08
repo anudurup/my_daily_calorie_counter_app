@@ -1,2 +1,2 @@
-goji berry pear smoothie :
-Calories: 344.875, Measure:   1.0 serving, Protein: 3.0625, Fats: 6.625, Carbs: 65.5625
+recipe_name,measure,calories,protein,fats,carbs
+goji berry pear smoothie,1.0 serving,344.875,3.0625,6.625,65.5625

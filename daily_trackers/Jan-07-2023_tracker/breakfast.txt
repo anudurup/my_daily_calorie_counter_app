@@ -1,2 +1,2 @@
-vermicelli upma :
-Calories: 293.0, Measure: 1.0 serving, Protein: 6.0, Fats: 18.0, Carbs: 24.0
+recipe_name,measure,calories,protein,fats,carbs
+vermicelli upma,1.0 serving,293.0,6.0,18.0,24.0

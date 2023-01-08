@@ -1,10 +1,6 @@
-sunfeast 5 grain digestive :
-Calories: 194.0, Measure:   2.0 biscuits, Protein: 15.4, Fats: 8.8, Carbs: 26.6
-see's candies assorted :
-Calories: 90.0, Measure:   1.0 pieces, Protein: 1.0, Fats: 5.5, Carbs: 11.5
-jalapeno makhana :
-Calories: 84.0, Measure:   1.0 cup, Protein: 0.0, Fats: 4.0, Carbs: 20.0
-marie biscuit :
-Calories: 48.0, Measure:   2.0, Protein: 1.0, Fats: 1.1666, Carbs: 8.334
-filter coffee mocha :
-Calories: 85.2, Measure:   1.0 serving, Protein: 1.005, Fats: 1.675, Carbs: 50.36
+recipe_name,measure,calories,protein,fats,carbs
+sunfeast 5 grain digestive,2.0 biscuits,194.0,15.4,8.8,26.6
+see's candies assorted,1.0 pieces,90.0,1.0,5.5,11.5
+jalapeno makhana,1.0 cup,84.0,0.0,4.0,20.0
+marie biscuit,2.0,48.0,1.0,1.1666,8.334
+filter coffee mocha,1.0 serving,85.2,1.005,1.675,50.36

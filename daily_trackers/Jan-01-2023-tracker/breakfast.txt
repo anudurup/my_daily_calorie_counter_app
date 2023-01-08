@@ -1,2 +1,2 @@
-homemade poha :
-Calories: 406.5, Measure:   1.25 serving, Protein: 7.9375, Fats: 10.625, Carbs: 62.9375
+recipe_name,measure,calories,protein,fats,carbs
+homemade poha,1.25 serving,406.5,7.9375,10.625,62.9375

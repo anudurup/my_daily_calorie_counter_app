@@ -1,2 +1,2 @@
-goji berry apple smoothie :
-Calories: 222.75, Measure:   1.0 serving, Protein: 2.125, Fats: 6.75, Carbs: 34.125
+recipe_name,measure,calories,protein,fats,carbs
+goji berry apple smoothie,1.0 serving,222.75,2.125,6.75,34.125

@@ -1,2 +1,2 @@
-apple spinach smoothie :
-Calories: 138.75, Measure:   1.0 serving, Protein: 0.625, Fats: 1.25, Carbs: 28.625
+recipe_name,measure,calories,protein,fats,carbs
+apple spinach smoothie,1.0 serving,138.75,0.625,1.25,28.625

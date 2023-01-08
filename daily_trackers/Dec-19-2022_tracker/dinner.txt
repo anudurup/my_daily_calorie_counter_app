@@ -1,2 +1,2 @@
-lemon millet :
-Calories: 297.5, Measure:   1.0 serving, Protein: 8.0, Fats: 10.5, Carbs: 39.0
+recipe_name,measure,calories,protein,fats,carbs
+lemon millet,1.0 serving,297.5,8.0,10.5,39.0

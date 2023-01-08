@@ -1,2 +1,2 @@
-indian style vegan tofu pizza :
-Calories: 489.6, Measure:   0.9 serving, Protein: 22.5, Fats: 19.8, Carbs: 60.075
+recipe_name,measure,calories,protein,fats,carbs
+indian style vegan tofu pizza,0.9 serving,489.6,22.5,19.8,60.075

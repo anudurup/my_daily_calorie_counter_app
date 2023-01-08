@@ -1,10 +1,6 @@
-ragi dosa :
-Calories: 135.2666667, Measure:   1.0 serving, Protein: 4.066666667, Fats: 2.233333333, Carbs: 24.46666667
-coriander chutney :
-Calories: 27.566666668, Measure:   0.4 serving, Protein: 2.7, Fats: 1.4000000000000001, Carbs: 0.9666666668
-high protein soya chunks dosa :
-Calories: 157.06249995000002, Measure:   1.5 serving, Protein: 6.46875, Fats: 3.4375000005, Carbs: 22.906249995
-spring onion tambali :
-Calories: 62.625, Measure:   1.0 serving, Protein: 2.5625, Fats: 3.5, Carbs: 5.625
-coffee with oat creamer :
-Calories: 50.0, Measure:   1.0 serving, Protein: 0.0, Fats: 2.0, Carbs: 8.0
+recipe_name,measure,calories,protein,fats,carbs
+ragi dosa,1.0 serving,135.2666667,4.066666667,2.233333333,24.46666667
+coriander chutney,0.4 serving,27.566666668,2.7,1.4000000000000001,0.9666666668
+high protein soya chunks dosa,1.5 serving,157.06249995000002,6.46875,3.4375000005,22.906249995
+spring onion tambali,1.0 serving,62.625,2.5625,3.5,5.625
+coffee with oat creamer,1.0 serving,50.0,0.0,2.0,8.0

@@ -1,6 +1,4 @@
-nectarine :
-Calories: 69.0, Measure:   1.0 large, Protein: 1.7, Fats: 0.5, Carbs: 16.0
-see's candies assorted :
-Calories: 180.0, Measure:   2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
-marie biscuit :
-Calories: 48.0, Measure: 2.0, Protein: 0.0, Fats: 0.0, Carbs: 8.0
+recipe_name,measure,calories,protein,fats,carbs
+nectarine,1.0 large,69.0,1.7,0.5,16.0
+see's candies assorted,2.0 pieces,180.0,2.0,11.0,23.0
+marie biscuit,2.0,48.0,0.0,0.0,8.0

@@ -1,4 +1,3 @@
-aloo capsicum :
-Calories: 119, Measure: 1 serving, Protein: 7, Fats: 2, Carbs: 18
-roti :
-Calories: 86.66666667, Measure:   1 serving, Protein: 3.111111111, Fats: 0.444444444, Carbs: 16.0
+recipe_name,measure,calories,protein,fats,carbs
+aloo capsicum,1 serving,119,7,2,18
+roti,1 serving,86.66666667,3.111111111,0.444444444,16.0

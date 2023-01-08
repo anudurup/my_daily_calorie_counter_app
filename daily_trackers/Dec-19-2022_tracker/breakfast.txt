@@ -1,6 +1,4 @@
-coriander chutney :
-Calories: 68.91666667, Measure:   1.0 serving, Protein: 6.75, Fats: 3.5, Carbs: 2.416666667
-boiled egg with half yolk :
-Calories: 46.0, Measure: 1.0 serving, Protein: 4.0, Fats: 2.0, Carbs: 0.0
-millet idli :
-Calories: 390.9825, Measure:   4.5 serving, Protein: 15.209999999999999, Fats: 3.15, Carbs: 73.62
+recipe_name,measure,calories,protein,fats,carbs
+coriander chutney,1.0 serving,68.91666667,6.75,3.5,2.416666667
+boiled egg with half yolk,1.0 serving,46.0,4.0,2.0,0.0
+millet idli,4.5 serving,390.9825,15.209999999999999,3.15,73.62

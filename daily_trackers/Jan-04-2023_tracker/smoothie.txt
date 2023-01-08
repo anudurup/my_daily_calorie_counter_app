@@ -1,2 +1,2 @@
-berry smoothie with oat milk :
-Calories: 188.0, Measure: 1.0 serving, Protein: 2.0, Fats: 3.0, Carbs: 37.0
+recipe_name,measure,calories,protein,fats,carbs
+berry smoothie with oat milk,1.0 serving,188.0,2.0,3.0,37.0

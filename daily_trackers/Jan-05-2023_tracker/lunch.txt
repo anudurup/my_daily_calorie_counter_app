@@ -1,10 +1,6 @@
-vegetable lasagna with tofu ricotta :
-Calories: 280.125, Measure:   0.5 serving, Protein: 10.875, Fats: 8.125, Carbs: 42.9375
-capsicum besan bhaji :
-Calories: 28.002, Measure:   0.2 serving, Protein: 1.22, Fats: 1.2000000000000002, Carbs: 2.908
-moong dal sabji :
-Calories: 34.35, Measure:   0.2 serving, Protein: 3.4000000000000004, Fats: 0.8500000000000001, Carbs: 3.25
-frozen roti :
-Calories: 100.5, Measure:   0.67, Protein: 2.68, Fats: 3.35, Carbs: 16.75
-filter coffee mocha :
-Calories: 85.2, Measure:   1.0 serving, Protein: 1.005, Fats: 1.675, Carbs: 50.36
+recipe_name,measure,calories,protein,fats,carbs
+vegetable lasagna with tofu ricotta,0.5 serving,280.125,10.875,8.125,42.9375
+capsicum besan bhaji,0.2 serving,28.002,1.22,1.2000000000000002,2.908
+moong dal sabji,0.2 serving,34.35,3.4000000000000004,0.8500000000000001,3.25
+frozen roti,0.67,100.5,2.68,3.35,16.75
+filter coffee mocha,1.0 serving,85.2,1.005,1.675,50.36

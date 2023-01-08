@@ -1,2 +1,2 @@
-kala chana onion tomato salad :
-Calories: 75.845, Measure:   1.0 serving, Protein: 5.6575, Fats: 0.99, Carbs: 10.7075
+recipe_name,measure,calories,protein,fats,carbs
+kala chana onion tomato salad,1.0 serving,75.845,5.6575,0.99,10.7075

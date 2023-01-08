@@ -1,2 +1,2 @@
-veggie penne pasta no cheese :
-Calories: 348.075, Measure:   0.9 serving, Protein: 10.754999999999999, Fats: 8.55, Carbs: 60.075
+recipe_name,measure,calories,protein,fats,carbs
+veggie penne pasta no cheese,0.9 serving,348.075,10.754999999999999,8.55,60.075

@@ -1,10 +1,6 @@
-kirkland salted mixed nuts :
-Calories: 45.0, Measure:   1.0 tbsp, Protein: 1.25, Fats: 3.75, Carbs: 1.5
-see's candies assorted :
-Calories: 180.0, Measure:   2.0 pieces, Protein: 2.0, Fats: 11.0, Carbs: 23.0
-sunfeast 5 grain digestive :
-Calories: 388.0, Measure:   4.0 biscuits, Protein: 30.8, Fats: 17.6, Carbs: 53.2
-pitted date :
-Calories: 46.0, Measure:   2.0, Protein: 0.4, Fats: 0.0, Carbs: 12.0
-marie biscuit :
-Calories: 24.0, Measure:   1.0, Protein: 0.5, Fats: 0.5833, Carbs: 4.167
+recipe_name,measure,calories,protein,fats,carbs
+kirkland salted mixed nuts,1.0 tbsp,45.0,1.25,3.75,1.5
+see's candies assorted,2.0 pieces,180.0,2.0,11.0,23.0
+sunfeast 5 grain digestive,4.0 biscuits,388.0,30.8,17.6,53.2
+pitted date,2.0,46.0,0.4,0.0,12.0
+marie biscuit,1.0,24.0,0.5,0.5833,4.167
