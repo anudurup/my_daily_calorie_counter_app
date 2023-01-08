@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-millet pongal,1.0 serving,351.73,8.71,15.59,40.28

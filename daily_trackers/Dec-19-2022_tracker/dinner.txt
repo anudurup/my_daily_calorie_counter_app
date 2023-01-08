@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-lemon millet,1.0 serving,297.5,8.0,10.5,39.0

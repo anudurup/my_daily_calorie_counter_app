@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-sunfeast 5 grain digestive,3.0 biscuits,291.0,23.1,13.200000000000001,39.900000000000006
-pitted date,4.0,92.0,0.8,0.0,24.0
-vegan blueberry no bake cheesecake,1.0 serving,330.7616667,2.776666667,5.388333333,37.52333333

@@ -1,9 +1,0 @@
-Title:Expected/Max:Current/Consumed Today
-Weight:55:72.2
-Calories burned with exercise:600:300
-BMR:1207.75:1379.75
-Calories Consumed:2138.6125:1443.317
-Calorie Deficit:500:995.3
-Protein Consumed:97.01g:36.459999999999994g
-Fats Consumed:97.01g:44.28g
-Carbs Consumed:180.15g:250.9455g

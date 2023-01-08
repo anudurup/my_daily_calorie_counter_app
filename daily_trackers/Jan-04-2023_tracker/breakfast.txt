@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-homemade poha,1.0 serving,325.2,6.35,8.5,50.35
-coffee with oat creamer,1.0 serving,50.0,0.0,2.0,8.0

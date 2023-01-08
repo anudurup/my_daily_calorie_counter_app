@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-veggie penne pasta no cheese,0.9 serving,348.075,10.754999999999999,8.55,60.075

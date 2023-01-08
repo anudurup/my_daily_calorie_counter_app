@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-homemade poha,1.25 serving,406.5,7.9375,10.625,62.9375

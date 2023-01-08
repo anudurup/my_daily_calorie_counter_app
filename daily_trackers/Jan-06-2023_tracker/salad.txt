@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-mini bell pepper salad,1.0 serving,114.0,4.0,0.0,10.0

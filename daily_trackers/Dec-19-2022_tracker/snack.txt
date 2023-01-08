@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-Kirkland salted mixed nuts,1.5 tbsp,67.5,1.5,4.5,1.5
-murmura chivda,1.0 cup,113.0,1.2,7.6,9.9

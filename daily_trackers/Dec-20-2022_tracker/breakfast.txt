@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-vermicelli upma,1 serving,293.85,6.89,18.58,24.11
-boiled egg with half yolk,1.0 serving,46.0,4.0,2.0,0.0

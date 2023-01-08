@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-soya dosa leftover dosa with rice flour and sooji,2.5 serving,605.0,12.5,7.5,115.0
-spring onion tambali,0.5 serving,31.0,1.0,1.5,2.5
-idli podi,1.0 tbsp,34.0,6.0,3.0,25.0

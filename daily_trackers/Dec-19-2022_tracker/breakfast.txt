@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-coriander chutney,1.0 serving,68.91666667,6.75,3.5,2.416666667
-boiled egg with half yolk,1.0 serving,46.0,4.0,2.0,0.0
-millet idli,4.5 serving,390.9825,15.209999999999999,3.15,73.62

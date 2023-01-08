@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-moong dal khichdi,1.0 serving,396.53,15.05,11.63,49.45

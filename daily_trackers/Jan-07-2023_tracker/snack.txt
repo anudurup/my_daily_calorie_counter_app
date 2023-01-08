@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-sunfeast 5 grain digestive,2.0 biscuits,97.0,7.0,4.0,13.0
-see's candies assorted,0.5 piece,45.0,0.5,2.5,5.5
-harvest snaps,2.0 serving,260.0,10.0,10.0,32.0

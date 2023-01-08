@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-high protein soya chunks dosa,3.0 serving,314.12499990000003,12.9375,6.875000001,45.81249999
-spring onion tambali,1.0 serving,62.625,2.5625,3.5,5.625
-coffee with oat creamer,1.0 serving,50.0,0.0,2.0,8.0

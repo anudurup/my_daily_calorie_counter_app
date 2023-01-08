@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-diet bhel chaat,1.0 serving,137.5,9.1,5.72,13.19

@@ -1,0 +1,14 @@
+mealtype,recipe_name,measure,calories,protein,fats,carbs
+breakfast,soya dosa leftover dosa with rice flour and sooji,2.5 serving,605.0,12.5,7.5,115.0
+breakfast,spring onion tambali,0.5 serving,31.0,1.0,1.5,2.5
+breakfast,idli podi,1.0 tbsp,34.0,6.0,3.0,25.0
+dinner,maggie masala noodles,1.0 pack,310.0,6.0,13.0,43.0
+dinner,peanut butter sandwich,1.5 serving,486.0,18.0,15.0,73.5
+lunch,aloo bhindi sabji,0.5 serving,171.0,2.5,8.0,20.0
+lunch,frozen roti,1.67,250.5,6.68,8.35,41.75
+lunch,spinach sambar,0.4 serving,34.4,1.6,0.8,4.800000000000001
+salad,mini bell pepper salad,1.0 serving,114.0,4.0,0.0,10.0
+smoothie,green pear smoothie with oat milk,1.0 serving,213.0,1.0,3.0,43.0
+snack,see's candies assorted,1.5 piece,135.0,1.5,7.5,16.5
+snack,harvest snaps,2.0 serving,260.0,10.0,10.0,32.0
+snack,sunfeast 5 grain digestive,2.0 biscuits,97.0,7.0,4.0,13.0

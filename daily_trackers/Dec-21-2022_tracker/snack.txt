@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-skinny popcorn,2.7 cup,108.0,1.4391000000000003,7.2090000000000005,10.8
-caramel popcorn with cashews,0.33 cup,39.6,0.33,1.98,5.28

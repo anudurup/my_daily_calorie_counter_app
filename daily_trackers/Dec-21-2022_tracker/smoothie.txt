@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-apple spinach smoothie,1.0 serving,138.75,0.625,1.25,28.625

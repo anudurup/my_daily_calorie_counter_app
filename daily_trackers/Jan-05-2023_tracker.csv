@@ -1,0 +1,12 @@
+mealtype,recipe_name,measure,calories,protein,fats,carbs
+breakfast,rava upma,1.0 serving,276.14,7.58,10.58,34.74
+breakfast,coffee with oat creamer,1.0 serving,50.0,0.0,2.0,8.0
+dinner,aloo millet pulao,1.0 serving,292.0,6.0,5.0,45.0
+lunch,vegetable lasagna with tofu ricotta,0.5 serving,280.125,10.875,8.125,42.9375
+lunch,capsicum besan bhaji,0.2 serving,28.002,1.22,1.2000000000000002,2.908
+lunch,moong dal sabji,0.2 serving,34.35,3.4000000000000004,0.8500000000000001,3.25
+lunch,frozen roti,0.67,100.5,2.68,3.35,16.75
+lunch,filter coffee mocha,1.0 serving,85.2,1.005,1.675,50.36
+snack,nectarine,1.0 large,69.0,1.7,0.5,16.0
+snack,see's candies assorted,2.0 pieces,180.0,2.0,11.0,23.0
+snack,marie biscuit,2.0,48.0,0.0,0.0,8.0

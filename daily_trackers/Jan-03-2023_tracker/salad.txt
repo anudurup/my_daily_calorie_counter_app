@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-spring mix tomato salad with mustard vinaegrette,1.0 serving,102.0,0.0,6.0,1.0

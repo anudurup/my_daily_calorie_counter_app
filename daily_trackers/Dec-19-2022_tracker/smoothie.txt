@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-apple pear smoothie,1.0 serving,274.5,7.0,1.0,55.5

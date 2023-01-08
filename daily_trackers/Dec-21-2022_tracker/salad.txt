@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-kala chana onion tomato salad,1.0 serving,75.845,5.6575,0.99,10.7075

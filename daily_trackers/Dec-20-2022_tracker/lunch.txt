@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-aloo capsicum,1 serving,119,7,2,18
-roti,1 serving,86.66666667,3.111111111,0.444444444,16.0

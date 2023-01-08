@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-maggie masala noodles,1.0 pack,310.0,6.0,13.0,43.0
-peanut butter sandwich,1.5 serving,486.0,18.0,15.0,73.5

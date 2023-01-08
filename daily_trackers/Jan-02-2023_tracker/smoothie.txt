@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-goji berry apple smoothie,1.0 serving,222.75,2.125,6.75,34.125

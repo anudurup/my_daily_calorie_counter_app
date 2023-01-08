@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-berry smoothie with oat milk,1.0 serving,188.0,2.0,3.0,37.0

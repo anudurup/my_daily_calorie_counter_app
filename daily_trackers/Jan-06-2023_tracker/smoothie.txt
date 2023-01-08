@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-green pear smoothie with oat milk,1.0 serving,213.0,1.0,3.0,43.0

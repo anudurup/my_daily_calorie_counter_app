@@ -4,11 +4,11 @@ def add_breakfast_item():
     key = breakfast_selectbox.split(':')[0]
     quantity = float(st.session_state["breakfast_quantity"])
     index = food_items.index(key)      
-    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
-    fname = day_folder + os.sep + 'breakfast.txt'
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+    fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'      
     if not os.path.exists(fname):
-        with open(fname, 'x') as f:
-            pass
+        with open(fname, 'w') as f:
+            f.write('mealtype,recipe_name,measure,calories,protein,fats,carbs\n')
 
     df = pd.read_csv(fname,sep=',')           
     if (len(measure.split()) > 1):
@@ -17,18 +17,17 @@ def add_breakfast_item():
     else:
         measure_quantity = float(quantity) * float(measure)  
     if (key in df['recipe_name'].to_list()):
-        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+        df.loc[df['recipe_name']==key] = ['breakfast',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
     else:
-        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+        df.loc[len(df.index)] = ['breakfast',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
     df.to_csv(fname,sep=',',index=False)
     st.session_state["breakfast_item"] = ""
     st.session_state['breakfast_quantity'] = ""
 
 st.subheader("Breakfast:")
-if os.path.exists(fpath + os.sep + 'breakfast.txt'):
-    fname = fpath + os.sep + 'breakfast.txt'
+if os.path.exists(fname):    
     df = pd.read_csv(fname,sep=',')
-    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+    for i,recipe_name in enumerate(df.loc[df['mealtype'] == 'breakfast']['recipe_name'].to_list()):
         checkbox = st.checkbox(recipe_name,key = recipe_name)
         st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
         if checkbox:  
@@ -36,7 +35,8 @@ if os.path.exists(fpath + os.sep + 'breakfast.txt'):
             df.to_csv(fname,sep=',',index=False)
             del st.session_state[recipe_name]
             st.experimental_rerun()   
-    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    df2 = df.loc[df['mealtype'] == 'breakfast']
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
     
 col1, col2 = st.columns(2)
 with col1:
@@ -61,11 +61,11 @@ def add_smoothie_item():
     key = smoothie_selectbox.split(':')[0]
     quantity = float(st.session_state["smoothie_quantity"])
     index = food_items.index(key)      
-    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
-    fname = day_folder + os.sep + 'smoothie.txt'
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+    fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'      
     if not os.path.exists(fname):
-        with open(fname, 'x') as f:
-            pass
+        with open(fname, 'w') as f:
+            f.write('mealtype,recipe_name,measure,calories,protein,fats,carbs\n')
 
     df = pd.read_csv(fname,sep=',')           
     if (len(measure.split()) > 1):
@@ -74,18 +74,17 @@ def add_smoothie_item():
     else:
         measure_quantity = float(quantity) * float(measure)  
     if (key in df['recipe_name'].to_list()):
-        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+        df.loc[df['recipe_name']==key] = ['smoothie',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
     else:
-        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+        df.loc[len(df.index)] = ['smoothie',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
     df.to_csv(fname,sep=',',index=False)
     st.session_state["smoothie_item"] = ""
     st.session_state['smoothie_quantity'] = ""
 
 st.subheader("Smoothie:")
-if os.path.exists(fpath + os.sep + 'smoothie.txt'):
-    fname = fpath + os.sep + 'smoothie.txt'
+if os.path.exists(fname):    
     df = pd.read_csv(fname,sep=',')
-    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+    for i,recipe_name in enumerate(df.loc[df['mealtype'] == 'smoothie']['recipe_name'].to_list()):
         checkbox = st.checkbox(recipe_name,key = recipe_name)
         st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
         if checkbox:  
@@ -93,7 +92,8 @@ if os.path.exists(fpath + os.sep + 'smoothie.txt'):
             df.to_csv(fname,sep=',',index=False)
             del st.session_state[recipe_name]
             st.experimental_rerun()   
-    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    df2 = df.loc[df['mealtype'] == 'smoothie']
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
     
 col1, col2 = st.columns(2)
 with col1:
@@ -118,11 +118,11 @@ def add_lunch_item():
     key = lunch_selectbox.split(':')[0]
     quantity = float(st.session_state["lunch_quantity"])
     index = food_items.index(key)      
-    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
-    fname = day_folder + os.sep + 'lunch.txt'
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+    fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'      
     if not os.path.exists(fname):
-        with open(fname, 'x') as f:
-            pass
+        with open(fname, 'w') as f:
+            f.write('mealtype,recipe_name,measure,calories,protein,fats,carbs\n')
 
     df = pd.read_csv(fname,sep=',')           
     if (len(measure.split()) > 1):
@@ -131,18 +131,17 @@ def add_lunch_item():
     else:
         measure_quantity = float(quantity) * float(measure)  
     if (key in df['recipe_name'].to_list()):
-        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+        df.loc[df['recipe_name']==key] = ['lunch',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
     else:
-        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+        df.loc[len(df.index)] = ['lunch',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
     df.to_csv(fname,sep=',',index=False)
     st.session_state["lunch_item"] = ""
     st.session_state['lunch_quantity'] = ""
 
 st.subheader("Lunch:")
-if os.path.exists(fpath + os.sep + 'lunch.txt'):
-    fname = fpath + os.sep + 'lunch.txt'
+if os.path.exists(fname):    
     df = pd.read_csv(fname,sep=',')
-    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+    for i,recipe_name in enumerate(df.loc[df['mealtype'] == 'lunch']['recipe_name'].to_list()):
         checkbox = st.checkbox(recipe_name,key = recipe_name)
         st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
         if checkbox:  
@@ -150,7 +149,8 @@ if os.path.exists(fpath + os.sep + 'lunch.txt'):
             df.to_csv(fname,sep=',',index=False)
             del st.session_state[recipe_name]
             st.experimental_rerun()   
-    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    df2 = df.loc[df['mealtype'] == 'lunch']
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
     
 col1, col2 = st.columns(2)
 with col1:
@@ -175,11 +175,11 @@ def add_snack_item():
     key = snack_selectbox.split(':')[0]
     quantity = float(st.session_state["snack_quantity"])
     index = food_items.index(key)      
-    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
-    fname = day_folder + os.sep + 'snack.txt'
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+    fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'      
     if not os.path.exists(fname):
-        with open(fname, 'x') as f:
-            pass
+        with open(fname, 'w') as f:
+            f.write('mealtype,recipe_name,measure,calories,protein,fats,carbs\n')
 
     df = pd.read_csv(fname,sep=',')           
     if (len(measure.split()) > 1):
@@ -188,18 +188,17 @@ def add_snack_item():
     else:
         measure_quantity = float(quantity) * float(measure)  
     if (key in df['recipe_name'].to_list()):
-        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+        df.loc[df['recipe_name']==key] = ['snack',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
     else:
-        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+        df.loc[len(df.index)] = ['snack',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
     df.to_csv(fname,sep=',',index=False)
     st.session_state["snack_item"] = ""
     st.session_state['snack_quantity'] = ""
 
 st.subheader("Snack:")
-if os.path.exists(fpath + os.sep + 'snack.txt'):
-    fname = fpath + os.sep + 'snack.txt'
+if os.path.exists(fname):    
     df = pd.read_csv(fname,sep=',')
-    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+    for i,recipe_name in enumerate(df.loc[df['mealtype'] == 'snack']['recipe_name'].to_list()):
         checkbox = st.checkbox(recipe_name,key = recipe_name)
         st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
         if checkbox:  
@@ -207,7 +206,8 @@ if os.path.exists(fpath + os.sep + 'snack.txt'):
             df.to_csv(fname,sep=',',index=False)
             del st.session_state[recipe_name]
             st.experimental_rerun()   
-    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    df2 = df.loc[df['mealtype'] == 'snack']
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
     
 col1, col2 = st.columns(2)
 with col1:
@@ -232,11 +232,11 @@ def add_salad_item():
     key = salad_selectbox.split(':')[0]
     quantity = float(st.session_state["salad_quantity"])
     index = food_items.index(key)      
-    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
-    fname = day_folder + os.sep + 'salad.txt'
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+    fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'      
     if not os.path.exists(fname):
-        with open(fname, 'x') as f:
-            pass
+        with open(fname, 'w') as f:
+            f.write('mealtype,recipe_name,measure,calories,protein,fats,carbs\n')
 
     df = pd.read_csv(fname,sep=',')           
     if (len(measure.split()) > 1):
@@ -245,18 +245,17 @@ def add_salad_item():
     else:
         measure_quantity = float(quantity) * float(measure)  
     if (key in df['recipe_name'].to_list()):
-        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+        df.loc[df['recipe_name']==key] = ['salad',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
     else:
-        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+        df.loc[len(df.index)] = ['salad',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
     df.to_csv(fname,sep=',',index=False)
     st.session_state["salad_item"] = ""
     st.session_state['salad_quantity'] = ""
 
 st.subheader("Salad:")
-if os.path.exists(fpath + os.sep + 'salad.txt'):
-    fname = fpath + os.sep + 'salad.txt'
+if os.path.exists(fname):    
     df = pd.read_csv(fname,sep=',')
-    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+    for i,recipe_name in enumerate(df.loc[df['mealtype'] == 'salad']['recipe_name'].to_list()):
         checkbox = st.checkbox(recipe_name,key = recipe_name)
         st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
         if checkbox:  
@@ -264,7 +263,8 @@ if os.path.exists(fpath + os.sep + 'salad.txt'):
             df.to_csv(fname,sep=',',index=False)
             del st.session_state[recipe_name]
             st.experimental_rerun()   
-    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    df2 = df.loc[df['mealtype'] == 'salad']
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
     
 col1, col2 = st.columns(2)
 with col1:
@@ -289,11 +289,11 @@ def add_dinner_item():
     key = dinner_selectbox.split(':')[0]
     quantity = float(st.session_state["dinner_quantity"])
     index = food_items.index(key)      
-    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])        
-    fname = day_folder + os.sep + 'dinner.txt'
+    calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+    fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'      
     if not os.path.exists(fname):
-        with open(fname, 'x') as f:
-            pass
+        with open(fname, 'w') as f:
+            f.write('mealtype,recipe_name,measure,calories,protein,fats,carbs\n')
 
     df = pd.read_csv(fname,sep=',')           
     if (len(measure.split()) > 1):
@@ -302,18 +302,17 @@ def add_dinner_item():
     else:
         measure_quantity = float(quantity) * float(measure)  
     if (key in df['recipe_name'].to_list()):
-        df.loc[df['recipe_name']==key] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
+        df.loc[df['recipe_name']==key] = ['dinner',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity] 
     else:
-        df.loc[len(df.index)] = [key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
+        df.loc[len(df.index)] = ['dinner',key,measure_quantity,float(calorie)*quantity,float(protein)*quantity,float(fat)*quantity,float(carbs)*quantity]         
     df.to_csv(fname,sep=',',index=False)
     st.session_state["dinner_item"] = ""
     st.session_state['dinner_quantity'] = ""
 
 st.subheader("Dinner:")
-if os.path.exists(fpath + os.sep + 'dinner.txt'):
-    fname = fpath + os.sep + 'dinner.txt'
+if os.path.exists(fname):    
     df = pd.read_csv(fname,sep=',')
-    for i,recipe_name in enumerate(df['recipe_name'].to_list()):
+    for i,recipe_name in enumerate(df.loc[df['mealtype'] == 'dinner']['recipe_name'].to_list()):
         checkbox = st.checkbox(recipe_name,key = recipe_name)
         st.write(f"Measure: {df.loc[df['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df.loc[df['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df.loc[df['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df.loc[df['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df.loc[df['recipe_name']==recipe_name]['carbs'].squeeze()}")  
         if checkbox:  
@@ -321,7 +320,8 @@ if os.path.exists(fpath + os.sep + 'dinner.txt'):
             df.to_csv(fname,sep=',',index=False)
             del st.session_state[recipe_name]
             st.experimental_rerun()   
-    st.write(f"Total Calories: {df['calories'].sum()}, Total Proteins: {df['protein'].sum()}, Total Fats: {df['fats'].sum()}, Total Carbs: {df['carbs'].sum()}" + "\n\n")
+    df2 = df.loc[df['mealtype'] == 'dinner']
+    st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}" + "\n\n")
     
 col1, col2 = st.columns(2)
 with col1:

@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-aloo bhindi sabji,0.5 serving,171.0,2.5,8.0,20.0
-frozen roti,1.67,250.5,6.68,8.35,41.75
-spinach sambar,0.4 serving,34.4,1.6,0.8,4.800000000000001

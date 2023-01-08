@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-capsicum besan bhaji,0.4 serving,56.004,2.44,2.4000000000000004,5.816
-moong dal sabji,0.4 serving,68.7,6.800000000000001,1.7000000000000002,6.5
-multigrain roti,1.8 serving,175.5,6.3,0.9,32.4

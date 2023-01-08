@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-fada ni khichdi,1.0 serving,235.0,7.0,6.0,31.0

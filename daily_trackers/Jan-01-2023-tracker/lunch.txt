@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-ragada pattice,1.0 serving,309.0833333,14.125,1.333333333,68.125
-aloo millet pulao,0.25 serving,73.225,1.6583333333333332,1.4666666666666668,11.454166666666666

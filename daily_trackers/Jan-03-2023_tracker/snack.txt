@@ -1,6 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-Kirkland salted mixed nuts,1.0 tbsp,45.0,1.0,3.0,1.0
-see's candies assorted,2.0 pieces,180.0,2.0,11.0,23.0
-murmura chivda,0.5 cup,56.5,0.6,3.8,4.95
-harvest snaps green peas,1.0 serving,130.0,5.0,5.0,16.0
-sunfeast 5 grain digestive,4.0 biscuits,388.0,30.8,17.6,53.2

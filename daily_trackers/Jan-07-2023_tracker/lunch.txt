@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-ching's hakka noodles with veggies and schezwan sauce,0.8 serving,373.6,12.8,7.2,60.0
-filter coffee mocha,1.0 serving,85.0,1.0,1.0,50.0

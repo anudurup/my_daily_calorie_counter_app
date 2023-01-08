@@ -1,3 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-millet dosa,3.0 serving,389.86875000000003,12.899999999999999,8.625,62.025000000000006
-coriander chutney,1.0 serving,68.91666667,6.75,3.5,2.416666667

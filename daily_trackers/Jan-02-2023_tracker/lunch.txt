@@ -1,4 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-kala chana sabji,0.5 serving,88.9375,7.625,2.375,8.90625
-beans sabji,0.5 serving,48.0,3.5,3.5,14.75
-multigrain roti,1.8 serving,175.5,6.3,0.9,32.4

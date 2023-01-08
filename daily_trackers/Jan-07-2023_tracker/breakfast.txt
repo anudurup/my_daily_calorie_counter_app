@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-vermicelli upma,1.0 serving,293.0,6.0,18.0,24.0

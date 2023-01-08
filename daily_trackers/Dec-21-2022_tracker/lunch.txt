@@ -1,2 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-indian style vegan tofu pizza,0.9 serving,489.6,22.5,19.8,60.075

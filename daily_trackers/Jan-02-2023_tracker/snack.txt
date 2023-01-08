@@ -1,6 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-sunfeast 5 grain digestive,2.0 biscuits,194.0,15.4,8.8,26.6
-see's candies assorted,1.0 pieces,90.0,1.0,5.5,11.5
-jalapeno makhana,1.0 cup,84.0,0.0,4.0,20.0
-marie biscuit,2.0,48.0,1.0,1.1666,8.334
-filter coffee mocha,1.0 serving,85.2,1.005,1.675,50.36

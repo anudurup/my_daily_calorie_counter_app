@@ -1,6 +1,0 @@
-recipe_name,measure,calories,protein,fats,carbs
-vegetable lasagna with tofu ricotta,0.5 serving,280.125,10.875,8.125,42.9375
-capsicum besan bhaji,0.2 serving,28.002,1.22,1.2000000000000002,2.908
-moong dal sabji,0.2 serving,34.35,3.4000000000000004,0.8500000000000001,3.25
-frozen roti,0.67,100.5,2.68,3.35,16.75
-filter coffee mocha,1.0 serving,85.2,1.005,1.675,50.36
