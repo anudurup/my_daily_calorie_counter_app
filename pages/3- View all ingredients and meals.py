@@ -7,10 +7,6 @@ st.set_page_config(layout="wide", page_title='3- View all ingredients and meals.
 st.subheader("List of all existing ingredients")
 st.write("Make sure the ingredients you add match once of these.")
 df = pd.read_csv("item_calorie_dict.csv")
-ingredients = df['food_item'].to_list()
-measures = df["measure"].to_list()
-calories = df["calories"].to_list()
-df = pd.read_csv("item_calorie_dict.csv")
 st.dataframe(df.style.set_properties(**{'background-color': 'rgb(144, 238, 144)'}),width=600,height=600)  
 
 st.subheader("List of all existing meals")
