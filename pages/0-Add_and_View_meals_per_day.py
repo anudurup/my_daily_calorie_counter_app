@@ -18,7 +18,7 @@ dates = glob.glob("daily_trackers\*.csv")
 dates = dates[::-1]
 dates = [os.path.basename(date).replace('.csv','') for date in dates]
 date_selectbox = st.selectbox("Select Date you want to add meal:", options=dates)
-fname = 'daily_trackers' + os.sep + date_selectbox + '.csv'
+fname = 'daily_trackers' + os.sep + str(date_selectbox) + '.csv'
 if not os.path.exists(fname):
     df = pd.DataFrame([], columns=['mealtype','recipe_name','measure','calories','protein','fats','carbs'])
     df.to_csv(fname, sep=',',index=False)
