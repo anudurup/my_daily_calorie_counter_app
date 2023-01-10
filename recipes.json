@@ -491,15 +491,16 @@
     },
     "quinoa dosa": {
         "quinoa": "1.0 cup",
-        "raw chana dal": "2.0 tbsp",
         "urad dal": "0.5 cup",
-        "toor dal": "0.0625 cup",
-        "methi seeds": "0.156 tbsp",
-        "total_cals": 54.7558,
-        "total_protein": 2.6155999999999997,
-        "total_fats": 0.70625,
-        "total_carbs": 9.171800000000001,
-        "no_of_servings": 20.0
+        "rolled oats": "0.5 cup",
+        "methi seeds": "0.5 tbsp",
+        "olive oil": "7.5 tsp",
+        "raw chana dal": "8.0 tbsp",
+        "total_cals": 115.23333333333333,
+        "total_protein": 4.133333333333334,
+        "total_fats": 3.5,
+        "total_carbs": 15.0,
+        "no_of_servings": 15.0
     },
     "ragi dosa": {
         "sooji": "1.0 cup",
@@ -1453,6 +1454,32 @@
         "total_protein": 14.517499999999998,
         "total_fats": 9.5,
         "total_carbs": 55.0775,
+        "no_of_servings": 2.0
+    },
+    "quinoa idli": {
+        "quinoa": "0.3 cup",
+        "urad dal": "0.15 cup",
+        "rolled oats": "0.15 cup",
+        "methi seeds": "0.15 tbsp",
+        "raw chana dal": "2.4 tbsp",
+        "olive oil": "2.5 tsp",
+        "total_cals": 52.855,
+        "total_protein": 1.8599999999999999,
+        "total_fats": 1.675,
+        "total_carbs": 6.75,
+        "no_of_servings": 10.0
+    },
+    "spinach berry banana smoothie": {
+        "spinach": "0.5 cup",
+        "strawberry": "5.0 ",
+        "blueberry": "0.5 box",
+        "unsweetened almond milk": "1.125 cup",
+        "pitted date": "8.0 ",
+        "greek yoghurt": "0.5 cup",
+        "total_cals": 215.375,
+        "total_protein": 7.0625,
+        "total_fats": 1.375,
+        "total_carbs": 41.8125,
         "no_of_servings": 2.0
     }
 }

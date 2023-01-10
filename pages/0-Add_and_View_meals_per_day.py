@@ -26,13 +26,30 @@ if not os.path.exists(fname):
 #Calorie Chart
 calorie_chart_file = 'calorie_chart_trackers' + os.sep + os.path.basename(fname) [:-4] + '_calorie_chart.csv'
 def get_calorie_deficit():
-    date_df = pd.read_csv(fname,sep=',')
+    date_df = pd.read_csv(fname,sep=',')        
+    if st.session_state["weight"] == "":
+        if os.path.exists(calorie_chart_file):
+            calorie_chart_df = pd.read_csv(calorie_chart_file, sep=',')
+            current_weight = calorie_chart_df.loc[calorie_chart_df['Title']=='Weight']['Current/Consumed Today'].squeeze()
+        else:
+            current_weight = 72.5
+    else:
+        current_weight = st.session_state["weight"]
+    if st.session_state["exercise"] == "":
+        if os.path.exists(calorie_chart_file):
+            calorie_chart_df = pd.read_csv(calorie_chart_file, sep=',')
+            calories_burnt_with_exercise = calorie_chart_df.loc[calorie_chart_df['Title']=='Calories burned with exercise']['Current/Consumed Today'].squeeze()
+        else:
+            calories_burnt_with_exercise = 300
+    else:
+        calories_burnt_with_exercise = st.session_state["exercise"]
+
     bmr = (10 * float(current_weight)) + (6.25 * 155) - (5 * 30) - 161
     total_cals_to_consume_per_day = 1.55 *  bmr
-    calorie_deficit = total_cals_to_consume_per_day - date_df['calories'].sum() + float(st.session_state['exercise'])
+    calorie_deficit = total_cals_to_consume_per_day - date_df['calories'].sum() + float(calories_burnt_with_exercise)
     rows = list()
     rows.append(['Weight',55, current_weight])
-    rows.append(['Calories burned with exercise','600', st.session_state['exercise']])
+    rows.append(['Calories burned with exercise','600', calories_burnt_with_exercise])
     rows.append(['BMR',1207.75,bmr])
     rows.append(['Calories Consumed',total_cals_to_consume_per_day,date_df['calories'].sum()])
     rows.append(['Calorie Deficit',500,round(calorie_deficit,2)])
@@ -45,8 +62,8 @@ def get_calorie_deficit():
 st.subheader("Calculate calorie deficit chart for the day")    
 current_weight = st.text_input("Enter current weight", key="weight")
 calories_burnt_with_exercise  = st.text_input("calories_burnt_with_exercise", key="exercise")
-st.button("Get calorie deficit for the day", key="calorie_deficit_button",on_click=get_calorie_deficit)
-if os.path.exists(calorie_chart_file):
+get_calorie_deficit()
+if os.path.exists(calorie_chart_file):   
     df = pd.read_csv(calorie_chart_file, sep=",")
     st.dataframe(df.style.set_properties(**{'background-color': 'rgb(173, 216, 230)'}),width=600)
 
@@ -87,7 +104,7 @@ for mealtype in ['breakfast', 'smoothie', 'lunch', 'salad', 'snack', 'dinner']:
         key = meal_selectbox.split(':')[0]
         quantity = float(st.session_state[f"{mealtype}_quantity"])
         index = food_items.index(key)      
-        calorie,measure,protein,fat,carbs = int(calories[index]), measures[index],int(proteins[index]),int(fats[index]),int(carbohydrates[index])  
+        calorie,measure,protein,fat,carbs = float(calories[index]), measures[index],float(proteins[index]),float(fats[index]),float(carbohydrates[index])  
         
         if not os.path.exists(fname):
             with open(fname, 'w') as f:
