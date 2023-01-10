@@ -37,7 +37,7 @@ diet bhel chaat,"diet bhel: 0.75 cup,bombay sandwich chutney: 3.0 tsp,tomato: 0.
 rava idli,"raw chana dal: 1.0 tbsp,olive oil: 3.0 tsp,dahi: 0.75 cup,roasted semolina: 0.75 cup",9.0,79.58333333333333,2.6944444444444446,2.111111111111111,11.583333333333334
 pesarattu,"mung bean sprouts: 0.25 cup,olive oil: 2.5 tsp,onion: 0.25,roasted semolina: 0.25 cup",5.0,53.8,1.95,2.05,6.4
 carrot chutney,"baby carrot: 6.0,raw chana dal: 1.0 tbsp,olive oil: 1.0 tsp",2.0,45.5,0.5,2.5,1.5
-quinoa dosa,"quinoa: 1.0 cup,raw chana dal: 2.0 tbsp,urad dal: 0.5 cup,toor dal: 0.0625 cup,methi seeds: 0.156 tbsp",20.0,54.7558,2.6156,0.70625,9.1718
+quinoa dosa,"quinoa: 1.0 cup,urad dal: 0.5 cup,rolled oats: 0.5 cup,methi seeds: 0.5 tbsp,olive oil: 7.5 tsp,raw chana dal: 8.0 tbsp",15.0,115.23333333333332,4.133333333333334,3.5,15.0
 ragi dosa,"sooji: 1.0 cup,rice flour: 1.0 cup,dahi: 0.5 cup,onion: 1.0,olive oil: 5.0 tsp,ragi flour: 1.0 cup",15.0,135.26666666666668,4.066666666666666,2.2333333333333334,24.466666666666665
 bajra pesarattu,"mung bean sprouts: 1.0 cup,bajra flour: 0.5 cup,onion: 0.25,olive oil: 2.5 tsp",8.0,65.0,2.21875,1.75,9.90625
 tomato pachadi,"tomato: 2.0,raw chana dal: 0.38 tbsp,urad dal: 0.0125 cup,olive oil: 1.0 tsp,garlic clove: 1.0",2.0,65.86375000000001,7.49,2.215,2.345
@@ -117,3 +117,5 @@ ching's hakka noodles with veggies and schezwan sauce,"ching's secret just soak 
 soya dosa leftover dosa with rice flour and sooji,"high protein soya chunks dosa: 1.0 serving,rice flour: 1.5 cup,sooji: 0.5 cup,olive oil: 3.0 tsp,green capsicum: 0.25,onion: 0.25",6.0,242.7083333333333,5.25,3.1666666666666665,46.583333333333336
 green pear smoothie with oat milk,"green pear: 1.0 large,sweetened oat milk: 0.5 cup,pitted date: 6.0,walnuts: 1.0 tbsp,goji berries: 1.0 tbsp",2.0,213.5,1.75,3.25,43.5
 whole wheat pizza with tofu ricotta,"whole wheat pizza crust: 1.0,ragu pizza sauce: 0.75 cup,firm tofu: 0.2 block,nutritional yeast: 0.5 tbsp,half yolk egg: 0.5 serving,spinach: 0.25 cup,vegan mozzarella cheese: 0.25 cup,cherry tomato: 8.0,red bell pepper: 0.33,green capsicum: 0.33,onion: 0.125,garlic clove: 2.0",2.0,362.665,14.517499999999998,9.5,55.0775
+quinoa idli,"quinoa: 0.3 cup,urad dal: 0.15 cup,rolled oats: 0.15 cup,methi seeds: 0.15 tbsp,raw chana dal: 2.4 tbsp,olive oil: 2.5 tsp",10.0,52.855,1.86,1.675,6.75
+spinach berry banana smoothie,"spinach: 0.5 cup,strawberry: 5.0,blueberry: 0.5 box,unsweetened almond milk: 1.125 cup,pitted date: 8.0,greek yoghurt: 0.5 cup",2.0,215.375,7.0625,1.375,41.8125
