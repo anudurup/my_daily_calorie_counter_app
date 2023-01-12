@@ -1481,5 +1481,32 @@
         "total_fats": 1.375,
         "total_carbs": 41.8125,
         "no_of_servings": 2.0
+    },
+    "black bean, bell pepper and avocado tacos": {
+        "black beans": "0.5 cup",
+        "green capsicum": "0.5 ",
+        "red bell pepper": "0.5 ",
+        "olive oil": "2.0 tsp",
+        "avocado": "1.5 ",
+        "tomato": "1.0 ",
+        "onion": "1.0 ",
+        "corn taco shell 3 inch": "9.0 ",
+        "total_cals": 134.72222222222223,
+        "total_protein": 5.5,
+        "total_fats": 6.833333333333333,
+        "total_carbs": 13.666666666666666,
+        "no_of_servings": 9.0
+    },
+    "berry smoothie with greek yogurt": {
+        "blueberry": "0.5 box",
+        "strawberry": "6.0 ",
+        "greek yoghurt": "0.5 cup",
+        "unsweetened almond milk": "1.25 cup",
+        "pitted date": "8.0 ",
+        "total_cals": 217.0,
+        "total_protein": 7.125,
+        "total_fats": 1.5,
+        "total_carbs": 41.625,
+        "no_of_servings": 2.0
     }
 }

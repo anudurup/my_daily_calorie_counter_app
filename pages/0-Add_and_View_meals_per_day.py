@@ -74,14 +74,14 @@ for mealtype in ['breakfast', 'smoothie', 'lunch', 'salad', 'snack', 'dinner']:
         df2 = df.loc[df['mealtype'] == mealtype]
         for i,recipe_name in enumerate(df.loc[df['mealtype'] == mealtype]['recipe_name'].to_list()):
             checkbox = st.checkbox(recipe_name,key = f'{mealtype}_{recipe_name}')
-            st.write(f"Measure: {df2.loc[df2['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{df2.loc[df2['recipe_name']==recipe_name]['calories'].squeeze()},Protein:{df2.loc[df2['recipe_name']==recipe_name]['protein'].squeeze()},Fats:{df2.loc[df2['recipe_name']==recipe_name]['fats'].squeeze()},Carbs:{df2.loc[df2['recipe_name']==recipe_name]['carbs'].squeeze()}")  
+            st.write(f"Measure: {df2.loc[df2['recipe_name']==recipe_name]['measure'].squeeze()},Calories:{round(df2.loc[df2['recipe_name']==recipe_name]['calories'].squeeze(),2)},Protein:{round(df2.loc[df2['recipe_name']==recipe_name]['protein'].squeeze(),2)}g,Fats:{round(df2.loc[df2['recipe_name']==recipe_name]['fats'].squeeze(),2)}g,Carbs:{round(df2.loc[df2['recipe_name']==recipe_name]['carbs'].squeeze(),2)}g")  
             if checkbox:  
                 df = df.drop(df2.index[df2["recipe_name"] == recipe_name])
                 df.to_csv(fname,sep=',',index=False)
                 del st.session_state[f'{mealtype}_{recipe_name}']
                 st.experimental_rerun()   
         df2 = df.loc[df['mealtype'] == mealtype]
-        st.write(f"Total Calories: {df2['calories'].sum()}, Total Proteins: {df2['protein'].sum()}, Total Fats: {df2['fats'].sum()}, Total Carbs: {df2['carbs'].sum()}")
+        st.write(f"Total Calories: {round(df2['calories'].sum(),2)}, Total Proteins: {round(df2['protein'].sum(),2)}g, Total Fats: {round(df2['fats'].sum(),2)}g, Total Carbs: {round(df2['carbs'].sum(),2)}g")
         
     col1, col2 = st.columns(2)
     with col1:

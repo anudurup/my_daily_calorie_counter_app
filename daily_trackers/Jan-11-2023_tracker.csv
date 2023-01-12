@@ -1,0 +1,9 @@
+mealtype,recipe_name,measure,calories,protein,fats,carbs
+breakfast,quinoa dosa,2.7 serving,311.12999991000004,11.159999999100002,9.45,40.5
+breakfast,pumpkin chutney,1.0 serving,74.0,2.0,3.666666667,6.833333333
+snack,kirkland salted mixed nuts,0.5 tbsp,22.5,0.625,1.875,0.75
+snack,almonds,1.0 tbsp,40.0,1.0,3.5,0.0
+smoothie,berry smoothie with greek yogurt,1.0 serving,217.0,7.125,1.5,41.625
+lunch,"black bean, bell pepper and avocado tacos",4.0 serving,538.8888888888889,22.0,27.33333333333333,54.66666666666666
+snack,sunfeast 5 grain digestive,1.0 biscuits,48.5,3.85,2.2,6.65
+snack,deep mint makhana,1.0 cup,160.0,3.0,8.0,18.0
