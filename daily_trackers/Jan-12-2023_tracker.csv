@@ -1,0 +1,13 @@
+mealtype,recipe_name,measure,calories,protein,fats,carbs
+breakfast,homemade poha,1.0 serving,325.2,6.35,8.5,50.35
+snack,alreef pistachio baklava ,0.5 serving,23.75,0.375,2.0,1.075
+snack,alreef burma pistachio,1.0 serving,68.0,1.25,4.15,7.45
+snack,alreef almond balloriya,0.5 serving,35.25,0.75,2.525,2.925
+smoothie,green apple pear orange smoothie,1.0 serving,324.5,10.0,0.0,70.75
+lunch,ghee rajma sabji,0.5 serving,77.95833335,6.291666665,1.75,9.458333335
+lunch,chole sabji,0.5 serving,133.875,7.25,2.53125,6.3125
+lunch,multigrain roti,1.7 serving,165.75,5.95,0.85,30.6
+snack,harvest snaps,3.0 serving,390.0,15.0,15.0,48.0
+snack,chawanprash,2.0 tsp,100.0,0.0,0.0,22.0
+dinner,whole wheat bread,3.0 slice,300.0,12.0,3.0,57.0
+dinner,mango pickle,0.5 tbsp,13.75,0.25,1.0,0.75

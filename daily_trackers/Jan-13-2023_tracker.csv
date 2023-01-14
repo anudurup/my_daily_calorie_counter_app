@@ -1,0 +1,5 @@
+mealtype,recipe_name,measure,calories,protein,fats,carbs
+breakfast,generic quick upma,1.0 cup,768.0,16.0,23.2,122.8
+snack,coffee with almond milk,1.0 serving,18.75,0.125,0.25,15.125
+snack,harvest snaps,2.5 serving,325.0,12.5,12.5,40.0
+lunch,restaurant veggie black bean burger,1.5,660.0,33.0,28.5,78.0

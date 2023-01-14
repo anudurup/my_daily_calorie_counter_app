@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import pandas as pd
 
 st.set_page_config(layout="wide", page_title="Calorie_Diary.py")
 st.title("Calorie Counter")
@@ -10,8 +11,10 @@ st.image("food_dairy.jpg",width=200)
 
 def create_tracker():
     date = st.session_state["date_added"]
-    if not os.path.exists("daily_trackers" + os.sep + date + "_tracker"):
-        os.mkdir("daily_trackers" + os.sep + date + "_tracker")
+    if not os.path.exists("daily_trackers" + os.sep + date + "_tracker.csv"):
+        if not os.path.exists("daily_trackers" + os.sep + date + "_tracker.csv"):
+            df = pd.DataFrame([], columns=['mealtype','recipe_name','measure','calories','protein','fats','carbs'])
+            df.to_csv("daily_trackers" + os.sep + date + "_tracker.csv", sep=',',index=False)
         st.info("Created the tracker for date- " + date)        
     else:
         st.info("Tracker already exists for this date")
